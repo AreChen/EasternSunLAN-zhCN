@@ -1,0 +1,22 @@
+name: Build zhCN pack
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build pack
+        shell: pwsh
+        run: ./tools/build-pack.ps1
+      - name: Verify pack
+        shell: pwsh
+        run: ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: EasternSunLAN-zhCN-pack
+          path: dist/*.zip

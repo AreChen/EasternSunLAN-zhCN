@@ -1,0 +1,182 @@
+{"file":"item-names.json","Key":"qf1","enUS":"Khalim's Flail","zhCN":"克林姆的连枷"}
+{"file":"item-names.json","Key":"qf2","enUS":"Khalim's Will","zhCN":"克林姆的遗愿"}
+{"file":"item-names.json","Key":"KhalimFlail","enUS":"Khalim's Flail","zhCN":"克林姆的连枷"}
+{"file":"item-names.json","Key":"SuperKhalimFlail","enUS":"Khalim's Will","zhCN":"克林姆的遗愿"}
+{"file":"item-names.json","Key":"qey","enUS":"Khalim's Eye","zhCN":"克林姆的眼球"}
+{"file":"item-names.json","Key":"qbr","enUS":"Khalim's Brain","zhCN":"克林姆的大脑"}
+{"file":"item-names.json","Key":"qhr","enUS":"Khalim's Heart","zhCN":"克林姆的心脏"}
+{"file":"item-names.json","Key":"opl","enUS":"Fulminating Potion","zhCN":"烈性药水"}
+{"file":"item-names.json","Key":"ops","enUS":"Oil Potion","zhCN":"火油药水"}
+{"file":"item-names.json","Key":"Malus","enUS":"Horadric Malus","zhCN":"赫拉迪姆之锤"}
+{"file":"item-names.json","Key":"hdm","enUS":"Horadric Malus","zhCN":"赫拉迪姆之锤"}
+{"file":"item-names.json","Key":"hst","enUS":"Horadric Staff","zhCN":"赫拉迪姆之杖"}
+{"file":"item-names.json","Key":"msf","enUS":"Shaft of the Horadric Staff","zhCN":"赫拉迪姆之杖的杖身"}
+{"file":"item-names.json","Key":"vip","enUS":"Top of the Horadric Staff","zhCN":"赫拉迪姆之杖的杖顶"}
+{"file":"item-names.json","Key":"bks","enUS":"Scroll of Inifuss","zhCN":"艾尼弗斯卷轴"}
+{"file":"item-names.json","Key":"bkd","enUS":"Key to the Cairn Stones","zhCN":"石阵之钥"}
+{"file":"item-names.json","Key":"bbb","enUS":"Lam Esen's Tome","zhCN":"蓝伊森之书"}
+{"file":"item-names.json","Key":"LamTome","enUS":"Lam Esen's Tome","zhCN":"蓝伊森之书"}
+{"file":"item-names.json","Key":"box","enUS":"Horadric Cube","zhCN":"赫拉迪姆方块"}
+{"file":"item-names.json","Key":"tr1","enUS":"Horadric Scroll","zhCN":"赫拉迪姆卷轴"}
+{"file":"item-names.json","Key":"hide","enUS":"Hide","zhCN":"毛皮"}
+{"file":"item-names.json","Key":"Pelt","enUS":"Pelt","zhCN":"兽皮"}
+{"file":"item-names.json","Key":"suit","enUS":"Suit","zhCN":"衣装"}
+{"file":"item-names.json","Key":"barRI","enUS":"Bar","zhCN":"栅栏"}
+{"file":"item-names.json","Key":"Goblin Toe","enUS":"Goblin Toe","zhCN":"哥布林脚趾"}
+{"file":"item-names.json","Key":"std","enUS":"Standard of Heroes","zhCN":"英雄旗帜"}
+{"file":"item-names.json","Key":"The Lich's Pate","enUS":"The Lich's Pate","zhCN":"巫妖的头盖"}
+{"file":"item-names.json","Key":"Hacker","enUS":"Hacker","zhCN":"砍劈者"}
+{"file":"item-names.json","Key":"Grimbold's Flail","enUS":"Grimbold's Flail","zhCN":"格林博德的连枷"}
+{"file":"item-names.json","Key":"BlackMage's Knucklebone","enUS":"BlackMage's Knucklebone","zhCN":"黑魔法师的指骨"}
+{"file":"item-names.json","Key":"Delthanes' Enchanted Bolts","enUS":"Delthanes' Enchanted Bolts","zhCN":"德尔塞尼斯的魔法弩箭"}
+{"file":"item-names.json","Key":"Casca's Deadly Bolts","enUS":"Casca's Deadly Bolts","zhCN":"卡斯卡的致命弩箭"}
+{"file":"item-names.json","Key":"Borgoff's Bolts","enUS":"Borgoff's Bolts","zhCN":"博尔戈夫的弩箭"}
+{"file":"item-names.json","Key":"Free Lance","enUS":"Free Lance","zhCN":"自由之矛"}
+{"file":"item-names.json","Key":"Godspeed","enUS":"Godspeed","zhCN":"神速"}
+{"file":"item-gems.json","Key":"gemeffect3","enUS":"Helm: adds to dexterity\nShield: adds resistance to poison\nWeapon: adds poison damage to attack\n","zhCN":"头盔：提高敏捷\n护盾：提高毒素抗性\n武器：攻击附加毒素伤害\n"}
+{"file":"item-gems.json","Key":"gemeffect4","enUS":"Helm: adds to maximum life\nShield: adds resistance to fire\nWeapon: adds fire damage to attack\n","zhCN":"头盔：提高生命上限\n护盾：提高火焰抗性\n武器：攻击附加火焰伤害\n"}
+{"file":"item-gems.json","Key":"gemeffect5","enUS":"Helm: adds to attack rating\nShield: adds to all resistances\nWeapon: adds to damage vs. undead\n","zhCN":"头盔：提高攻击准确率\n护盾：提高所有抗性\n武器：提高对不死怪物的伤害\n"}
+{"file":"item-gems.json","Key":"gemeffect7","enUS":"Helm: adds mana and life regeneration\nShield: adds attacker takes damage\nWeapon: adds mana and life steal to attack\n","zhCN":"头盔：提高法力和生命恢复率\n护盾：提高攻击者反伤\n武器：攻击附加法力和生命窃取\n"}
+{"file":"item-gems.json","Key":"GemeffectX21","enUS":"Adds to Maximum Mana","zhCN":"提高法力上限"}
+{"file":"item-gems.json","Key":"GemeffectX33","enUS":"Adds Poison Damage to Attack","zhCN":"攻击附加毒素伤害"}
+{"file":"item-gems.json","Key":"GemeffectX43","enUS":"Adds Fire Damage to Attack","zhCN":"攻击附加火焰伤害"}
+{"file":"item-gems.json","Key":"GemeffectX41","enUS":"Adds to Maximum Life","zhCN":"提高生命上限"}
+{"file":"item-gems.json","Key":"GemeffectX72","enUS":"Adds Attacker Takes Damage","zhCN":"提高攻击者反伤"}
+{"file":"item-gems.json","Key":"GemeffectX73","enUS":"Adds Mana and Life Steal to Attack","zhCN":"攻击附加法力和生命窃取"}
+{"file":"item-nameaffixes.json","Key":"Low Quality","enUS":"Low Quality","zhCN":"低品质"}
+{"file":"item-nameaffixes.json","Key":"Damaged","enUS":"Damaged","zhCN":"受损"}
+{"file":"item-nameaffixes.json","Key":"Cracked","enUS":"Cracked","zhCN":"裂开的"}
+{"file":"item-nameaffixes.json","Key":"Emerald","enUS":"Emerald","zhCN":"绿宝石"}
+{"file":"item-nameaffixes.json","Key":"of Health","enUS":"of Health","zhCN":"的生命"}
+{"file":"item-nameaffixes.json","Key":"quarrel","enUS":"Quarrel","zhCN":"弩箭"}
+{"file":"item-nameaffixes.json","Key":"hack","enUS":"Hack","zhCN":"砍"}
+{"file":"item-nameaffixes.json","Key":"prod","enUS":"Prod","zhCN":"戳刺"}
+{"file":"item-nameaffixes.json","Key":"Static","enUS":"Static","zhCN":"静电"}
+{"file":"item-nameaffixes.json","Key":"Smoking","enUS":"Smoking","zhCN":"冒烟"}
+{"file":"item-nameaffixes.json","Key":"Vodoun","enUS":"Mojo","zhCN":"魔咒"}
+{"file":"item-nameaffixes.json","Key":"Blade","enUS":"Blade","zhCN":"刀刃"}
+{"file":"item-nameaffixes.json","Key":"Gut","enUS":"Gut","zhCN":"肠子"}
+{"file":"item-nameaffixes.json","Key":"Psychic","enUS":"Psychic","zhCN":"心灵"}
+{"file":"item-nameaffixes.json","Key":"Frigid","enUS":"Frigid","zhCN":"冰冷"}
+{"file":"item-nameaffixes.json","Key":"of Frigidity","enUS":"of Frigidity","zhCN":"冰冷之"}
+{"file":"item-nameaffixes.json","Key":"of Frozen Orb","enUS":"of Frozen Orb","zhCN":"冰霜之球之"}
+{"file":"item-nameaffixes.json","Key":"of Tornado Shot","enUS":"of Tornado Shot","zhCN":"龙卷风射击之"}
+{"file":"item-nameaffixes.json","Key":"of Damage Amplification","enUS":"of Amplify Damage","zhCN":"伤害加深之"}
+{"file":"item-nameaffixes.json","Key":"of Amplify Damage","enUS":"of Amplify Damage","zhCN":"伤害加深之"}
+{"file":"item-nameaffixes.json","Key":"of Cold Blast","enUS":"of Cold Blast","zhCN":"冰霜冲击之"}
+{"file":"item-nameaffixes.json","Key":"of Freezing Arrows","enUS":"of Freezing Arrow","zhCN":"冰封箭之"}
+{"file":"item-nameaffixes.json","Key":"of Exploding Arrows","enUS":"of Exploding Arrow","zhCN":"爆炸箭之"}
+{"file":"item-nameaffixes.json","Key":"of Magic Arrows","enUS":"of Magic Arrow","zhCN":"魔法箭之"}
+{"file":"item-nameaffixes.json","Key":"of Grace and Power","enUS":"of Grace and Power","zhCN":"的优雅与力量"}
+{"file":"item-modifiers.json","Key":"druidsummonspounce","enUS":"ÿc@If you have at least 1000 dexterity, your Wolves can use Pounce","zhCN":"ÿc@敏捷至少 1000 时，你的狼可以使用猛扑"}
+{"file":"item-modifiers.json","Key":"eternalhourglassdesc","enUS":"ÿc@You have a small chance to gain maximum cooldown reduction for 3 seconds on kill","zhCN":"ÿc@击杀时有小几率获得最大冷却缩减，持续 3 秒"}
+{"file":"item-modifiers.json","Key":"soulcounter","enUS":"ÿc@Souls Remaining: %d","zhCN":"ÿc@剩余灵魂：%d"}
+{"file":"item-modifiers.json","Key":"ModStr6i","enUS":"Fires Explosive Arrows or Bolts","zhCN":"发射爆炸箭或弩箭"}
+{"file":"item-modifiers.json","Key":"moreskeletonkings","enUS":"ÿc@15%% additional Physical Damage and 5%% Summon Damage per Level\nUndead Frenzy has 0 Cooldown and Reap Souls now provides\nMaximum Number of All Other Summons Reduced to 1\nYou can Summon +%d Additional Skeleton Kings with no Cooldown","zhCN":"ÿc@每级增加 15%% 额外物理伤害和 5%% 召唤伤害\n亡灵狂乱无冷却，收割灵魂现在提供该效果\n所有其他召唤物的最大数量减少至 1\n你可以额外召唤 +%d 个骷髅王且无冷却"}
+{"file":"item-modifiers.json","Key":"u26desc","enUS":"lose all damage and attack rating from levels and synergies\nThose skills fire an extra arrow at a nearby enemy every 3 attacks, but\nÿc@Magic, Cold, Exploding Arrowÿc0\n\nand an ÿc;Anvil Stoneÿc0 to empower it with as following\nTransmute this with a Precision Bow variant, a ÿc5Spider's Silkÿc0","zhCN":"ÿc@魔法箭、冰冷箭、爆炸箭ÿc0\n这些技能每 3 次攻击会向附近敌人额外发射一支箭，但失去来自等级和协同的所有伤害与攻击准确率\n\n将此物品与精准弓变体、ÿc5蜘蛛丝ÿc0和ÿc;锻造石ÿc0合成以增强如下"}
+{"file":"skills.json","Key":"woodenskin","enUS":"ÿc@Gain 1% to All Maximum Resistances per 1000 Strength","zhCN":"ÿc@每 1000 点力量获得 1% 所有抗性上限"}
+{"file":"skills.json","Key":"chaosaura","enUS":"ÿc@per each level of Fists of Fire, Blades of Ice or Claws of Thunder, respectively\nYou have a 45% chance to gain either 5% Fire, Cold or Lightning Spell Damage","zhCN":"ÿc@每有 1 级火焰之拳、冰之刃或雷电之爪，分别有 45% 几率获得 5% 火焰、冰冷或闪电法术伤害"}
+{"file":"skills.json","Key":"quintupledamageauradesc","enUS":"ÿc@Attacks have a 3% chance to deal five times more total damage","zhCN":"ÿc@攻击有 3% 几率造成五倍总伤害"}
+{"file":"skills.json","Key":"skillname66","enUS":"Amplify Damage","zhCN":"伤害加深"}
+{"file":"skills.json","Key":"Skillname254","enUS":"Psychic Hammer","zhCN":"心灵之锤"}
+{"file":"skills.json","Key":"psychichammer3","enUS":"Use the power of your mind to turn your enemies' brains to mush\nThe effort is so intense that it leaves you vulnerable to the physical world\nAlways hits","zhCN":"利用心灵力量将敌人的脑部化为浆糊\n此举极为耗神，使你在物理世界中更易受伤\n必定命中"}
+{"file":"skills.json","Key":"psychichammerhitssynergy","enUS":"You have a 10% chance to triple the number of hits\nIf both Psychic Hammer and Mind Blast have 20 levels:","zhCN":"你有 10% 几率使命中次数变为三倍\n如果心灵之锤和心灵冲击都有 20 级："}
+{"file":"skills.json","Key":"mindblastcooldownsynergy","enUS":"You have a 10% chance to refresh the cooldown instantly\nIf both Mind Blast and Psychic Hammer have 20 levels:","zhCN":"你有 10% 几率立即刷新冷却时间\n如果心灵冲击和心灵之锤都有 20 级："}
+{"file":"skills.json","Key":"thunderstormspecial","enUS":"Telekinesis, Energy Shield, Time Stop: %+d%% Lightning Damage per Level","zhCN":"心灵传动、能量护盾、时间停止：每级 %+d%% 闪电伤害"}
+{"file":"skills.json","Key":"tornadoshotmaimsynergy","enUS":"Projectiles Maim, Impairing Movement and Increasing Physical Damage Taken\nIf both Tornado Shot and Sharpened Focus have 20 levels:","zhCN":"投射物造成致残，削弱移动能力并提高承受的物理伤害\n如果龙卷风射击和锐化专注都有 20 级："}
+{"file":"skills.json","Key":"staticfocus1","enUS":"Static Focus","zhCN":"静电专注"}
+{"file":"skills.json","Key":"skillname11","enUS":"Cold Arrow","zhCN":"冰冷箭"}
+{"file":"skills.json","Key":"Colddplev","enUS":"%s: %+d%% Cold Damage per Level","zhCN":"%s：每级 %+d%% 冰冷伤害"}
+{"file":"skills.json","Key":"empenchantcold2","enUS":"Enchants the equipped weapon of the targeted character or minion.\nAdds cold damage to all weapons.","zhCN":"为目标角色或随从的装备武器附魔。\n为所有武器增加冰冷伤害。"}
+{"file":"skills.json","Key":"coldblast1","enUS":"Cold Blast","zhCN":"冰霜冲击"}
+{"file":"skills.json","Key":"coldenhancedarrow1","enUS":"Cold Enhanced Arrow","zhCN":"冰霜强化箭"}
+{"file":"skills.json","Key":"coldenhancedaxe1","enUS":"Cold Enhanced Axe","zhCN":"冰霜强化斧"}
+{"file":"skills.json","Key":"spikenovacold1","enUS":"Cold Enhanced Spike Nova","zhCN":"冰霜强化尖刺新星"}
+{"file":"skills.json","Key":"coldshardhits","enUS":"Cold Shards: %d","zhCN":"冰霜碎片：%d"}
+{"file":"skills.json","Key":"StrSkill189","enUS":"Absorb Cold: %+d%%","zhCN":"冰冷吸收：%+d%%"}
+{"file":"skills.json","Key":"firearmor3","enUS":"Increases your fire pierce, defense rating and life regeneration","zhCN":"增加你的火焰穿透、防御评级和生命恢复速度"}
+{"file":"skills.json","Key":"shockarmor3","enUS":"increases your lightning pierce, defense\nrating and total attack and movement speed","zhCN":"增加你的闪电穿透、防御评级以及总攻击和移动速度"}
+{"file":"skills.json","Key":"skillld138","enUS":"warns of impending danger and improves the defense\nrating of you and your party","zhCN":"预警迫近的危险，并提高你和队伍成员的防御"}
+{"file":"skills.json","Key":"vigorlong3","enUS":"When active, aura increases stamina recovery rate, maximum stamina\nand movement speed for you and your party\nIncreases gold and magic find based on total stamina","zhCN":"启用时，光环提高你和队伍成员的耐力恢复速度、最大耐力和移动速度\n根据总耐力提高金币和魔法物品掉落"}
+{"file":"skills.json","Key":"vigormfdesc","enUS":"+%d%% Gold and Magic Find per 2400 Stamina","zhCN":"每 2400 点耐力 +%d%% 金币和魔法物品掉落"}
+{"file":"skills.json","Key":"vigormf","enUS":"Gold and Magic Find from Stamina: +%d%%","zhCN":"耐力提供金币和魔法物品掉落：+%d%%"}
+{"file":"skills.json","Key":"vigorlifedesc","enUS":"+%d%% Max Life per 9600 Stamina","zhCN":"每 9600 点耐力 +%d%% 最大生命"}
+{"file":"skills.json","Key":"findrejuv1","enUS":"Find Rejuvenation","zhCN":"寻找回复药剂"}
+{"file":"skills.json","Key":"findrejuv3","enUS":"Attempt to find a rejuvenation potion\nin the corpse of a slain enemy","zhCN":"尝试在被击败敌人的尸体中找到一瓶回复药剂"}
+{"file":"skills.json","Key":"skillld36","enUS":"Create a magical flaming missile to scorch your target\nEvery cast of Fire Bolt grants one Firestarter stack\nEach Firestarter stack adds microexplosions on impact","zhCN":"创造一枚魔法火焰飞弹，灼烧你的目标\n每次施放火焰箭获得一层火种堆叠\n每层火种堆叠会在命中时触发微型爆炸"}
+{"file":"skills.json","Key":"skillld33","enUS":"passive - your missiles have a chance to\npass through enemies that they hit","zhCN":"被动 - 你的远程攻击有一定几率在击中时穿透敌人"}
+{"file":"skills.json","Key":"coldarrow3","enUS":"Magically enhances a bolt or arrow\nto split into several shards upon impact\nwhich seek nearby enemies","zhCN":"魔法强化弩箭或箭矢\n命中时分裂成数个追踪附近敌人的碎片"}
+{"file":"skills.json","Key":"explodingarrow3","enUS":"Magically enhances a bolt or arrow\nto explode on impact and trigger\nan additional explosion for each enemy affected","zhCN":"魔法强化弩箭或箭矢\n命中时爆炸并为每个受影响敌人触发额外爆炸"}
+{"file":"skills.json","Key":"skillxld27","enUS":"Fire an arrow or bolt to create a pyre\nupon impact. Every third arrow or bolt is enhanced,\nreleasing consuming fires that seek down enemies\nAlways hits","zhCN":"射出箭矢或弩箭，命中时燃起烈火。每三支箭或弩箭会强化，释放追踪敌人的吞噬烈焰。\n必定命中"}
+{"file":"skills.json","Key":"skillxld31","enUS":"Fire an arrow or bolt that freezes enemies in an\narea of effect. Every third arrow or bolt is enhanced, spawning\nicy shards that track down and destroy your enemies\nAlways hits","zhCN":"射出箭矢或弩箭，冻结范围内的敌人。每三支箭或弩箭会强化，产生追踪并摧毁敌人的冰冷碎片\n必定命中"}
+{"file":"skills.json","Key":"Skillld272","enUS":"Lay a trap that shoots devastating lightning\nbolts that stun enemies that are hit","zhCN":"设置一个陷阱，发射毁灭性的闪电箭，击中敌人会使其昏迷"}
+{"file":"skills.json","Key":"poisonarrow3","enUS":"Fire a poison arrow that explodes on impact,\ndealing area of effect damage. Every third arrow or bolt is enhanced,\ndealing double damage in a bigger area of effect\nAlways hits","zhCN":"射出一支毒箭，命中时爆炸，造成范围伤害。每第三支箭或弩箭强化，造成双倍伤害并扩大范围\n必定命中"}
+{"file":"skills.json","Key":"pyrejavelin3","enUS":"Lobs an incendiary javelin that explodes\non impact, releasing a nova of fire\nDeals more damage near the center\nAlways hits","zhCN":"抛掷燃烧标枪，撞击时爆炸释放火焰新星\n中心附近伤害更高\n必定命中"}
+{"file":"skills.json","Key":"lightningarrow3","enUS":"Fire a lightning arrow that splits into several bolts\non impact. Every third arrow or bolt is enhanced, making the secondary\nbolts split into an additional bolt on hitting an enemy\nAlways hits","zhCN":"射出一支闪电箭，命中时分裂成数支箭矢\n每第三支箭或弩箭强化，使次级箭矢在命中敌人时再分裂出一支箭矢\n必定命中"}
+{"file":"skills.json","Key":"tornadoshot3","enUS":"Fire a projectile that releases several secondary\nprojectiles on impact in a circular pattern","zhCN":"发射一枚投射物，击中目标后释放多枚次级投射物，以环状散射。"}
+{"file":"skills.json","Key":"stun3","enUS":"Strike with such force that you stun all enemies in the area","zhCN":"以强大力量攻击，震晕区域内所有敌人"}
+{"file":"skills.json","Key":"berserk3","enUS":"Perform a devastating attack, dealing massive\narea of effect damage to all nearby enemies","zhCN":"执行毁灭性攻击，对附近所有敌人\n造成巨大范围伤害"}
+{"file":"skills.json","Key":"frozenblast3","enUS":"Summon forth a pulsating orb of ice\nto lay waste on your enemies","zhCN":"召唤脉动冰球\n摧毁你的敌人"}
+{"file":"skills.json","Key":"cataclysm3","enUS":"Unleash the fury of the\nnature's sky to decimate the battlefield","zhCN":"释放自然天空之怒\n席卷战场"}
+{"file":"skills.json","Key":"monsoon3","enUS":"Blast an area with a freezing ice nova\nthen release devastating winds that\ntrack down and shred your enemies","zhCN":"以冰霜新星轰炸区域\n然后释放追踪并撕裂敌人的毁灭性狂风"}
+{"file":"skills.json","Key":"shapeshifting3","enUS":"passive - improves various stats\nwhile in any shapeshifting form","zhCN":"被动 - 在任何变形形态下\n提升各项属性"}
+{"file":"levels.json","Key":"Hell2","enUS":"Pit of Acheron","zhCN":"冥河地穴"}
+{"file":"levels.json","Key":"Tundra Wastelands","enUS":"Frozen Tundra","zhCN":"冰冻苔原"}
+{"file":"levels.json","Key":"Throne of Destruction","enUS":"Throne of Destruction","zhCN":"毁灭王座"}
+{"file":"levels.json","Key":"To The Throne of Destruction","enUS":"To The Throne of Destruction","zhCN":"前往毁灭王座"}
+{"file":"levels.json","Key":"EnteringTalRasha'sTomb","enUS":"Entering Tal Rasha's Tomb","zhCN":"进入塔拉夏的古墓"}
+{"file":"levels.json","Key":"EnteringTheTundraWastelands","enUS":"Entering The Frozen Tundra","zhCN":"进入冰冻苔原"}
+{"file":"levels.json","Key":"EnteringTheThroneOfDestruction","enUS":"Entering The Throne of Destruction","zhCN":"进入毁灭王座"}
+{"file":"levels.json","Key":"Duriel's Lair","enUS":"Tal Rasha's Chamber","zhCN":"塔拉夏的密室"}
+{"file":"levels.json","Key":"Tal Rasha's Tomb","enUS":"Tal Rasha's Tomb","zhCN":"塔拉夏的古墓"}
+{"file":"levels.json","Key":"Lut Gholein","enUS":"Lut Gholein","zhCN":"鲁高因"}
+{"file":"levels.json","Key":"To Lut Gholein","enUS":"To Lut Gholein","zhCN":"前往鲁高因"}
+{"file":"levels.json","Key":"EnteringLutGholein","enUS":"Entering Lut Gholein","zhCN":"进入鲁高因"}
+{"file":"levels.json","Key":"Lut Gholein Sewers","enUS":"Lut Gholein Sewers","zhCN":"鲁高因下水道"}
+{"file":"levels.json","Key":"Travincal","enUS":"Travincal","zhCN":"崔凡克"}
+{"file":"levels.json","Key":"EnteringTravincal","enUS":"Entering Travincal","zhCN":"进入崔凡克"}
+{"file":"levels.json","Key":"Tristram","enUS":"Tristram","zhCN":"崔斯特姆"}
+{"file":"levels.json","Key":"EnteringTristram","enUS":"Entering Tristram","zhCN":"进入崔斯特姆"}
+{"file":"levels.json","Key":"Nihlathaks Temple","enUS":"Nihlathak's Temple","zhCN":"尼拉塞克的神殿"}
+{"file":"levels.json","Key":"Harrogath","enUS":"Harrogath","zhCN":"哈洛加斯"}
+{"file":"levels.json","Key":"Rigid Highlands","enUS":"Frigid Highlands","zhCN":"冰冻高地"}
+{"file":"levels.json","Key":"Arreat Plateau","enUS":"Arreat Plateau","zhCN":"亚瑞特高原"}
+{"file":"levels.json","Key":"Rocky Summit","enUS":"Arreat Summit","zhCN":"亚瑞特山巅"}
+{"file":"levels.json","Key":"Cellar of Pity","enUS":"Frozen River","zhCN":"冰冻之河"}
+{"file":"levels.json","Key":"The Worldstone Keep Level 1","enUS":"Worldstone Keep Level 1","zhCN":"世界之石要塞第一层"}
+{"file":"levels.json","Key":"The Worldstone Keep Level 2","enUS":"Worldstone Keep Level 2","zhCN":"世界之石要塞第二层"}
+{"file":"levels.json","Key":"To The Worldstone Keep Level 1","enUS":"To The Worldstone Keep Level 1","zhCN":"前往世界之石要塞第一层"}
+{"file":"levels.json","Key":"To The Worldstone Keep Level 2","enUS":"To The Worldstone Keep Level 2","zhCN":"前往世界之石要塞第二层"}
+{"file":"levels.json","Key":"EnteringTheWorldstoneKeepLevel1","enUS":"Entering The Worldstone Keep Level 1","zhCN":"进入世界之石要塞第一层"}
+{"file":"levels.json","Key":"EnteringTheWorldstoneKeepLevel2","enUS":"Entering The Worldstone Keep Level 2","zhCN":"进入世界之石要塞第二层"}
+{"file":"levels.json","Key":"The Worldstone Keep","enUS":"Worldstone Keep","zhCN":"世界之石要塞"}
+{"file":"levels.json","Key":"EnteringTheWorldstoneChamber","enUS":"Entering The Worldstone Chamber","zhCN":"进入世界之石大殿"}
+{"file":"monsters.json","Key":"Fetish","enUS":"Fetish","zhCN":"鬼娃"}
+{"file":"monsters.json","Key":"Undead Fetish","enUS":"Undead Fetish","zhCN":"不死鬼娃"}
+{"file":"monsters.json","Key":"Sucker","enUS":"Sucker","zhCN":"吸血蚊"}
+{"file":"monsters.json","Key":"Returned","enUS":"Returned","zhCN":"返世亡灵"}
+{"file":"monsters.json","Key":"Damned","enUS":"Damned","zhCN":"诅咒魔污怪"}
+{"file":"monsters.json","Key":"Embalmed","enUS":"Embalmed","zhCN":"防腐木乃伊"}
+{"file":"monsters.json","Key":"BlackLocusts","enUS":"Black Locusts","zhCN":"黑色蝗虫"}
+{"file":"monsters.json","Key":"WingedNightmare","enUS":"Winged Nightmare","zhCN":"飞翼梦魇"}
+{"file":"monsters.json","Key":"Bloodwitch the Wild","enUS":"Bloodwitch the Wild","zhCN":"疯狂血腥女巫"}
+{"file":"monsters.json","Key":"Ancient Kaa the Soulless","enUS":"Ancient Kaa the Soulless","zhCN":"远古无魂者卡厄"}
+{"file":"monsters.json","Key":"Diablo","enUS":"Diablo","zhCN":"迪亚布罗"}
+{"file":"monsters.json","Key":"Mephisto","enUS":"Mephisto","zhCN":"墨菲斯托"}
+{"file":"monsters.json","Key":"Andariel","enUS":"Andariel","zhCN":"安达莉尔"}
+{"file":"monsters.json","Key":"Duriel","enUS":"Duriel","zhCN":"都瑞尔"}
+{"file":"monsters.json","Key":"The Summoner","enUS":"The Summoner","zhCN":"召唤师"}
+{"file":"monsters.json","Key":"Summoner","enUS":"The Summoner","zhCN":"召唤师"}
+{"file":"monsters.json","Key":"Fallen","enUS":"Fallen","zhCN":"沉沦魔"}
+{"file":"monsters.json","Key":"FallenShaman","enUS":"Fallen Shaman","zhCN":"沉沦魔萨满"}
+{"file":"monsters.json","Key":"StygianDoll","enUS":"Stygian Doll","zhCN":"冥河鬼娃"}
+{"file":"monsters.json","Key":"Undead StygianDoll","enUS":"Undead Stygian Doll","zhCN":"不死冥河鬼娃"}
+{"file":"monsters.json","Key":"Brute","enUS":"Brute","zhCN":"凶蛮毛怪"}
+{"file":"monsters.json","Key":"Blunderbore","enUS":"Blunderbore","zhCN":"蛮力巨怪"}
+{"file":"monsters.json","Key":"Gorbelly","enUS":"Gorebelly","zhCN":"血腹巨怪"}
+{"file":"monsters.json","Key":"Zakarumite","enUS":"Zakarumite","zhCN":"撒卡兰姆信徒"}
+{"file":"monsters.json","Key":"Faithful","enUS":"Faithful","zhCN":"忠诚信徒"}
+{"file":"monsters.json","Key":"Pindleskin","enUS":"Pindleskin","zhCN":"暴皮"}
+{"file":"monsters.json","Key":"Threash Socket","enUS":"Thresh Socket","zhCN":"剥孔"}
+{"file":"monsters.json","Key":"Grand Vizier of Chaos","enUS":"Grand Vizier of Chaos","zhCN":"混沌首相"}
+{"file":"monsters.json","Key":"Siege Boss","enUS":"Shenk the Overseer","zhCN":"督军山克"}

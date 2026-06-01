@@ -1,0 +1,3 @@
+{"file":"skills.json","Key":"attackspeedsynergy","enUS":"%s: +1%% Attack Speed per %d Levels","zhCN":"%s：+1%% 攻击速度，每 %d 级"}
+{"file":"skills.json","Key":"enemyphysresistperxlevels","enUS":"%s: +1%% Enemy Physical Resist per %d Levels","zhCN":"%s：+1%% 敌人物理抗性，每 %d 级"}
+{"file":"skills.json","Key":"smiteabsorbsynergy","enUS":"%s: +1%% Elemental Absorb per %d Levels while Smiting","zhCN":"%s：+1%% 元素吸收，每 %d 级（施击时）"}

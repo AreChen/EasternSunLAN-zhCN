@@ -1,0 +1,52 @@
+# EasternSunLAN 简体中文汉化包
+
+这是 EasternSunLAN LAN 版的简体中文汉化资源仓库，用于跟踪汉化改动、自动打包，并通过 GitHub Releases 分发覆盖式汉化包。
+
+## 当前版本
+
+- 适配模组版本：`3.11.09`
+- 汉化包版本：`3.11.09-zhCN.1`
+- 发布日期：`2026-06-01`
+
+## 下载与安装
+
+从 GitHub Releases 下载最新的 `EasternSunLAN_zhCN_pack_*.zip`。
+
+安装步骤：
+
+1. 关闭游戏和启动器。
+2. 将压缩包内容解压到 `D2R\Mods\EasternSunLAN\`。
+3. 允许覆盖同名文件。
+4. 启动 EasternSunLAN，并在游戏语言为简体中文时使用。
+
+压缩包内路径从 `EasternSunLAN.mpq` 开始；覆盖后实际文件应位于：
+
+```text
+D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\local\lng\strings
+```
+
+## 仓库内容
+
+- `strings/`：当前 D2R 字符串汉化资源。
+- `localization/`：本轮参考旧版精修的批处理记录和审计摘要。
+- `tools/build-pack.ps1`：从仓库源码生成覆盖式汉化包。
+- `tools/verify-pack.ps1`：解包并校验 manifest、SHA256 和 JSON 解析。
+
+本仓库不包含完整模组、玩法数据、存档、高清贴图或 `strings-legacy`。符文名按当前项目规则保留英文。
+
+## 本地打包
+
+```powershell
+pwsh ./tools/build-pack.ps1
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip
+```
+
+## 版本规则
+
+Release tag 使用：
+
+```text
+v{模组版本}-zhCN.{汉化修订号}
+```
+
+例如：`v3.11.09-zhCN.1`。如果模组仍是 `3.11.09`，但只更新汉化，递增为 `v3.11.09-zhCN.2`。
