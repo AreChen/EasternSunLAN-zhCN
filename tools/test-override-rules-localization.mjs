@@ -81,12 +81,14 @@ assert.match(extractString(u20, "enUS"), /ÿc1腐化ÿc0/);
 
 for (const value of [...enUSValues, ...zhCNValues]) {
   assert.doesNotMatch(value, /\b(?:Right Click|Transmute|Cannot produce|Drop Bias)\b/);
-  assert.doesNotMatch(value, /(?:新符-|古符：)(?:艾尔|艾德|特尔|那夫|爱斯|伊司|塔尔|拉尔|欧特|书尔|安姆|索尔|夏|多尔|海尔|埃欧|卢姆|科|法尔|蓝姆|普尔|乌姆|马尔|伊司特|古尔|伐克斯|欧姆|罗|瑟|贝|乔|查姆|萨德|希伦|莫伦|诺瓦|泰拉|罗萨|索薇|穆恩|奈芙|瑞亚|苏娜|赫拉|纽斯|沃尔)/);
+  assert.doesNotMatch(value, /(?:新符-|古符：|古符-|低级古符-|中级古符-|高级古符-)(?:艾尔|艾德|特尔|那夫|爱斯|伊司|塔尔|拉尔|欧特|书尔|安姆|索尔|夏|多尔|海尔|埃欧|卢姆|科|法尔|蓝姆|普尔|乌姆|马尔|伊司特|古尔|伐克斯|欧姆|罗|瑟|贝|乔|查姆|萨德|希伦|莫伦|诺瓦|泰拉|罗萨|索薇|穆恩|奈芙|瑞亚|苏娜|赫拉|纽斯|沃尔)/);
 }
 
 assert.match(text, /新符-Iÿc2#1/);
 assert.match(text, /新符-Woÿc2#46/);
 assert.match(text, /古符：Elÿc2\(#1\)/);
 assert.match(text, /古符：Zodÿc2\(#33\)/);
+assert.match(text, /低级古符-Elÿc2#1/);
+assert.match(text, /高级古符-Zodÿc2#33/);
 
 console.log("override rules localization tests OK");

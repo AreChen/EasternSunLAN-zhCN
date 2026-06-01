@@ -10808,7 +10808,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: El (1 Niedriger Dekalpunkt)  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc0低级古符-艾尔ÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Elÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: El (1 Punto de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: El (1 Punto de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: El (1 Point de Décalage Bas)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10818,7 +10818,7 @@ return {
                 plPL = "output: El (1 Niski Punkt Dekalowy)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: El (1 Ponto de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: El (1 Низкая точка декалей)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-艾尔ÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Elÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： El (1 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10828,7 +10828,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Eld (2 Niedrige Dekalpunkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0低级古符-艾德ÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Eldÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Eld (2 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Eld (2 Puntos de Calcomanía Bajos)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Eld (2 Points de Décalage Bas)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10838,7 +10838,7 @@ return {
                 plPL = "output: Eld (2 Punkty Niskiego Dekalogu)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Eld (2 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Eld (2 Низких Очков Декалей)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-艾德ÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Eldÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Eld (2 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10848,7 +10848,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Tir (4 Niedrige Dekalpunkte)  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc0低级古符-特尔ÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Tirÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Tir (4 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Tir (4 Puntos de Calcomanía Bajos)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Tir (4 Points de Décalque Bas)\nCube pour sélectionner la sortie\nCube avec une clé pour extraire\nCube avec une rune pour stocker\n",
@@ -10858,7 +10858,7 @@ return {
                 plPL = "output: Tir (4 Punkty Niskiego Dekalogu)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Tir (4 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Tir (4 Низких Декальных Очков)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руном для хранения\n",
-                zhCN = "ÿc0低级古符-特尔ÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Tirÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Tir (4 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10868,7 +10868,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Nef (8 Niedrige Dekalpunkte)  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc0低级古符-那夫ÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Nefÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Nef (8 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Nef (8 Puntos de Calcomanía Bajos)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Nef (8 Points de Décalage Bas)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10878,7 +10878,7 @@ return {
                 plPL = "output: Nef (8 Niskich Punktów Dekalowych)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Nef (8 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Nef (8 Низких Декальных Очков)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-那夫ÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Nefÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Nef (8 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10888,7 +10888,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: Eth (16 Niedrige Dekalpunkte)  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0低级古符-爱斯ÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Ethÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Eth (16 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Eth (16 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Eth (16 Points de Décalage Bas)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10898,7 +10898,7 @@ return {
                 plPL = "output: Eth (16 Niskie Punkty Dekalowe)  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Eth (16 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Eth (16 Низких Декальных Очков)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руном для хранения\n",
-                zhCN = "ÿc0低级古符-爱斯ÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Ethÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Eth (16 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10908,7 +10908,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Ith (32 Niedrige Dekal-Punkte)  \nWürfel zum Auswählen der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0低级古符-伊司ÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Ithÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Ith (32 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Ith (32 Puntos de Calcomanía Bajos)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Ith (32 Points de Décalage Bas)\nCube pour sélectionner la sortie\nCube avec une clé pour extraire\nCube avec une rune pour stocker\n",
@@ -10918,7 +10918,7 @@ return {
                 plPL = "output: Ith (32 Punkty Dekalowe Niskiego Poziomu)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Ith (32 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Ith (32 Низкие Декальные Очки)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-伊司ÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Ithÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Ith (32 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10928,7 +10928,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Tal (64 Niedriges Dekal-Punkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0低级古符-塔尔ÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Talÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Tal (64 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Tal (64 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Tal (64 Points de Décalage Bas)\nCube pour sélectionner la sortie\nCube avec une clé pour extraire\nCube avec une rune pour stocker\n",
@@ -10938,7 +10938,7 @@ return {
                 plPL = "output: Tal (64 Niskie Punkty Dekalowe)  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Tal (64 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Tal (64 Низкие Очки Декалей)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-塔尔ÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Talÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Tal (64 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10948,7 +10948,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Ral (128 Niedrige Dekalpunkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0低级古符-拉尔ÿc2#8ÿc0【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Ralÿc2#8ÿc0【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Ral (128 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Ral (128 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Ral (128 Points de Décalque Bas)\nCube pour sélectionner la sortie\nCube avec une clé pour extraire\nCube avec une rune pour stocker\n",
@@ -10958,7 +10958,7 @@ return {
                 plPL = "output: Ral (128 Niskie Punkty Dekalowe)  \nKostka, aby wybrać wynik  \nKostka z kluczem, aby wydobyć  \nKostka z runą, aby przechować\n",
                 ptBR = "output: Ral (128 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Ral (128 Низкие Декальные Очки)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-拉尔ÿc2#8ÿc0【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Ralÿc2#8ÿc0【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Ral (128 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10968,7 +10968,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Ort (256 Niedrige Dekal-Punkte)  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc0低级古符-欧特ÿc2#9ÿc0【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Ortÿc2#9ÿc0【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Ort (256 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Ort (256 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Ort (256 Points de Décalage Bas)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10978,7 +10978,7 @@ return {
                 plPL = "output: Ort (256 Niskie Punkty Dekalowe)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Ort (256 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Ort (256 Низких Декальных Очков)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-欧特ÿc2#9ÿc0【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Ortÿc2#9ÿc0【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Ort (256 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10988,7 +10988,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Thul (512 Niedrige Dekal-Punkte)  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc0低级古符-书尔ÿc2#10ÿc0【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Thulÿc2#10ÿc0【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Thul (512 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Thul (512 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Thul (512 Points de Décalage Bas)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10998,7 +10998,7 @@ return {
                 plPL = "output: Thul (512 Niskie Punkty Dekalowe)  \nKostka, aby wybrać wynik  \nKostka z kluczem, aby wydobyć  \nKostka z runą, aby przechować\n",
                 ptBR = "output: Thul (512 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Thul (512 Низкие Декальные Очки)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-书尔ÿc2#10ÿc0【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Thulÿc2#10ÿc0【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Thul (512 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11008,7 +11008,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: Amn (1024 Niedrige Dekal-Punkte)  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0低级古符-安姆ÿc2#11ÿc0【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0低级古符-Amnÿc2#11ÿc0【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: Amn (1024 Puntos de Decal Bajo)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Amn (1024 Puntos de Calcomanía Bajos)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Amn (1024 Points de Décalque Bas)\nCube pour sélectionner la sortie\nCube avec une clé pour extraire\nCube avec une rune pour stocker\n",
@@ -11018,7 +11018,7 @@ return {
                 plPL = "output: Amn (1024 Niskie Punkty Dekalowe)  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do ekstrakcji  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: Amn (1024 Pontos de Decalque Baixo)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Amn (1024 Низкие Очки Декалей)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0低级古符-安姆ÿc2#11ÿc0【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0低级古符-Amnÿc2#11ÿc0【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Amn (1024 低階符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11028,7 +11028,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Sol (1 Mittlerer Aufkleberpunkt)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-索尔ÿc2#12ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Solÿc2#12ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Sol (1 Punto de Calcomanía Mediano)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Sol (1 Punto de Calcomanía Mediano)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Sol (1 Point de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11038,7 +11038,7 @@ return {
                 plPL = "output: {orange}Sol (1 Średni Punkt Naklejki)ÿc0  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do ekstrakcji  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: {orange}Sol (1 Ponto de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {orange}Sol (1 Средняя точка декали)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-索尔ÿc2#12ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Solÿc2#12ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Sol (1 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11048,7 +11048,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Shael (2 Mittlere Dekalpunkte)ÿc0  \nWürfel zum Auswählen der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-夏ÿc2#13ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Shaelÿc2#13ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Shael (2 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Shael (2 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Shael (2 Points de Décalage Moyens)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11058,7 +11058,7 @@ return {
                 plPL = "output: {orange}Shael (2 Punkty Dekalowe Średnie)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Shael (2 Pontos de Decalque Médios)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {orange}Shael (2 Средних Точков Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-夏ÿc2#13ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Shaelÿc2#13ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Shael (2 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11068,7 +11068,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Dol (4 Mittlere Dekal-Punkte)ÿc0  \nWürfel zum Auswählen der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-多尔ÿc2#14ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Dolÿc2#14ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Dol (4 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Dol (4 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Dol (4 Points de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11078,7 +11078,7 @@ return {
                 plPL = "wyjście: {orange}Dol (4 Punkty Dekalowe Średnie)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Dol (4 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {orange}Dol (4 Средние Точки Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-多尔ÿc2#14ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Dolÿc2#14ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Dol (4 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11088,7 +11088,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Hel (8 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-海尔ÿc2#15ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Helÿc2#15ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Hel (8 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Hel (8 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Hel (8 Points de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11098,7 +11098,7 @@ return {
                 plPL = "output: {orange}Hel (8 Średnich Punktów Naklejek)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Hel (8 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {orange}Hel (8 Средние Очки Декалей)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-海尔ÿc2#15ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Helÿc2#15ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Hel (8 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11108,7 +11108,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Io (16 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-埃欧ÿc2#16ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Ioÿc2#16ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Io (16 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Io (16 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Io (16 Points de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11118,7 +11118,7 @@ return {
                 plPL = "output: {orange}Io (16 Średnich Punktów Naklejek)ÿc0  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do wydobycia  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: {orange}Io (16 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {orange}Io (16 Средние Очки Наклеек)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-埃欧ÿc2#16ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Ioÿc2#16ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Io (16 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11128,7 +11128,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Lum (32 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-卢姆ÿc2#17ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Lumÿc2#17ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Lum (32 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Lum (32 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Lum (32 Points de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11138,7 +11138,7 @@ return {
                 plPL = "output: {orange}Lum (32 Średnie Punkty Naklejek)ÿc0  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do ekstrakcji  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: {orange}Lum (32 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {orange}Lum (32 Средние Очки Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-卢姆ÿc2#17ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Lumÿc2#17ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Lum (32 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11148,7 +11148,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Ko (64 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-科ÿc2#18ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Koÿc2#18ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Ko (64 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Ko (64 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Ko (64 Points de Décalque Moyens)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11158,7 +11158,7 @@ return {
                 plPL = "output: {orange}Ko (64 Średnie Punkty Naklejek)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Ko (64 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {orange}Ko (64 Средние Очки Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-科ÿc2#18ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Koÿc2#18ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Ko (64 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11168,7 +11168,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Fal (128 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-法尔ÿc2#19ÿc@【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Falÿc2#19ÿc@【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Fal (128 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Fal (128 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Fal (128 Points de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11178,7 +11178,7 @@ return {
                 plPL = "output: {orange}Fal (128 Średnie Punkty Dekalowe)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Fal (128 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {orange}Fal (128 Средние Очки Декалей)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-法尔ÿc2#19ÿc@【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Falÿc2#19ÿc@【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Fal (128 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11188,7 +11188,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Lem (256 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-蓝姆ÿc2#20ÿc@【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Lemÿc2#20ÿc@【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Lem (256 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Lem (256 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Lem (256 Points de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11198,7 +11198,7 @@ return {
                 plPL = "output: {orange}Lem (256 Średnie Punkty Naklejek)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Lem (256 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {orange}Lem (256 Средние Очки Наклеек)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-蓝姆ÿc2#20ÿc@【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Lemÿc2#20ÿc@【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Lem (256 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11208,7 +11208,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Pul (512 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-普尔ÿc2#21ÿc@【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Pulÿc2#21ÿc@【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Pul (512 Puntos de Decal Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Pul (512 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Pul (512 Points de Décalque Moyens)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11218,7 +11218,7 @@ return {
                 plPL = "output: {orange}Pul (512 Średnie Punkty Naklejek)ÿc0  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do ekstrakcji  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: {orange}Pul (512 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {orange}Pul (512 Средние Очки Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-普尔ÿc2#21ÿc@【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Pulÿc2#21ÿc@【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Pul (512 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11228,7 +11228,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {orange}Um (1024 Mittlere Dekal-Punkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@中级古符-乌姆ÿc2#22ÿc@【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@中级古符-Umÿc2#22ÿc@【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Um (1024 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Um (1024 Puntos de Calcomanía Medianos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Um (1024 Points de Décalage Moyen)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11238,7 +11238,7 @@ return {
                 plPL = "output: {orange}Um (1024 Średnich Punktów Dekalowych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Um (1024 Pontos de Decalque Médio)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {orange}Um (1024 Средние Очки Декалей)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@中级古符-乌姆ÿc2#22ÿc@【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@中级古符-Umÿc2#22ÿc@【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc@Um (1024 中階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11248,7 +11248,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Mal (1 Hoher Dekalpunkt)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-马尔ÿc2#23ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Malÿc2#23ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Mal (1 Punto de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Mal (1 Punto de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Mal (1 Point de Décalage Élevé)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11258,7 +11258,7 @@ return {
                 plPL = "output: {purple}Mal (1 Punkt Dekalowy)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Mal (1 Ponto de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Mal (1 Высокая точка декали)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-马尔ÿc2#23ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Malÿc2#23ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Mal (1 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11268,7 +11268,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Ist (2 Hochdekalpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-伊司特ÿc2#24ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Istÿc2#24ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Ist (2 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Ist (2 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Ist (2 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11278,7 +11278,7 @@ return {
                 plPL = "output: {purple}Ist (2 Punkty Wysokiego Dekalu)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Ist (2 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Ist (2 Высоких Декальных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-伊司特ÿc2#24ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Istÿc2#24ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Ist (2 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11288,7 +11288,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Gul (4 Hohe Dekal-Punkte)ÿc0  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc;高级古符-古尔ÿc2#25ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Gulÿc2#25ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Gul (4 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Gul (4 Puntos de Calcomanía Alta)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Gul (4 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11298,7 +11298,7 @@ return {
                 plPL = "wyjście: {purple}Gul (4 Punkty Wysokiego Dekalu)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Gul (4 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {purple}Gul (4 Высоких Очков Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-古尔ÿc2#25ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Gulÿc2#25ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Gul (4 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11308,7 +11308,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Vex (8 Hohe Dekalpunkte)ÿc0  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc;高级古符-伐克斯ÿc2#26ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Vexÿc2#26ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Vex (8 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Vex (8 Puntos de Calcomanía Alta)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Vex (8 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11318,7 +11318,7 @@ return {
                 plPL = "output: {purple}Vex (8 Punktów Wysokiej Naklejki)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Vex (8 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Vex (8 Высоких Очков Декалей)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-伐克斯ÿc2#26ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Vexÿc2#26ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Vex (8 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11328,7 +11328,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Ohm (16 Hohe Dekalpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-欧姆ÿc2#27ÿc;【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Ohmÿc2#27ÿc;【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Ohm (16 Puntos de Calcomanía Altos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Ohm (16 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Ohm (16 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11338,7 +11338,7 @@ return {
                 plPL = "output: {purple}Ohm (16 Wysokich Punktów Dekalowych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Ohm (16 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Ohm (16 Высоких Очков Декалей)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-欧姆ÿc2#27ÿc;【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Ohmÿc2#27ÿc;【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Ohm (16 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11348,7 +11348,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Lo (32 Hohe Dekalpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-罗ÿc2#28ÿc;【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Loÿc2#28ÿc;【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Lo (32 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Lo (32 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Lo (32 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11358,7 +11358,7 @@ return {
                 plPL = "output: {purple}Lo (32 Punkty Wysokiego Dekalu)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Lo (32 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Lo (32 Высоких Очков Декалей)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руном для хранения\n",
-                zhCN = "ÿc;高级古符-罗ÿc2#28ÿc;【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Loÿc2#28ÿc;【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Lo (32 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11368,7 +11368,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Sur (64 Hohe Dekalpunkte)ÿc0  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc;高级古符-瑟ÿc2#29ÿc;【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Surÿc2#29ÿc;【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Sur (64 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Sur (64 Puntos de Calcomanía Altos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Sur (64 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11378,7 +11378,7 @@ return {
                 plPL = "output: {purple}Sur (64 Punkty Wysokiej Naklejki)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Sur (64 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Sur (64 Высокие Очки Декалей)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-瑟ÿc2#29ÿc;【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Surÿc2#29ÿc;【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Sur (64 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11388,7 +11388,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Ber (128 Hohe Dekalpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-贝ÿc2#30ÿc;【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Berÿc2#30ÿc;【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Ber (128 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Ber (128 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Ber (128 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11398,7 +11398,7 @@ return {
                 plPL = "output: {purple}Ber (128 Punktów Dekalowych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Ber (128 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {purple}Ber (128 Высоких Точков Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-贝ÿc2#30ÿc;【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Berÿc2#30ÿc;【128点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Ber (128 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11408,7 +11408,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Jah (256 Hohe Dekalpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-乔ÿc2#31ÿc;【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Jahÿc2#31ÿc;【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Jah (256 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Jah (256 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Jah (256 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11418,7 +11418,7 @@ return {
                 plPL = "output: {purple}Jah (256 Wysokich Punktów Dekalowych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Jah (256 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Jah (256 Высоких Декальных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-乔ÿc2#31ÿc;【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Jahÿc2#31ÿc;【256点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Jah (256 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11428,7 +11428,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Cham (512 Hohe Dekalpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-查姆ÿc2#32ÿc;【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Chamÿc2#32ÿc;【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Cham (512 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Cham (512 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Cham (512 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11438,7 +11438,7 @@ return {
                 plPL = "output: {purple}Cham (512 Punkty Wysokiej Dekalacji)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Cham (512 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {purple}Cham (512 Высоких Очков Декалей)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-查姆ÿc2#32ÿc;【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Chamÿc2#32ÿc;【512点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Cham (512 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -11448,7 +11448,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {purple}Zod (1024 Hohe Dekalpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;高级古符-萨德ÿc2#33ÿc;【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;高级古符-Zodÿc2#33ÿc;【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Zod (1024 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Zod (1024 Puntos de Decal Alto)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Zod (1024 Points de Décalage Élevés)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -11458,7 +11458,7 @@ return {
                 plPL = "output: {purple}Zod (1024 Wysokich Punktów Dekalowych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Zod (1024 Pontos de Decalque Alto)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Zod (1024 Высоких Декальных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;高级古符-萨德ÿc2#33ÿc;【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;高级古符-Zodÿc2#33ÿc;【1024点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcN古符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcN古符【01-33】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Zod (1024 高階符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },

@@ -133,6 +133,9 @@ function normalizeRuneNames(text) {
   for (const [index, [chineseName, englishName]] of legacyRunes.entries()) {
     const number = index + 1;
     next = next.replaceAll(`古符：${chineseName}ÿc2(#${number})`, `古符：${englishName}ÿc2(#${number})`);
+    for (const prefix of ["古符", "低级古符", "中级古符", "高级古符"]) {
+      next = next.replaceAll(`${prefix}-${chineseName}ÿc2#${number}`, `${prefix}-${englishName}ÿc2#${number}`);
+    }
   }
   for (const [index, [chineseName, englishName]] of easternSunRunes.entries()) {
     const number = index + 1;
