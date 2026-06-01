@@ -9,12 +9,19 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Test item tier tools
+        shell: pwsh
+        run: |
+          node ./tools/test-item-tier-labels.mjs
+          node ./tools/apply-item-tier-labels.mjs --check
       - name: Build pack
         shell: pwsh
         run: ./tools/build-pack.ps1
       - name: Verify pack
         shell: pwsh
-        run: ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip
+        run: |
+          $packVersion = (Get-Content ./VERSION | Where-Object { $_ -like 'PACK_VERSION=*' }).Split('=', 2)[1]
+          ./tools/verify-pack.ps1 -ZipPath "./dist/EasternSunLAN_zhCN_pack_v$packVersion.zip"
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:

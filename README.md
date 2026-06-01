@@ -5,7 +5,7 @@
 ## 当前版本
 
 - 适配模组版本：`3.11.09`
-- 汉化包版本：`3.11.09-zhCN.1`
+- 汉化包版本：`3.11.09-zhCN.2`
 - 发布日期：`2026-06-01`
 
 ## 下载与安装
@@ -28,17 +28,18 @@ D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\local\lng\strings
 ## 仓库内容
 
 - `strings/`：当前 D2R 字符串汉化资源。
-- `localization/`：本轮参考旧版精修的批处理记录和审计摘要。
+- `localization/`：本轮参考旧版精修的批处理记录、底材阶级表和审计摘要。
 - `tools/build-pack.ps1`：从仓库源码生成覆盖式汉化包。
 - `tools/verify-pack.ps1`：解包并校验 manifest、SHA256 和 JSON 解析。
+- `tools/apply-item-tier-labels.mjs`：把普通/扩展/精英底材标签写入 `item-names.json`。
 
-本仓库不包含完整模组、玩法数据、存档、高清贴图或 `strings-legacy`。符文名按当前项目规则保留英文。
+本仓库不包含完整模组、玩法数据、存档、高清贴图或 `strings-legacy`。符文名按当前项目规则保留英文。底材名右侧使用短标签显示阶级：普通 `[N]`、扩展 `[Ex]`、精英 `[El]`。
 
 ## 本地打包
 
 ```powershell
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.2.zip
 ```
 
 ## 版本规则
@@ -49,4 +50,4 @@ Release tag 使用：
 v{模组版本}-zhCN.{汉化修订号}
 ```
 
-例如：`v3.11.09-zhCN.1`。如果模组仍是 `3.11.09`，但只更新汉化，递增为 `v3.11.09-zhCN.2`。
+例如：`v3.11.09-zhCN.2`。如果模组仍是 `3.11.09`，但只更新汉化，递增为 `v3.11.09-zhCN.3`。

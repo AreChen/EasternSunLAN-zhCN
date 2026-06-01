@@ -1,5 +1,18 @@
 # Changelog
 
+## v3.11.09-zhCN.2 - 2026-06-01
+
+- 为武器、防具底材名追加阶级短标签：普通 `[N]`、扩展 `[Ex]`、精英 `[El]`。
+- 从当前模组 `armor.txt` 与 `weapons.txt` 生成 `762` 条底材阶级映射。
+- 同步更新 `strings/item-names.json` 与 `strings/translated_strings/translated_item-names.json`。
+- 新增底材阶级映射生成、应用和测试脚本，后续版本可重复执行。
+
+验证：
+
+- 底材标签幂等检查：`changed=0`
+- JSON 解析错误：`0`
+- manifest SHA256 不匹配：`0`
+
 ## v3.11.09-zhCN.1 - 2026-06-01
 
 - 建立独立汉化包仓库，跟踪 `strings/` 下的简体中文资源。

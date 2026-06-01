@@ -1,0 +1,6110 @@
+{
+  "schema": 1,
+  "modVersion": "3.11.09",
+  "description": "Item base tier labels for zhCN item names. Generated from armor.txt and weapons.txt namestr/normcode/ubercode/ultracode.",
+  "labels": {
+    "normal": "[N]",
+    "exceptional": "[Ex]",
+    "elite": "[El]"
+  },
+  "conflictResolution": "When the same namestr maps to multiple tiers, prefer spawnable rows over hidden rows.",
+  "conflictCount": 1,
+  "tiers": [
+    {
+      "Key": "cap",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "cap",
+      "name": "Cap/hat",
+      "spawnable": "1"
+    },
+    {
+      "Key": "skp",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "skp",
+      "name": "Skull Cap",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hlm",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "hlm",
+      "name": "Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "fhl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "fhl",
+      "name": "Full Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ghm",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ghm",
+      "name": "Great Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "crn",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "crn",
+      "name": "Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "msk",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "msk",
+      "name": "Mask",
+      "spawnable": "1"
+    },
+    {
+      "Key": "qui",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "qui",
+      "name": "Quilted Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lea",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "lea",
+      "name": "Leather Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hla",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "hla",
+      "name": "Hard Leather Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "stu",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "stu",
+      "name": "Studded Leather",
+      "spawnable": "1"
+    },
+    {
+      "Key": "rng",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "rng",
+      "name": "Ring Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "scl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "scl",
+      "name": "Scale Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "chn",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "chn",
+      "name": "Chain Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "brs",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "brs",
+      "name": "Breast Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "spl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "spl",
+      "name": "Splint Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "plt",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "plt",
+      "name": "Plate Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "fld",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "fld",
+      "name": "Field Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gth",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "gth",
+      "name": "Gothic Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ful",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ful",
+      "name": "Full Plate Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "aar",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "aar",
+      "name": "Ancient Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ltp",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ltp",
+      "name": "Light Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "buc",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "buc",
+      "name": "Buckler",
+      "spawnable": "1"
+    },
+    {
+      "Key": "sml",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "sml",
+      "name": "Small Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lrg",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "lrg",
+      "name": "Large Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "kit",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "kit",
+      "name": "Kite Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tow",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "tow",
+      "name": "Tower Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gts",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "gts",
+      "name": "Gothic Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lgl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "lgl",
+      "name": "Gloves(L)",
+      "spawnable": "1"
+    },
+    {
+      "Key": "vgl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "vgl",
+      "name": "Heavy Gloves",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mgl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "mgl",
+      "name": "Bracers(M)",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tgl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "tgl",
+      "name": "Light Gauntlets",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hgl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "hgl",
+      "name": "Gaunlets(H)",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lbt",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "lbt",
+      "name": "Leather Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "vbt",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "vbt",
+      "name": "Heavy Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mbt",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "mbt",
+      "name": "Chain Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tbt",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "tbt",
+      "name": "Light Plate Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hbt",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "hbt",
+      "name": "Plate Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lbl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "lbl",
+      "name": "Sash(L)",
+      "spawnable": "1"
+    },
+    {
+      "Key": "vbl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "vbl",
+      "name": "Light Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mbl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "mbl",
+      "name": "Belt(M)",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tbl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "tbl",
+      "name": "Heavy Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hbl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "hbl",
+      "name": "Girdle(H)",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bhm",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "bhm",
+      "name": "Bone Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bsh",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "bsh",
+      "name": "Bone Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "spk",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "spk",
+      "name": "Spiked Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "hax",
+      "name": "Hand Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "axe",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "axe",
+      "name": "Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "2ax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "2ax",
+      "name": "Double Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mpi",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "mpi",
+      "name": "Military Pick",
+      "spawnable": "1"
+    },
+    {
+      "Key": "wax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "wax",
+      "name": "War Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "lax",
+      "name": "Large Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bax",
+      "name": "Broad Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "btx",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "btx",
+      "name": "Battle Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gax",
+      "name": "Great Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gix",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gix",
+      "name": "Giant Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "wnd",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "wnd",
+      "name": "Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ywn",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ywn",
+      "name": "Yew Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bwn",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bwn",
+      "name": "Bone Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gwn",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gwn",
+      "name": "Grim Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "clb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "clb",
+      "name": "Club",
+      "spawnable": "1"
+    },
+    {
+      "Key": "scp",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "scp",
+      "name": "Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gsc",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gsc",
+      "name": "Grand Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "wsp",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "wsp",
+      "name": "War Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "spc",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "spc",
+      "name": "Spiked Club",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mac",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "mac",
+      "name": "Mace",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mst",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "mst",
+      "name": "Morning Star",
+      "spawnable": "1"
+    },
+    {
+      "Key": "fla",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "fla",
+      "name": "Flail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "whm",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "whm",
+      "name": "War Hammer",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mau",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "mau",
+      "name": "Maul",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gma",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gma",
+      "name": "Great Maul",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ssd",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ssd",
+      "name": "Short Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "scm",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "scm",
+      "name": "Scimitar",
+      "spawnable": "1"
+    },
+    {
+      "Key": "sbr",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "sbr",
+      "name": "Saber",
+      "spawnable": "1"
+    },
+    {
+      "Key": "flc",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "flc",
+      "name": "Falchion",
+      "spawnable": "1"
+    },
+    {
+      "Key": "crs",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "crs",
+      "name": "Crystal Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bsd",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bsd",
+      "name": "Broad Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lsd",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "lsd",
+      "name": "Long Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "wsd",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "wsd",
+      "name": "War Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "2hs",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "2hs",
+      "name": "Two-Handed Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "clm",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "clm",
+      "name": "Claymore",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gis",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gis",
+      "name": "Giant Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bsw",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bsw",
+      "name": "Bastard Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "flb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "flb",
+      "name": "Flamberge",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gsd",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gsd",
+      "name": "Great Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dgr",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "dgr",
+      "name": "Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dir",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "dir",
+      "name": "Dirk",
+      "spawnable": "1"
+    },
+    {
+      "Key": "kri",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "kri",
+      "name": "Kriss",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bld",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bld",
+      "name": "Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tkf",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "tkf",
+      "name": "Throwing Knife",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "tax",
+      "name": "Throwing Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bkf",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bkf",
+      "name": "Balanced Knife",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bal",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bal",
+      "name": "Balanced Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "jav",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "jav",
+      "name": "Javelin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pil",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "pil",
+      "name": "Pilum",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ssp",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ssp",
+      "name": "Short Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "glv",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "glv",
+      "name": "Glaive",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tsp",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "tsp",
+      "name": "Throwing Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "spr",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "spr",
+      "name": "Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "tri",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "tri",
+      "name": "Trident",
+      "spawnable": "1"
+    },
+    {
+      "Key": "brn",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "brn",
+      "name": "Brandistock",
+      "spawnable": "1"
+    },
+    {
+      "Key": "spt",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "spt",
+      "name": "Spetum",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pik",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "pik",
+      "name": "Pike",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bar",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bar",
+      "name": "Bardiche",
+      "spawnable": "1"
+    },
+    {
+      "Key": "vou",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "vou",
+      "name": "Voulge",
+      "spawnable": "1"
+    },
+    {
+      "Key": "scy",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "scy",
+      "name": "Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pax",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "pax",
+      "name": "Poleaxe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hal",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "hal",
+      "name": "Halberd",
+      "spawnable": "1"
+    },
+    {
+      "Key": "wsc",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "wsc",
+      "name": "War Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "sst",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "sst",
+      "name": "Short Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lst",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "lst",
+      "name": "Long Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "cst",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "cst",
+      "name": "Gnarled Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bst",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bst",
+      "name": "Battle Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "wst",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "wst",
+      "name": "War Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "sbw",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "sbw",
+      "name": "Short Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hbw",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "hbw",
+      "name": "Hunter's Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lbw",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "lbw",
+      "name": "Long Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "cbw",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "cbw",
+      "name": "Composite Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "sbb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "sbb",
+      "name": "Short Battle Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lbb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "lbb",
+      "name": "Long Battle Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "swb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "swb",
+      "name": "Short War Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lwb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "lwb",
+      "name": "Long War Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "lxb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "lxb",
+      "name": "Light Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mxb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "mxb",
+      "name": "Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "hxb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "hxb",
+      "name": "Heavy Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "rxb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "rxb",
+      "name": "Repeating Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xpk",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xpk",
+      "name": "Barbed Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xsh",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xsh",
+      "name": "Grim Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xh9",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xh9",
+      "name": "Grim Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "zhb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "zhb",
+      "name": "War Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ztb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ztb",
+      "name": "Battle Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "zmb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "zmb",
+      "name": "Mesh Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "zvb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "zvb",
+      "name": "Sharkskin Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "zlb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "zlb",
+      "name": "Demonhide Sash",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xhb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xhb",
+      "name": "War Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xtb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xtb",
+      "name": "Battle Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xmb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xmb",
+      "name": "Mesh Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xvb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xvb",
+      "name": "Sharkskin Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xlb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xlb",
+      "name": "Demonhide Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xtg",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xtg",
+      "name": "Battle Gauntlets",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xmg",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xmg",
+      "name": "Heavy Bracers",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xvg",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xvg",
+      "name": "Sharkskin Gloves",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xlg",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xlg",
+      "name": "Demonhide Gloves",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xts",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xts",
+      "name": "Ancient Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xow",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xow",
+      "name": "Pavise",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xit",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xit",
+      "name": "Dragon Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xrg",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xrg",
+      "name": "Scutum",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xml",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xml",
+      "name": "Round Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xuc",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xuc",
+      "name": "Defender",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xtp",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xtp",
+      "name": "Mage Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xar",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xar",
+      "name": "Ornate Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xul",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xul",
+      "name": "Chaos Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xth",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xth",
+      "name": "Embossed Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xld",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xld",
+      "name": "Sharktooth Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xlt",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xlt",
+      "name": "Templar Coat",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xpl",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xpl",
+      "name": "Russet Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xrs",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xrs",
+      "name": "Cuirass",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xhn",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xhn",
+      "name": "Mesh Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xcl",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xcl",
+      "name": "Tigulated Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xng",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xng",
+      "name": "Linked Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xtu",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xtu",
+      "name": "Trellised Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xla",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xla",
+      "name": "Demonhide Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xea",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xea",
+      "name": "Serpentskin Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xui",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xui",
+      "name": "Ghost Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xsk",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xsk",
+      "name": "Death Mask",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xrn",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xrn",
+      "name": "Grand Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xhl",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xhl",
+      "name": "Basinet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xlm",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xlm",
+      "name": "Casque",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xkp",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xkp",
+      "name": "Sallet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xap",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xap",
+      "name": "War Hat",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8rx",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8rx",
+      "name": "Chu-Ko-Nu",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8hx",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8hx",
+      "name": "Balista",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8mx",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8mx",
+      "name": "Siege Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8lx",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8lx",
+      "name": "Arbalest",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8lw",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8lw",
+      "name": "Gothic Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8sw",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8sw",
+      "name": "Rune Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8l8",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8l8",
+      "name": "Long Siege Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8s8",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8s8",
+      "name": "Short Siege Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8cb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8cb",
+      "name": "Double Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8lb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8lb",
+      "name": "Cedar Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8hb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8hb",
+      "name": "Razor Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8sb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8sb",
+      "name": "Edge Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8ws",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8ws",
+      "name": "Rune Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8bs",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8bs",
+      "name": "Gothic Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8cs",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8cs",
+      "name": "Cedar Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8ls",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8ls",
+      "name": "Quarterstaff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "8ss",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "8ss",
+      "name": "Jo Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9wc",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9wc",
+      "name": "Grim Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9h9",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9h9",
+      "name": "Bec-de-Corbin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9pa",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9pa",
+      "name": "Partizan",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9s8",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9s8",
+      "name": "Battle Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9vo",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9vo",
+      "name": "Bill",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9b7",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9b7",
+      "name": "Lochaber Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9p9",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9p9",
+      "name": "Lance",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9st",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9st",
+      "name": "Yari",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9br",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9br",
+      "name": "War Fork",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9tr",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9tr",
+      "name": "Fuscina",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9sr",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9sr",
+      "name": "War Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ts",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ts",
+      "name": "Harpoon",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9gl",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9gl",
+      "name": "Spiculum",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9s9",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9s9",
+      "name": "Simbilan",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9pi",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9pi",
+      "name": "Great Pilum",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ja",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ja",
+      "name": "War Javelin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9b8",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9b8",
+      "name": "Hurlbat",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9bk",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9bk",
+      "name": "War Dart",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ta",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ta",
+      "name": "Francisca",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9tk",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9tk",
+      "name": "Battle Dart",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9kr",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9kr",
+      "name": "Cinquedeas",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9di",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9di",
+      "name": "Rondel",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9dg",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9dg",
+      "name": "Poignard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9gd",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9gd",
+      "name": "Executioner Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9fb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9fb",
+      "name": "Zweihander",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9gs",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9gs",
+      "name": "Tusk Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9cm",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9cm",
+      "name": "Dacian Falx",
+      "spawnable": "1"
+    },
+    {
+      "Key": "92h",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "92h",
+      "name": "Espadon",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9wd",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9wd",
+      "name": "Ancient Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ls",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ls",
+      "name": "Rune Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9bs",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9bs",
+      "name": "Battle Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9cr",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9cr",
+      "name": "Dimensional Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9fc",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9fc",
+      "name": "Tulwar",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9sb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9sb",
+      "name": "Shamshir",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9sm",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9sm",
+      "name": "Cutlass",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ss",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ss",
+      "name": "Gladius",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9gm",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9gm",
+      "name": "Martel de Fer",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9m9",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9m9",
+      "name": "War Club",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9wh",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9wh",
+      "name": "Battle Hammer",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9fl",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9fl",
+      "name": "Knout",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9mt",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9mt",
+      "name": "Jagged Star",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ma",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ma",
+      "name": "Flanged Mace",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9sp",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9sp",
+      "name": "Barbed Club",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ws",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ws",
+      "name": "Divine Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9qs",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9qs",
+      "name": "Holy Water Sprinkler",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9sc",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9sc",
+      "name": "Rune Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9cl",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9cl",
+      "name": "Cudgel",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9gw",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9gw",
+      "name": "Grave Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9bw",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9bw",
+      "name": "Tomb Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9yw",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9yw",
+      "name": "Petrified Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9wn",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9wn",
+      "name": "Burnt Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9gi",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9gi",
+      "name": "Ancient Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ga",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ga",
+      "name": "Gothic Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9bt",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9bt",
+      "name": "Tabar",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ba",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ba",
+      "name": "Bearded Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9la",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9la",
+      "name": "Military Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9wa",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9wa",
+      "name": "Naga",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9mp",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9mp",
+      "name": "Crowbill",
+      "spawnable": "1"
+    },
+    {
+      "Key": "92a",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "92a",
+      "name": "Twin Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ax",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ax",
+      "name": "Cleaver",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ha",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ha",
+      "name": "Hatchet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9b9",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9b9",
+      "name": "Gothic Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gpl",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gpl",
+      "name": "Strangling Gas Potion",
+      "spawnable": "1"
+    },
+    {
+      "Key": "opl",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "opl",
+      "name": "Fulminating Potion",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gpm",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gpm",
+      "name": "Choking Gas Potion",
+      "spawnable": "1"
+    },
+    {
+      "Key": "opm",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "opm",
+      "name": "Exploding Potion",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gps",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gps",
+      "name": "Rancid Gas Potion",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ops",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ops",
+      "name": "Oil Potion",
+      "spawnable": "1"
+    },
+    {
+      "Key": "leg",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "leg",
+      "name": "Wirt's Leg",
+      "spawnable": ""
+    },
+    {
+      "Key": "hdm",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "hdm",
+      "name": "Horadric Malus",
+      "spawnable": ""
+    },
+    {
+      "Key": "hfh",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "hfh",
+      "name": "Hellforge Hammer",
+      "spawnable": ""
+    },
+    {
+      "Key": "hst",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "hst",
+      "name": "Horadric Staff",
+      "spawnable": ""
+    },
+    {
+      "Key": "msf",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "msf",
+      "name": "Staff of the Kings",
+      "spawnable": ""
+    },
+    {
+      "Key": "aqv",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "aq2",
+      "name": "Magic Arrows",
+      "spawnable": "1"
+    },
+    {
+      "Key": "cqv",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "cq2",
+      "name": "Magic Bolts",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xhm",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xhm",
+      "name": "Winged Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "neg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "neg",
+      "name": "Hellspawn Skull",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7wa",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7wa",
+      "name": "Berserker Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "xhg",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xhg",
+      "name": "War Gauntlets",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9bl",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9bl",
+      "name": "Stilleto",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ktr",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ktr",
+      "name": "Katar",
+      "spawnable": "1"
+    },
+    {
+      "Key": "wrb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "wrb",
+      "name": "Wrist Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ces",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ces",
+      "name": "Cestus",
+      "spawnable": "1"
+    },
+    {
+      "Key": "clw",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "clw",
+      "name": "Claws",
+      "spawnable": "1"
+    },
+    {
+      "Key": "btl",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "btl",
+      "name": "Blade Talons",
+      "spawnable": "1"
+    },
+    {
+      "Key": "skr",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "skr",
+      "name": "Scissors Katar",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ar",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ar",
+      "name": "Quhab",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9wb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9wb",
+      "name": "Wrist Spike",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9xf",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9xf",
+      "name": "Fascia",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9cs",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9cs",
+      "name": "Hand Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9lw",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9lw",
+      "name": "Greater Claws",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9tw",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9tw",
+      "name": "Greater Talons",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9qr",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9qr",
+      "name": "Scissors Quhab",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7ar",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ar",
+      "name": "Suwayyah",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7wb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7wb",
+      "name": "Wrist Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7xf",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7xf",
+      "name": "War Fist",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7cs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7cs",
+      "name": "Battle Cestus",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7lw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7lw",
+      "name": "Feral Claws",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7tw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7tw",
+      "name": "Runic Talons",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7qr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7qr",
+      "name": "Scissors Suwayyah",
+      "spawnable": "1"
+    },
+    {
+      "Key": "7ha",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ha",
+      "name": "Tomahawk",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ax",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ax",
+      "name": "Small Crescent",
+      "spawnable": "0"
+    },
+    {
+      "Key": "72a",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "72a",
+      "name": "Ettin Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7mp",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7mp",
+      "name": "War Spike",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7la",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7la",
+      "name": "Feral Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ba",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ba",
+      "name": "Silver Edged Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7bt",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7bt",
+      "name": "Decapitator",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ga",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ga",
+      "name": "Champion Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7gi",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7gi",
+      "name": "Glorious Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7wn",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7wn",
+      "name": "Polished Wand",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7yw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7yw",
+      "name": "Ghost Wand",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7bw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7bw",
+      "name": "Lich Wand",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7gw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7gw",
+      "name": "Unearthed Wand",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7cl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7cl",
+      "name": "Truncheon",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7sc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7sc",
+      "name": "Mighty Scepter",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7qs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7qs",
+      "name": "Seraph Rod",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ws",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ws",
+      "name": "Caduceus",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7sp",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7sp",
+      "name": "Tyrant Club",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ma",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ma",
+      "name": "Reinforced Mace",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7mt",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7mt",
+      "name": "Devil Star",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7fl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7fl",
+      "name": "Scourge",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7wh",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7wh",
+      "name": "Legendary Mallet",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7m7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7m7",
+      "name": "Ogre Maul",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7gm",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7gm",
+      "name": "Thunder Maul",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ss",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ss",
+      "name": "Falcata",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7sm",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7sm",
+      "name": "Ataghan",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7sb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7sb",
+      "name": "Elegant Blade",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7fc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7fc",
+      "name": "Hydra Edge",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7cr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7cr",
+      "name": "Phase Blade",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7bs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7bs",
+      "name": "Conquest Sword",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ls",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ls",
+      "name": "Cryptic Sword",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7wd",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7wd",
+      "name": "Mythical Sword",
+      "spawnable": "0"
+    },
+    {
+      "Key": "72h",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "72h",
+      "name": "Legend Sword",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7cm",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7cm",
+      "name": "Highland Blade",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7gs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7gs",
+      "name": "Balrog Blade",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7b7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7b7",
+      "name": "Champion Sword",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7fb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7fb",
+      "name": "Colossal Sword",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7gd",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7gd",
+      "name": "Colossus Blade",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7dg",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7dg",
+      "name": "Bone Knife",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7di",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7di",
+      "name": "Mithral Point",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7kr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7kr",
+      "name": "Fanged Knife",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7bl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7bl",
+      "name": "Legend Spike",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7tk",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7tk",
+      "name": "Flying Knife",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ta",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ta",
+      "name": "Flying Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7bk",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7bk",
+      "name": "Winged Knife",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7b8",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7b8",
+      "name": "Winged Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ja",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ja",
+      "name": "Hyperion Javelin",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7pi",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7pi",
+      "name": "Stygian Pilum",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7s7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7s7",
+      "name": "Balrog Spear",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7gl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7gl",
+      "name": "Ghost Glaive",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7ts",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7ts",
+      "name": "Winged Harpoon",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7sr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7sr",
+      "name": "Hyperion Spear",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7tr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7tr",
+      "name": "Stygian Pike",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7br",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7br",
+      "name": "Mancatcher",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7st",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7st",
+      "name": "Ghost Spear",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7p7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7p7",
+      "name": "War Pike",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7o7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7o7",
+      "name": "Ogre Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7vo",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7vo",
+      "name": "Colossus Voulge",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7s8",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7s8",
+      "name": "Thresher",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7pa",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7pa",
+      "name": "Cryptic Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7h7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7h7",
+      "name": "Great Poleaxe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "7wc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "7wc",
+      "name": "Giant Thresher",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6ss",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6ss",
+      "name": "Walking Stick",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6ls",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6ls",
+      "name": "Stalagmite",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6cs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6cs",
+      "name": "Elder Staff",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6bs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6bs",
+      "name": "Shillelah",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6ws",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6ws",
+      "name": "Archon Staff",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6sb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6sb",
+      "name": "Spider Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6hb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6hb",
+      "name": "Blade Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6lb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6lb",
+      "name": "Shadow Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6cb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6cb",
+      "name": "Great Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6s7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6s7",
+      "name": "Diamond Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6l7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6l7",
+      "name": "Crusader Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6sw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6sw",
+      "name": "Ward Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6lw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6lw",
+      "name": "Hydra Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6lx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6lx",
+      "name": "Pellet Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6mx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6mx",
+      "name": "Gorgon Crossbow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6hx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6hx",
+      "name": "Colossus Crossbow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "6rx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "6rx",
+      "name": "Demon Crossbow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ob1",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ob1",
+      "name": "Eagle Orb",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ob2",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ob2",
+      "name": "Sacred Globe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ob4",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ob4",
+      "name": "Clasped Orb",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am1",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "am1",
+      "name": "Stag Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am2",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "am2",
+      "name": "Reflex Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am4",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "am4",
+      "name": "Maiden Pike",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am5",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "am5",
+      "name": "Maiden Javelin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ob6",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "ob6",
+      "name": "Glowing Orb",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ob7",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "ob7",
+      "name": "Crystalline Globe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ob8",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "ob8",
+      "name": "Cloudy Sphere",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ob9",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "ob9",
+      "name": "Sparkling Ball",
+      "spawnable": "1"
+    },
+    {
+      "Key": "oba",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "oba",
+      "name": "Swirling Crystal",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am6",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "am6",
+      "name": "Ashwood Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am7",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "am7",
+      "name": "Ceremonial Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am8",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "am8",
+      "name": "Ceremonial Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am9",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "am9",
+      "name": "Ceremonial Pike",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ama",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "ama",
+      "name": "Ceremonial Javelin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "obb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "obb",
+      "name": "Heavenly Stone",
+      "spawnable": "1"
+    },
+    {
+      "Key": "obc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "obc",
+      "name": "Eldritch Orb",
+      "spawnable": "1"
+    },
+    {
+      "Key": "obd",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "obd",
+      "name": "Demon Heart",
+      "spawnable": "1"
+    },
+    {
+      "Key": "obe",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "obe",
+      "name": "Vortex Orb",
+      "spawnable": "1"
+    },
+    {
+      "Key": "obf",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "obf",
+      "name": "Dimensional Shard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "amb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "amb",
+      "name": "Matriarchal Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "amc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "amc",
+      "name": "Grand Matron Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "amd",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "amd",
+      "name": "Matriarchal Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ame",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "ame",
+      "name": "Matriarchal Pike",
+      "spawnable": "1"
+    },
+    {
+      "Key": "amf",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "amf",
+      "name": "MatriarchalJavelin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr4",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "dr4",
+      "name": "Falcon Mask",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr2",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "dr2",
+      "name": "Hawk Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr1",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "dr1",
+      "name": "Wolf Head",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr5",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "dr5",
+      "name": "Spirit Mask",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba1",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ba1",
+      "name": "Jawbone Cap",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba2",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ba2",
+      "name": "Fanged Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba4",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ba4",
+      "name": "Assault Helmet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba5",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ba5",
+      "name": "Avenger Guard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa1",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "pa1",
+      "name": "Targe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa2",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "pa2",
+      "name": "Rondache",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa4",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "pa4",
+      "name": "Aerin Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa5",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "pa5",
+      "name": "Crown Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne1",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ne1",
+      "name": "Preserved Head",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne2",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ne2",
+      "name": "Zombie Head",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne4",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ne4",
+      "name": "Gargoyle Head",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne5",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ne5",
+      "name": "Demon Head",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ci0",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ci0",
+      "name": "Circlet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ci1",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ci1",
+      "name": "Coronet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ci2",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ci2",
+      "name": "Tiara",
+      "spawnable": "1"
+    },
+    {
+      "Key": "uap",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uap",
+      "name": "Shako",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ukp",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ukp",
+      "name": "Hydraskull",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ulm",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ulm",
+      "name": "Armet",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uhl",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uhl",
+      "name": "Giant Conch",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uhm",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uhm",
+      "name": "Spired Helm",
+      "spawnable": "0"
+    },
+    {
+      "Key": "urn",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "urn",
+      "name": "Corona",
+      "spawnable": "0"
+    },
+    {
+      "Key": "usk",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "usk",
+      "name": "Demonhead",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uui",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uui",
+      "name": "Dusk Shroud",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uea",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uea",
+      "name": "Wyrmhide",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ula",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ula",
+      "name": "Scarab Husk",
+      "spawnable": "0"
+    },
+    {
+      "Key": "utu",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "utu",
+      "name": "Wire Fleece",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ung",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ung",
+      "name": "Diamond Mail",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ucl",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ucl",
+      "name": "Loricated Mail",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uhn",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uhn",
+      "name": "Boneweave",
+      "spawnable": "0"
+    },
+    {
+      "Key": "urs",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "urs",
+      "name": "Great Hauberk",
+      "spawnable": "0"
+    },
+    {
+      "Key": "upl",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "upl",
+      "name": "Balrog Skin",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ult",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ult",
+      "name": "Hellforged Plate",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uld",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uld",
+      "name": "Kraken Shell",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uth",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uth",
+      "name": "Lacquered Plate",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uul",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uul",
+      "name": "Shadow Plate",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uar",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uar",
+      "name": "Sacred Armor",
+      "spawnable": "0"
+    },
+    {
+      "Key": "utp",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "utp",
+      "name": "Archon Plate",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uuc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uuc",
+      "name": "Heater",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uml",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uml",
+      "name": "Luna",
+      "spawnable": "0"
+    },
+    {
+      "Key": "urg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "urg",
+      "name": "Hyperion",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uit",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uit",
+      "name": "Monarch",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uow",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uow",
+      "name": "Aegis",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uts",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uts",
+      "name": "Ward",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ulg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ulg",
+      "name": "Bramble Mitts",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uvg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uvg",
+      "name": "Vampirebone Gloves",
+      "spawnable": "0"
+    },
+    {
+      "Key": "umg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "umg",
+      "name": "Vambraces",
+      "spawnable": "0"
+    },
+    {
+      "Key": "utg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "utg",
+      "name": "Crusader Gauntlets",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uhg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uhg",
+      "name": "Ogre Gauntlets",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ulb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ulb",
+      "name": "Wyrmhide Boots",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uvb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uvb",
+      "name": "Scarabshell Boots",
+      "spawnable": "0"
+    },
+    {
+      "Key": "umb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "umb",
+      "name": "Boneweave Boots",
+      "spawnable": "0"
+    },
+    {
+      "Key": "utb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "utb",
+      "name": "Mirrored Boots",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uhb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uhb",
+      "name": "Myrmidon Greaves",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ulc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ulc",
+      "name": "Spiderweb Sash",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uvc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uvc",
+      "name": "Vampirefang Belt",
+      "spawnable": "0"
+    },
+    {
+      "Key": "umc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "umc",
+      "name": "Mithril Coil",
+      "spawnable": "0"
+    },
+    {
+      "Key": "utc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "utc",
+      "name": "Troll Belt",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uhc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uhc",
+      "name": "Colossus Girdle",
+      "spawnable": "0"
+    },
+    {
+      "Key": "uh9",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "uh9",
+      "name": "Bone Visage",
+      "spawnable": "0"
+    },
+    {
+      "Key": "ush",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ush",
+      "name": "Troll Nest",
+      "spawnable": "0"
+    },
+    {
+      "Key": "upk",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "upk",
+      "name": "Blade Barrier",
+      "spawnable": "0"
+    },
+    {
+      "Key": "dr9",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "dr9",
+      "name": "Sacred Feathers",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr7",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "dr7",
+      "name": "Griffon Headress",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr8",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "dr8",
+      "name": "Hunter's Guise",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr6",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "dr6",
+      "name": "Alpha Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dra",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "dra",
+      "name": "Totemic Mask",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba6",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ba6",
+      "name": "Jawbone Visor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba7",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ba7",
+      "name": "Lion Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba8",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ba8",
+      "name": "Rage Mask",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba9",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ba9",
+      "name": "Savage Helmet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "baa",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "baa",
+      "name": "Slayer Guard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa6",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "pa6",
+      "name": "Akaran Targe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa7",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "pa7",
+      "name": "Akaran Rondache",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa8",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "pa8",
+      "name": "Protector Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa9",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "pa9",
+      "name": "Guilded Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "paa",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "paa",
+      "name": "Royal Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne6",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ne6",
+      "name": "Mummified Trophy",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne7",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ne7",
+      "name": "Fetish Trophy",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne8",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ne8",
+      "name": "Sexton Trophy",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne9",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ne9",
+      "name": "Cantor Trophy",
+      "spawnable": "1"
+    },
+    {
+      "Key": "nea",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "nea",
+      "name": "Heirophant Trophy",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dre",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "dre",
+      "name": "Sky Spirit",
+      "spawnable": "1"
+    },
+    {
+      "Key": "drc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "drc",
+      "name": "Sun Spirit",
+      "spawnable": "1"
+    },
+    {
+      "Key": "drd",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "drd",
+      "name": "Earth Spirit",
+      "spawnable": "1"
+    },
+    {
+      "Key": "drb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "drb",
+      "name": "Blood Spirt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "drf",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "drf",
+      "name": "Dream Spirit",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bab",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "bab",
+      "name": "Carnage Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bac",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "bac",
+      "name": "Fury Visor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bad",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "bad",
+      "name": "Destroyer Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bae",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "bae",
+      "name": "Conquerer Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "baf",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "baf",
+      "name": "Guardian Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pab",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "pab",
+      "name": "Sacred Targe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pac",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "pac",
+      "name": "Sacred Rondache",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pae",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "pae",
+      "name": "Zakarum Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "paf",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "paf",
+      "name": "Vortex Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "neb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "neb",
+      "name": "Minion Skull",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ned",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ned",
+      "name": "Overseer Skull",
+      "spawnable": "1"
+    },
+    {
+      "Key": "nee",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "nee",
+      "name": "Succubae Skull",
+      "spawnable": "1"
+    },
+    {
+      "Key": "nef",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "nef",
+      "name": "Bloodlord Skull",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ob5",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ob5",
+      "name": "Dragon Stone",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pad",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "pad",
+      "name": "Ancient Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "axf",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "axf",
+      "name": "Hatchet Hands",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yap",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yap",
+      "name": "Hood",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ykp",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ykp",
+      "name": "Fedora",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ylm",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ylm",
+      "name": "Guardian Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yhl",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yhl",
+      "name": "Gladiator Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yhm",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yhm",
+      "name": "Tusk Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yrn",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yrn",
+      "name": "Royal Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ysk",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ysk",
+      "name": "Devil Mask",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yui",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yui",
+      "name": "Padded Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yea",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yea",
+      "name": "Viper Skin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yla",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yla",
+      "name": "Demon Carapace",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ytu",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ytu",
+      "name": "Gemstoned Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yng",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yng",
+      "name": "Heavy Mail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ycl",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ycl",
+      "name": "Dragon Scale",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yhn",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yhn",
+      "name": "Chain Shirt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yrs",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yrs",
+      "name": "Chest Guard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ypl",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ypl",
+      "name": "Demon Fleece",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ylt",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ylt",
+      "name": "Plated Cuirass",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yld",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yld",
+      "name": "Combat Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yth",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yth",
+      "name": "Royal Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yul",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yul",
+      "name": "Ceremonial Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yar",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yar",
+      "name": "Archaic Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ytp",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ytp",
+      "name": "Archmage Plate",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yml",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yml",
+      "name": "Desert Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yrg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yrg",
+      "name": "Giant Buckler",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yit",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yit",
+      "name": "Military Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yow",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yow",
+      "name": "Royal Guard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yts",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yts",
+      "name": "Body Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ylg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ylg",
+      "name": "Spellcaster Gloves",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yvg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yvg",
+      "name": "Viper Hands",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ymg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ymg",
+      "name": "Sepulcher Gloves",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ytg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ytg",
+      "name": "Gladiator Bracers",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yhg",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yhg",
+      "name": "Titan Bracers",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ylb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ylb",
+      "name": "Rogue Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yvb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yvb",
+      "name": "Viper Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ymb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ymb",
+      "name": "Sepulcher Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ytb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ytb",
+      "name": "Plated Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yhb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yhb",
+      "name": "Gladiator Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "alb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "alb",
+      "name": "Hemp Band",
+      "spawnable": "1"
+    },
+    {
+      "Key": "avb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "avb",
+      "name": "Rogue Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bmb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "bmb",
+      "name": "Merchant Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "atb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "atb",
+      "name": "Military Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ahb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ahb",
+      "name": "Girdle",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yh9",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yh9",
+      "name": "Demon Skull",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ysh",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ysh",
+      "name": "Demon Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ypk",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ypk",
+      "name": "Thorned Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yuc",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yuc",
+      "name": "Petrified Buckler",
+      "spawnable": "1"
+    },
+    {
+      "Key": "cix",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "cix",
+      "name": "Hachigane",
+      "spawnable": "1"
+    },
+    {
+      "Key": "eht",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "eht",
+      "name": "Spirit Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xht",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xht",
+      "name": "Ethereal Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yht",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yht",
+      "name": "Enchanted Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dwc",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "dwc",
+      "name": "Dwarven Crown",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xdw",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xdw",
+      "name": "Dwarven Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ydw",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ydw",
+      "name": "Dwarven Battle Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "clk",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "clk",
+      "name": "Cloak",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xlk",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xlk",
+      "name": "Summoner's Cloak",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ylk",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ylk",
+      "name": "Enchanted Cloak",
+      "spawnable": "1"
+    },
+    {
+      "Key": "rob",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "rob",
+      "name": "Robe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xrb",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xrb",
+      "name": "Mage Robe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yrb",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yrb",
+      "name": "Archmage Robe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "shl",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "shl",
+      "name": "Spiked Shoulder",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xhh",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xhh",
+      "name": "Thorned Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yhh",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yhh",
+      "name": "Spiked Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ha",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ha",
+      "name": "Barbarian Tomahawk",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ax",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ax",
+      "name": "Precision Cleaver",
+      "spawnable": "1"
+    },
+    {
+      "Key": "82a",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "82a",
+      "name": "Duo-Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0mp",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0mp",
+      "name": "Razor Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0wa",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0wa",
+      "name": "Viking Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0la",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0la",
+      "name": "Brawn Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ba",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ba",
+      "name": "Heavy Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0bt",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0bt",
+      "name": "Split Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ga",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ga",
+      "name": "Guillotine Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0gi",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0gi",
+      "name": "Slayer Axe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0wn",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0wn",
+      "name": "Sacred Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0yw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0yw",
+      "name": "Sepulcher Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0bw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0bw",
+      "name": "Callous Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0gw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0gw",
+      "name": "Demonic Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0cl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0cl",
+      "name": "Cranium Basher",
+      "spawnable": "1"
+    },
+    {
+      "Key": "5sc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "5sc",
+      "name": "Celestial Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0qs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0qs",
+      "name": "Holy Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ws",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ws",
+      "name": "Blessed Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0sp",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0sp",
+      "name": "Thorned Club",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ma",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ma",
+      "name": "Arcane Mace",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0mt",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0mt",
+      "name": "Serrated Star",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0fl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0fl",
+      "name": "Dire Flail",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0wh",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0wh",
+      "name": "Military Hammer",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0m0",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0m0",
+      "name": "Ancient Maul",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0gm",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0gm",
+      "name": "Titan's Maul",
+      "spawnable": "1"
+    },
+    {
+      "Key": "shc",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "shc",
+      "name": "Oak Branch",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9sh",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9sh",
+      "name": "Shaman Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0sh",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0sh",
+      "name": "Shillelagh",
+      "spawnable": "1"
+    },
+    {
+      "Key": "nrd",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "nrd",
+      "name": "Ritualistic Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9rd",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9rd",
+      "name": "Sacrificial Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0rd",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0rd",
+      "name": "Ceremonial Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "nsy",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "nsy",
+      "name": "Wretched Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9ns",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9ns",
+      "name": "Dire Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ns",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ns",
+      "name": "Soul Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "syn",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "syn",
+      "name": "Dread Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9sy",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9sy",
+      "name": "Doom Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0sy",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0sy",
+      "name": "Soul Destroyer",
+      "spawnable": "1"
+    },
+    {
+      "Key": "kkl",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "kkl",
+      "name": "Brass Knuckle",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9kl",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9kl",
+      "name": "Tekko",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0kl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0kl",
+      "name": "Raging Knuckle",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ss",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ss",
+      "name": "Gladiator Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0sm",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0sm",
+      "name": "Desert Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0sb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0sb",
+      "name": "Rapier",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0fc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0fc",
+      "name": "Okrist",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0cr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0cr",
+      "name": "Jeweled Edge",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0bs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0bs",
+      "name": "Viking Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ls",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ls",
+      "name": "Arcane Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0wd",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0wd",
+      "name": "Trojan Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "02h",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "02h",
+      "name": "Judgement Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0cm",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0cm",
+      "name": "Titan's Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0gs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0gs",
+      "name": "Lithe Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0b0",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0b0",
+      "name": "Dark Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0fb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0fb",
+      "name": "Hellfire Sword",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0gd",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0gd",
+      "name": "Death Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0dg",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0dg",
+      "name": "Carved Bone",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0di",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0di",
+      "name": "Mithral Knife",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0kr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0kr",
+      "name": "Fang Knife",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0bl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0bl",
+      "name": "Ancient Spike",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0tk",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0tk",
+      "name": "Throwing Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ta",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ta",
+      "name": "Throwing Hatchet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0bk",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0bk",
+      "name": "Balanced Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0b6",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0b6",
+      "name": "Balanced Hatchet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ja",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ja",
+      "name": "Ancient Shards",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0pi",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0pi",
+      "name": "Dire Pilum",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0s9",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0s9",
+      "name": "Lissom Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0gl",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0gl",
+      "name": "Ahab Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0ts",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0ts",
+      "name": "Whale Hunter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0sr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0sr",
+      "name": "Guisarme",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0tr",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0tr",
+      "name": "Grapnel",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0br",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0br",
+      "name": "Dragon Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0st",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0st",
+      "name": "Ranseur",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0p0",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0p0",
+      "name": "Impaler",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0b7",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0b7",
+      "name": "Urgrosh",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0vo",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0vo",
+      "name": "Pole Gauche",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0s8",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0s8",
+      "name": "Shadow Scythe",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0pa",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0pa",
+      "name": "Royal Partizan",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0h0",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0h0",
+      "name": "Guardian",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0wc",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0wc",
+      "name": "Death Reaper",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1ss",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1ss",
+      "name": "Elder Cane",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1ls",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1ls",
+      "name": "Mystic Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1cs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1cs",
+      "name": "Petrified Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1bs",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1bs",
+      "name": "Mage Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1ws",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1ws",
+      "name": "Arcane Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1sb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1sb",
+      "name": "Spiderwoven Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1hb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1hb",
+      "name": "Sharp Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1lb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1lb",
+      "name": "Shade Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1cb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1cb",
+      "name": "Dark Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1s8",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1s8",
+      "name": "Rogue Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1l8",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1l8",
+      "name": "Marksman Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1sw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1sw",
+      "name": "Arcane Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1lw",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1lw",
+      "name": "Ancient Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1lx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1lx",
+      "name": "Choice Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1mx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1mx",
+      "name": "Marksman Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1hx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1hx",
+      "name": "Odysseus Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "1rx",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "1rx",
+      "name": "Assassin Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "gsp",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "gsp",
+      "name": "Great Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9gp",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9gp",
+      "name": "Consecrated Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0gp",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0gp",
+      "name": "Seraphic Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "apb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "apb",
+      "name": "Precision Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9pb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9pb",
+      "name": "Tuigan Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0pb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0pb",
+      "name": "Elven Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0nn",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0nn",
+      "name": "Katana",
+      "spawnable": "1"
+    },
+    {
+      "Key": "bts",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "bts",
+      "name": "Tribal Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9xb",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9xb",
+      "name": "Highland Javelin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0xb",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0xb",
+      "name": "Mountain Clan Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "elv",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "elv",
+      "name": "Elven Chain",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xlv",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xlv",
+      "name": "Drow Adamantite Chain",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ylv",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ylv",
+      "name": "Sylvan Chain",
+      "spawnable": "1"
+    },
+    {
+      "Key": "fts",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "fts",
+      "name": "Fortress Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xft",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xft",
+      "name": "Reflection Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yft",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yft",
+      "name": "Ceremonial Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "irg",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "irg",
+      "name": "Iron Guards",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xig",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xig",
+      "name": "Imperial Guards",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yig",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yig",
+      "name": "Royal Guards",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dbt",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "dbt",
+      "name": "Dimensional Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xbt",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xbt",
+      "name": "Mystile Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ybt",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ybt",
+      "name": "Spirit Boots",
+      "spawnable": "1"
+    },
+    {
+      "Key": "msb",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "msb",
+      "name": "Muscle Belt",
+      "spawnable": "1"
+    },
+    {
+      "Key": "xms",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "xms",
+      "name": "Titan Brace",
+      "spawnable": "1"
+    },
+    {
+      "Key": "yms",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "yms",
+      "name": "Gladiator Wrap",
+      "spawnable": "1"
+    },
+    {
+      "Key": "mnb",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "mnb",
+      "name": "Mana Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9mn",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9mn",
+      "name": "Energy Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0mn",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0mn",
+      "name": "Magic Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pbe",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "pbe",
+      "name": "Blessed Edge",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9be",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9be",
+      "name": "Divine Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0be",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0be",
+      "name": "Celestial Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ci4",
+      "tier": "exceptional",
+      "source": "armor.txt",
+      "code": "ci4",
+      "name": "Faceguard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "arm",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "arm",
+      "name": "Battering Arm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9rm",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9rm",
+      "name": "Rock Buster",
+      "spawnable": "1"
+    },
+    {
+      "Key": "0rm",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "0rm",
+      "name": "Wrecking Arm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m01",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m01",
+      "name": "Mythical Marksman Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m02",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m02",
+      "name": "Mythical Odysseus Crossbow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m04",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m04",
+      "name": "Mythical Demonic Wand",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m05",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m05",
+      "name": "Mythical Soul Destroyer",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m06",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "m06",
+      "name": "Mythical Gemstoned Armor",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m07",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m07",
+      "name": "Mythical Dimensional Shard",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m08",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m08",
+      "name": "Mythical Balanced Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m09",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m09",
+      "name": "Mythical Magic Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m10",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "m10",
+      "name": "Mythical Hemp Band",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m11",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m11",
+      "name": "Mythical Arcane Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m12",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m12",
+      "name": "Mythical Seraphic Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m14",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m14",
+      "name": "Mythical Ceremonial Dagger",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m15",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "m15",
+      "name": "Mythical Dream Spirit",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m16",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m16",
+      "name": "Mythical Rapier",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m17",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m17",
+      "name": "Mythical Celestial Scepter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m18",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m18",
+      "name": "Mythical Death Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m20",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "m20",
+      "name": "Mythical Diadem",
+      "spawnable": "1"
+    },
+    {
+      "Key": "g33",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "g33",
+      "name": "Gidbinn",
+      "spawnable": ""
+    },
+    {
+      "Key": "ob3",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "ob3",
+      "name": "Smoked Sphere",
+      "spawnable": "1"
+    },
+    {
+      "Key": "am3",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "am3",
+      "name": "Maiden Spear",
+      "spawnable": "1"
+    },
+    {
+      "Key": "dr3",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "dr3",
+      "name": "Antlers",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ba3",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ba3",
+      "name": "Horned Helm",
+      "spawnable": "1"
+    },
+    {
+      "Key": "pa3",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "pa3",
+      "name": "Heraldic Shield",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ne3",
+      "tier": "normal",
+      "source": "armor.txt",
+      "code": "ne3",
+      "name": "Unraveller Head",
+      "spawnable": "1"
+    },
+    {
+      "Key": "ci3",
+      "tier": "elite",
+      "source": "armor.txt",
+      "code": "ci3",
+      "name": "Diadem",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m03",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m03",
+      "name": "Mythical Titan's Maul",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m13",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m13",
+      "name": "Mythical Scissors Suwayyah",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m21",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m21",
+      "name": "Mythical Razor Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m22",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m22",
+      "name": "Mythical Hellfire Sword",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m23",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m23",
+      "name": "Mythical Sepulcher Wand",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m24",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m24",
+      "name": "Mythical Shade Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m25",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m25",
+      "name": "Mythical Marksman Crossbow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m26",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m26",
+      "name": "Mythical Balanced Hatchet",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m27",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m27",
+      "name": "Mythical Balanced Dagger",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m28",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m28",
+      "name": "Mythical Whale Hunter",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m29",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m29",
+      "name": "Mythical Petrified Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m30",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m30",
+      "name": "Mythical Ancient Bow",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m31",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m31",
+      "name": "Mythical Matriarchal Javelin",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m32",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m32",
+      "name": "Mythical Whale Hunter",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m33",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m33",
+      "name": "Mythical Ancient Shards",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m34",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m34",
+      "name": "Mythical Shillelagh",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m35",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m35",
+      "name": "Mythical Celestial Blade",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m36",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m36",
+      "name": "Mythical Mage Staff",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m37",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m37",
+      "name": "Mythical Katana",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m38",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m38",
+      "name": "Mythical Arreat's Hatchet",
+      "spawnable": "1"
+    },
+    {
+      "Key": "srk",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "srk",
+      "name": "Shuriken",
+      "spawnable": "1"
+    },
+    {
+      "Key": "fsk",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "fsk",
+      "name": "Fuma Shuriken",
+      "spawnable": "1"
+    },
+    {
+      "Key": "kgk",
+      "tier": "elite",
+      "source": "weapons.txt",
+      "code": "kgk",
+      "name": "Kagekiri",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m39",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m39",
+      "name": "Mythical Kagekiri",
+      "spawnable": "1"
+    },
+    {
+      "Key": "nin",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "njt",
+      "name": "Ninja To",
+      "spawnable": "1"
+    },
+    {
+      "Key": "9nn",
+      "tier": "exceptional",
+      "source": "weapons.txt",
+      "code": "9nj",
+      "name": "Wakizashi",
+      "spawnable": "1"
+    },
+    {
+      "Key": "m40",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m40",
+      "name": "Mythical Slayer Axe",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m41",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m41",
+      "name": "Mythical Thorned Club",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m42",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m42",
+      "name": "Mythical Blessed Scepter",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m43",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m43",
+      "name": "Mythical Dire Flail",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m44",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m44",
+      "name": "Mythical Military Hammer",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m45",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m45",
+      "name": "Mythical Ancient Maul",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m46",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m46",
+      "name": "Mythical Jeweled Edge",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m47",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m47",
+      "name": "Mythical Ancient Spike",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m48",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m48",
+      "name": "Mythical Impaler",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m49",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m49",
+      "name": "Mythical Death Reaper",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m50",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m50",
+      "name": "Mythical Mystic Staff",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m51",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m51",
+      "name": "Mythical Raging Knuckle",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m52",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m52",
+      "name": "Mythical Wrecking Arm",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m53",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m53",
+      "name": "Mythical Matriarchal Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m54",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m54",
+      "name": "Mythical Grand Matron Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m55",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m55",
+      "name": "Mythical Elven Bow",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m56",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m56",
+      "name": "Mythical Matriarchal Spear",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m57",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m57",
+      "name": "Mythical Matriarchal Pike",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m58",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m58",
+      "name": "Mythical Runic Talons",
+      "spawnable": "0"
+    },
+    {
+      "Key": "m59",
+      "tier": "normal",
+      "source": "weapons.txt",
+      "code": "m59",
+      "name": "Mythical Demonic Scythe",
+      "spawnable": "0"
+    }
+  ]
+}

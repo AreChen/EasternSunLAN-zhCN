@@ -26,10 +26,15 @@ This repo contains only localization assets and release tooling. Do not add the 
 - `localization/`
   - Audit notes, batch records, and translation work logs.
   - JSONL batch records should generally use `{ "file", "Key", "enUS", "zhCN" }`.
+  - `item-tier-labels.json` maps base item names to normal/exceptional/elite labels.
 - `tools/build-pack.ps1`
   - Builds a release zip from `strings/`.
 - `tools/verify-pack.ps1`
   - Expands a release zip and checks manifest hashes, package structure, and JSON parsing.
+- `tools/generate-item-tier-map.mjs`
+  - Generates base item tier mapping from upstream `armor.txt` and `weapons.txt`.
+- `tools/apply-item-tier-labels.mjs`
+  - Applies item tier labels to `item-names.json` and `translated_item-names.json`.
 - `dist/`
   - Generated output, ignored by git. Release zip files belong here locally and in GitHub Releases, not in commits.
 - `VERSION`
@@ -62,6 +67,14 @@ Preferred terminology:
 - `Amplify Damage` -> `伤害加深`
 - `Magic Find` / item finding stat -> `魔法物品获取率`
 
+Item base tier labels:
+
+- normal -> `[N]`
+- exceptional -> `[Ex]`
+- elite -> `[El]`
+
+These labels are appended to `zhCN` item base names only, for example `轻腰带 [N]`. The game can still append its own item-level suffix after the name.
+
 When uncertain, compare current `enUS`, current `zhCN`, and the reference version. Prefer accurate game terminology over literal translation.
 
 ## Localization Workflow
@@ -76,6 +89,14 @@ When uncertain, compare current `enUS`, current `zhCN`, and the reference versio
 5. Apply changes conservatively.
 6. Sync corresponding `translated_strings/translated_*.json` entries when they exist.
 7. Run verification before committing or releasing.
+
+To refresh item tier labels after syncing a new upstream mod version:
+
+```powershell
+node ./tools/generate-item-tier-map.mjs --excel-root H:\D2RLAN\D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\global\excel --strings strings --out localization/item-tier-labels.json --mod-version 3.11.09
+node ./tools/apply-item-tier-labels.mjs --write
+node ./tools/apply-item-tier-labels.mjs --check
+```
 
 For large translation passes, use subagents only for read-only discovery and candidate generation. The main agent should own final edits, placeholder checks, and release packaging.
 
@@ -102,7 +123,7 @@ Build and verify the package:
 
 ```powershell
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.2.zip
 ```
 
 The verification output must show:
@@ -157,7 +178,7 @@ pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zh
 git add .gitattributes .github .gitignore AGENTS.md CHANGELOG.md README.md VERSION localization strings tools
 git commit -m "Update zhCN pack for v3.11.09-zhCN.1"
 git push
-gh release create v3.11.09-zhCN.1 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.1" --notes-file ./release-notes/v3.11.09-zhCN.1.md
+gh release create v3.11.09-zhCN.2 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.2.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.2" --notes-file ./release-notes/v3.11.09-zhCN.2.md
 ```
 
 If there is no release notes file, pass concise notes with `--notes`.
@@ -165,8 +186,8 @@ If there is no release notes file, pass concise notes with `--notes`.
 After release, verify:
 
 ```powershell
-git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.1
-gh release view v3.11.09-zhCN.1 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
+git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.2
+gh release view v3.11.09-zhCN.2 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
 ```
 
 The release should not be draft unless explicitly requested. The asset should be a zip with state `uploaded`.
@@ -185,7 +206,7 @@ The release should not be draft unless explicitly requested. The asset should be
 At the time this file was created:
 
 - `MOD_VERSION=3.11.09`
-- `PACK_VERSION=3.11.09-zhCN.1`
-- GitHub Release: `v3.11.09-zhCN.1`
-- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip`
+- `PACK_VERSION=3.11.09-zhCN.2`
+- GitHub Release: `v3.11.09-zhCN.2`
+- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.2.zip`
 - Package structure: `EasternSunLAN.mpq/data/local/lng/strings`
