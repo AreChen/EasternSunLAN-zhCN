@@ -4,6 +4,7 @@ import {
   applyTierLabel,
   applyTierLabelsToRecords,
   buildTierMapFromRows,
+  removeTierLabelsFromRecords,
 } from "./item-tier-labels.mjs";
 
 const labels = {
@@ -51,5 +52,10 @@ const result = applyTierLabelsToRecords(records, new Map([["vbl", "normal"]]), l
 assert.equal(result.changed, 1);
 assert.equal(records[0].zhCN, "轻腰带 [N]");
 assert.equal(records[1].zhCN, "暗金名");
+
+const removeResult = removeTierLabelsFromRecords(records, new Map([["vbl", "normal"]]), labels);
+
+assert.equal(removeResult.changed, 1);
+assert.equal(records[0].zhCN, "轻腰带");
 
 console.log("item tier label tests OK");

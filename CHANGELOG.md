@@ -1,5 +1,21 @@
 # Changelog
 
+## v3.11.09-zhCN.6 - 2026-06-01
+
+- 将 `strings-legacy/` 纳入汉化包，补足 legacy 物品名和稀有名片段的 `zhCN`，修复部分地面装备只显示等级/孔数、不显示名称的问题。
+- 修正稀有名片段直译，例如 `Stone Nails` 不再显示为“石头钉子”，相关片段改为 `磐石`、`钉刺`、`尸骸`、`邪灵`、`罩影`、`帷幕` 等更适合组合的短词。
+- 将底材阶级标签从 `item-names.json` 移出，改由 `override_rules.lua` 的 suffix 规则追加，避免魔法/稀有装备名只剩 `(45)` 这类等级显示。
+- 明确发版包只分发 `data/D2RLAN/Filters/override_rules.lua`，不再包含完整 `SunRise Filter`，避免覆盖用户正在使用的掉落过滤器。
+- 新增 legacy 字符串同步脚本、阶级标签 override 同步脚本和回归测试，防止 `strings-legacy/item-names.json`、`item-nameaffixes.json` 再次缺失关键 `zhCN`，也防止阶级标签重新写回字符串表。
+
+验证：
+
+- legacy item-name/item-nameaffix 空 `zhCN`：`0`
+- legacy 字符串同步检查：通过
+- legacy 稀有名片段测试：通过
+- override 阶级标签测试：通过
+- zip 包内 legacy 路径检查：通过
+
 ## v3.11.09-zhCN.5 - 2026-06-01
 
 - 修复主 `item-names.json` 缺少 tooltip-only 说明的问题，恢复符文储存者、材料储存器、宝石储存器等道具说明。

@@ -31,7 +31,13 @@ try {
     $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
     $requiredFiles = @(
         "EasternSunLAN.mpq/data/local/lng/strings/item-names.json",
+        "EasternSunLAN.mpq/data/local/lng/strings-legacy/item-names.json",
+        "EasternSunLAN.mpq/data/local/lng/strings-legacy/item-nameaffixes.json",
         "EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua"
+    )
+    $forbiddenFiles = @(
+        "EasternSunLAN.mpq/data/D2RLAN/Filters/SunRise Filter.lua",
+        "EasternSunLAN.mpq/data/D2RLAN/Filters/SunRise-Filter.lua"
     )
 
     $hashMismatches = @()
@@ -52,6 +58,14 @@ try {
         $requiredPath = Join-Path $verifyRoot ($requiredFile -replace "/", [System.IO.Path]::DirectorySeparatorChar)
         if (-not (Test-Path -LiteralPath $requiredPath)) {
             $missingRequiredFiles += $requiredFile
+        }
+    }
+
+    $forbiddenPackagedFiles = @()
+    foreach ($forbiddenFile in $forbiddenFiles) {
+        $forbiddenPath = Join-Path $verifyRoot ($forbiddenFile -replace "/", [System.IO.Path]::DirectorySeparatorChar)
+        if (Test-Path -LiteralPath $forbiddenPath) {
+            $forbiddenPackagedFiles += $forbiddenFile
         }
     }
 
@@ -82,14 +96,20 @@ try {
         extractedFiles = (Get-ChildItem -LiteralPath $verifyRoot -Recurse -File).Count
         topLevel = $topLevel
         stringsRootPresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\local\lng\strings")
+        legacyStringsRootPresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\local\lng\strings-legacy")
         filterOverridePresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\override_rules.lua")
+        sunRiseFilterPresent = (
+            (Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\SunRise Filter.lua")) -or
+            (Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\SunRise-Filter.lua"))
+        )
         missingRequiredFiles = $missingRequiredFiles.Count
+        forbiddenPackagedFiles = $forbiddenPackagedFiles.Count
         hashMismatches = $hashMismatches.Count
         jsonFiles = $jsonFiles.Count
         jsonErrors = $jsonErrors.Count
     } | ConvertTo-Json
 
-    if ($hashMismatches.Count -gt 0 -or $jsonErrors.Count -gt 0 -or $missingRequiredFiles.Count -gt 0) {
+    if ($hashMismatches.Count -gt 0 -or $jsonErrors.Count -gt 0 -or $missingRequiredFiles.Count -gt 0 -or $forbiddenPackagedFiles.Count -gt 0) {
         exit 1
     }
 } finally {

@@ -27,15 +27,38 @@ try {
         throw "Missing packaged filter override: EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua"
     }
 
+    $sunRiseFilterPaths = @(
+        (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\SunRise Filter.lua"),
+        (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\SunRise-Filter.lua")
+    )
+    foreach ($sunRiseFilterPath in $sunRiseFilterPaths) {
+        if (Test-Path -LiteralPath $sunRiseFilterPath) {
+            throw "SunRise filter should not be packaged: $sunRiseFilterPath"
+        }
+    }
+
+    $legacyItemNamesPath = Join-Path $verifyRoot "EasternSunLAN.mpq\data\local\lng\strings-legacy\item-names.json"
+    if (-not (Test-Path -LiteralPath $legacyItemNamesPath)) {
+        throw "Missing packaged legacy item names: EasternSunLAN.mpq/data/local/lng/strings-legacy/item-names.json"
+    }
+
     $filterText = Get-Content -LiteralPath $filterPath -Raw
     if ($filterText -notmatch '法力值') {
         throw "Packaged filter override does not look localized"
+    }
+
+    $legacyItemNamesText = Get-Content -LiteralPath $legacyItemNamesPath -Raw
+    if ($legacyItemNamesText -match '"zhCN"\s*:\s*""') {
+        throw "Packaged legacy item names contain blank zhCN values"
     }
 
     [ordered]@{
         zip = $ZipPath
         filterOverridePresent = $true
         filterOverrideBytes = (Get-Item -LiteralPath $filterPath).Length
+        sunRiseFilterPresent = $false
+        legacyItemNamesPresent = $true
+        legacyItemNamesBytes = (Get-Item -LiteralPath $legacyItemNamesPath).Length
     } | ConvertTo-Json
 } finally {
     if (Test-Path -LiteralPath $verifyRoot) {

@@ -18,6 +18,10 @@ This repo contains only localization assets and release tooling. Do not add the 
 - `strings/`
   - Authoritative D2R string JSON files.
   - These are packaged into `EasternSunLAN.mpq/data/local/lng/strings` in the release zip.
+- `strings-legacy/`
+  - Legacy D2 string JSON files with `zhCN` backfilled.
+  - These are packaged into `EasternSunLAN.mpq/data/local/lng/strings-legacy`.
+  - Keep `item-names.json` and `item-nameaffixes.json` populated; missing `zhCN` here can make ground item labels show only appended metadata such as item level or socket count.
 - `strings/translated_strings/`
   - Mirror files used by the current localization workflow.
   - When changing zhCN in a main file and the same key exists in the matching `translated_*.json`, keep both values identical.
@@ -26,21 +30,28 @@ This repo contains only localization assets and release tooling. Do not add the 
 - `mpq-data/`
   - Extra files copied into `EasternSunLAN.mpq/data/` during packaging.
   - Current use: `D2RLAN/Filters/override_rules.lua`.
+  - Do not package `SunRise Filter.lua` or `SunRise-Filter.lua`; the localization pack must not replace the user's full loot filter.
   - Do not place full upstream data tables here unless they are intentionally part of the localization pack.
 - `localization/`
   - Audit notes, batch records, and translation work logs.
   - JSONL batch records should generally use `{ "file", "Key", "enUS", "zhCN" }`.
   - `item-tier-labels.json` maps base item names to normal/exceptional/elite labels.
 - `tools/build-pack.ps1`
-  - Builds a release zip from `strings/`.
+  - Builds a release zip from `strings/`, `strings-legacy/`, and `mpq-data/`.
 - `tools/verify-pack.ps1`
   - Expands a release zip and checks manifest hashes, package structure, and JSON parsing.
 - `tools/generate-item-tier-map.mjs`
   - Generates base item tier mapping from upstream `armor.txt` and `weapons.txt`.
 - `tools/apply-item-tier-labels.mjs`
-  - Applies item tier labels to `item-names.json` and `translated_item-names.json`.
+  - Strips old item tier labels from `item-names.json`, `translated_item-names.json`, and `strings-legacy/item-names.json`.
+- `tools/sync-tier-labels-to-override-rules.mjs`
+  - Generates the managed item tier suffix block in `mpq-data/D2RLAN/Filters/override_rules.lua`.
+  - Use this for `[N]`, `[Ex]`, and `[El]`; do not write tier labels into string JSON.
 - `tools/sync-override-rules-from-reference.mjs`
   - Uses the current mod filter file and the old reference Chinese filter file to generate `mpq-data/D2RLAN/Filters/override_rules.lua`.
+- `tools/sync-legacy-strings.mjs`
+  - Generates `strings-legacy/` from the local MOD legacy strings, backfilling `zhCN` from current strings, the reference strings, or zhTW fallback.
+  - Also applies curated rare-name fragment fixes such as `Stone` -> `磐石` and `nails` -> `钉刺`.
 - `tools/test-override-rules-localization.mjs`
   - Verifies the packaged filter override uses Chinese `enUS`/`zhCN` text and preserves expected rule count.
 - `tools/test-pack-contents.ps1`
@@ -83,7 +94,7 @@ Item base tier labels:
 - exceptional -> `[Ex]`
 - elite -> `[El]`
 
-These labels are appended to `zhCN` item base names only, for example `轻腰带 [N]`. The game can still append its own item-level suffix after the name.
+These labels must be appended by `mpq-data/D2RLAN/Filters/override_rules.lua` as suffix rules. Do not append them directly to `zhCN` item base names, because generated magic/rare names and `ShowLevel` item-level display can drop the base name and show only values such as `(45)`.
 
 When uncertain, compare current `enUS`, current `zhCN`, and the reference version. Prefer accurate game terminology over literal translation.
 
@@ -115,6 +126,9 @@ To refresh item tier labels after syncing a new upstream mod version:
 node ./tools/generate-item-tier-map.mjs --excel-root H:\D2RLAN\D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\global\excel --strings strings --out localization/item-tier-labels.json --mod-version 3.11.09
 node ./tools/apply-item-tier-labels.mjs --write
 node ./tools/apply-item-tier-labels.mjs --check
+node ./tools/sync-tier-labels-to-override-rules.mjs --write
+node ./tools/sync-tier-labels-to-override-rules.mjs --check
+node ./tools/test-override-tier-labels.mjs
 ```
 
 To refresh filter override translations:
@@ -133,6 +147,16 @@ node ./tools/test-item-name-description-coverage.mjs
 ```
 
 Do this before building a pack whenever `strings/translated_strings/translated_item-names.json` has keys that are missing from `strings/item-names.json`. Rune stocker descriptions such as `s01-s46` and LoD rune stocker descriptions such as `s51-s83` must exist in the main `item-names.json`, otherwise the game can show only the item name and stat line.
+
+To refresh legacy strings after syncing a new upstream mod version:
+
+```powershell
+node ./tools/sync-legacy-strings.mjs --write
+node ./tools/sync-legacy-strings.mjs --check
+node ./tools/test-legacy-string-localization.mjs
+```
+
+Do this before building a pack when ground labels show only appended metadata such as `(49) [2]`, or when rare generated names are too literal, for example `Stone Nails`.
 
 For large translation passes, use subagents only for read-only discovery and candidate generation. The main agent should own final edits, placeholder checks, and release packaging.
 
@@ -159,8 +183,8 @@ Build and verify the package:
 
 ```powershell
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.5.zip
-pwsh ./tools/test-pack-contents.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.5.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.6.zip
+pwsh ./tools/test-pack-contents.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.6.zip
 ```
 
 The verification output must show:
@@ -212,12 +236,12 @@ Normal release sequence:
 ```powershell
 git status -sb
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.5.zip
-git add .gitattributes .github .gitignore AGENTS.md CHANGELOG.md README.md VERSION localization strings tools
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.6.zip
+git add .gitattributes .github .gitignore AGENTS.md CHANGELOG.md README.md VERSION localization strings strings-legacy tools
 git add mpq-data
-git commit -m "Update zhCN pack for v3.11.09-zhCN.5"
+git commit -m "Update zhCN pack for v3.11.09-zhCN.6"
 git push
-gh release create v3.11.09-zhCN.5 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.5.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.5" --notes-file ./release-notes/v3.11.09-zhCN.5.md
+gh release create v3.11.09-zhCN.6 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.6.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.6" --notes-file ./release-notes/v3.11.09-zhCN.6.md
 ```
 
 If there is no release notes file, pass concise notes with `--notes`.
@@ -225,8 +249,8 @@ If there is no release notes file, pass concise notes with `--notes`.
 After release, verify:
 
 ```powershell
-git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.5
-gh release view v3.11.09-zhCN.5 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
+git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.6
+gh release view v3.11.09-zhCN.6 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
 ```
 
 The release should not be draft unless explicitly requested. The asset should be a zip with state `uploaded`.
@@ -245,7 +269,7 @@ The release should not be draft unless explicitly requested. The asset should be
 At the time this file was created:
 
 - `MOD_VERSION=3.11.09`
-- `PACK_VERSION=3.11.09-zhCN.5`
-- GitHub Release: `v3.11.09-zhCN.5`
-- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.5.zip`
-- Package structure: `EasternSunLAN.mpq/data/local/lng/strings` and `EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua`
+- `PACK_VERSION=3.11.09-zhCN.6`
+- GitHub Release: `v3.11.09-zhCN.6`
+- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.6.zip`
+- Package structure: `EasternSunLAN.mpq/data/local/lng/strings`, `EasternSunLAN.mpq/data/local/lng/strings-legacy`, and `EasternSunLAN.mpq/data/D2RLAN/Filters/`

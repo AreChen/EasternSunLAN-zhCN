@@ -178,6 +178,30 @@ export function applyTierLabelsToRecords(records, tierMap, labels = DEFAULT_TIER
   return { changed, matched, skipped };
 }
 
+export function removeTierLabelsFromRecords(records, tierMap, labels = DEFAULT_TIER_LABELS, options = {}) {
+  const locale = options.locale ?? "zhCN";
+  let changed = 0;
+  let matched = 0;
+  let skipped = 0;
+
+  for (const record of records) {
+    const tier = tierMap.get(record.Key);
+    if (!tier) {
+      skipped += 1;
+      continue;
+    }
+
+    matched += 1;
+    const nextValue = stripTierLabel(record[locale], labels);
+    if (nextValue !== record[locale]) {
+      record[locale] = nextValue;
+      changed += 1;
+    }
+  }
+
+  return { changed, matched, skipped };
+}
+
 export function loadTierConfig(path) {
   const config = readJson(path);
   const labels = config.labels ?? DEFAULT_TIER_LABELS;

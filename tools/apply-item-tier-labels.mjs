@@ -2,9 +2,9 @@
 import path from "node:path";
 
 import {
-  applyTierLabelsToRecords,
   loadTierConfig,
   readJson,
+  removeTierLabelsFromRecords,
   writeJson,
 } from "./item-tier-labels.mjs";
 
@@ -24,7 +24,7 @@ function parseArgs(argv) {
 
 function applyFile(filePath, tiers, labels, write) {
   const records = readJson(filePath);
-  const result = applyTierLabelsToRecords(records, tiers, labels, { locale: "zhCN" });
+  const result = removeTierLabelsFromRecords(records, tiers, labels, { locale: "zhCN" });
   if (write && result.changed > 0) {
     writeJson(filePath, records);
   }
@@ -46,6 +46,7 @@ const { labels, tiers } = loadTierConfig(mappingPath);
 const files = [
   path.join(stringsRoot, "item-names.json"),
   path.join(stringsRoot, "translated_strings", "translated_item-names.json"),
+  path.join("strings-legacy", "item-names.json"),
 ];
 const results = files.map((file) => applyFile(file, tiers, labels, write));
 const changed = results.reduce((sum, result) => sum + result.changed, 0);
@@ -55,6 +56,7 @@ console.log(JSON.stringify({
   labels,
   write,
   check,
+  mode: "strip-string-tier-labels",
   tierCount: tiers.size,
   changed,
   results,

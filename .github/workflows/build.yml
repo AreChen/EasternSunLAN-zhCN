@@ -14,6 +14,10 @@ jobs:
         run: |
           node ./tools/test-item-tier-labels.mjs
           node ./tools/apply-item-tier-labels.mjs --check
+          node ./tools/sync-tier-labels-to-override-rules.mjs --check
+          node ./tools/test-override-tier-labels.mjs
+          node ./tools/sync-legacy-strings.mjs --check
+          node ./tools/test-legacy-string-localization.mjs
           node ./tools/test-override-rules-localization.mjs
       - name: Build pack
         shell: pwsh
