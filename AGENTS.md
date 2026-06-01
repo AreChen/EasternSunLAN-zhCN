@@ -23,6 +23,10 @@ This repo contains only localization assets and release tooling. Do not add the 
   - When changing zhCN in a main file and the same key exists in the matching `translated_*.json`, keep both values identical.
 - `strings/metadata/`
   - Metadata files copied into releases. Do not translate unless there is a clear localization reason.
+- `mpq-data/`
+  - Extra files copied into `EasternSunLAN.mpq/data/` during packaging.
+  - Current use: `D2RLAN/Filters/override_rules.lua`.
+  - Do not place full upstream data tables here unless they are intentionally part of the localization pack.
 - `localization/`
   - Audit notes, batch records, and translation work logs.
   - JSONL batch records should generally use `{ "file", "Key", "enUS", "zhCN" }`.
@@ -35,6 +39,12 @@ This repo contains only localization assets and release tooling. Do not add the 
   - Generates base item tier mapping from upstream `armor.txt` and `weapons.txt`.
 - `tools/apply-item-tier-labels.mjs`
   - Applies item tier labels to `item-names.json` and `translated_item-names.json`.
+- `tools/sync-override-rules-from-reference.mjs`
+  - Uses the current mod filter file and the old reference Chinese filter file to generate `mpq-data/D2RLAN/Filters/override_rules.lua`.
+- `tools/test-override-rules-localization.mjs`
+  - Verifies the packaged filter override uses Chinese `enUS`/`zhCN` text and preserves expected rule count.
+- `tools/test-pack-contents.ps1`
+  - Verifies generated release zips include non-string localization assets such as the filter override.
 - `dist/`
   - Generated output, ignored by git. Release zip files belong here locally and in GitHub Releases, not in commits.
 - `VERSION`
@@ -77,6 +87,13 @@ These labels are appended to `zhCN` item base names only, for example `轻腰带
 
 When uncertain, compare current `enUS`, current `zhCN`, and the reference version. Prefer accurate game terminology over literal translation.
 
+Filter override rules:
+
+- The D2RLAN filter override currently uses `language = "enUS"`.
+- For `mpq-data/D2RLAN/Filters/override_rules.lua`, keep `enUS` and `zhCN` synchronized to the same Simplified Chinese text.
+- The old reference file `override_rules_cn.lua` has useful Chinese in `enUS`; its `zhCN` values are often English and should not be copied blindly.
+- Keep rule order and `code` sequence aligned with the current mod file.
+
 ## Localization Workflow
 
 1. Inspect scope with `git status -sb`.
@@ -96,6 +113,13 @@ To refresh item tier labels after syncing a new upstream mod version:
 node ./tools/generate-item-tier-map.mjs --excel-root H:\D2RLAN\D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\global\excel --strings strings --out localization/item-tier-labels.json --mod-version 3.11.09
 node ./tools/apply-item-tier-labels.mjs --write
 node ./tools/apply-item-tier-labels.mjs --check
+```
+
+To refresh filter override translations:
+
+```powershell
+node ./tools/sync-override-rules-from-reference.mjs --current H:\D2RLAN\D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\D2RLAN\Filters\override_rules.lua --reference H:\D2RLAN\REF\EasternSunLANx\EasternSunLANx.mpq\data\D2RLAN\Filters\override_rules_cn.lua --out mpq-data/D2RLAN/Filters/override_rules.lua
+node ./tools/test-override-rules-localization.mjs
 ```
 
 For large translation passes, use subagents only for read-only discovery and candidate generation. The main agent should own final edits, placeholder checks, and release packaging.
@@ -123,7 +147,8 @@ Build and verify the package:
 
 ```powershell
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.2.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip
+pwsh ./tools/test-pack-contents.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip
 ```
 
 The verification output must show:
@@ -131,6 +156,7 @@ The verification output must show:
 - `hashMismatches`: `0`
 - `jsonErrors`: `0`
 - `stringsRootPresent`: `true`
+- `filterOverridePresent`: `true`
 
 If the pack version changes, update the zip path accordingly.
 
@@ -174,11 +200,12 @@ Normal release sequence:
 ```powershell
 git status -sb
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.1.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip
 git add .gitattributes .github .gitignore AGENTS.md CHANGELOG.md README.md VERSION localization strings tools
-git commit -m "Update zhCN pack for v3.11.09-zhCN.1"
+git add mpq-data
+git commit -m "Update zhCN pack for v3.11.09-zhCN.3"
 git push
-gh release create v3.11.09-zhCN.2 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.2.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.2" --notes-file ./release-notes/v3.11.09-zhCN.2.md
+gh release create v3.11.09-zhCN.3 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.3" --notes-file ./release-notes/v3.11.09-zhCN.3.md
 ```
 
 If there is no release notes file, pass concise notes with `--notes`.
@@ -186,8 +213,8 @@ If there is no release notes file, pass concise notes with `--notes`.
 After release, verify:
 
 ```powershell
-git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.2
-gh release view v3.11.09-zhCN.2 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
+git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.3
+gh release view v3.11.09-zhCN.3 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
 ```
 
 The release should not be draft unless explicitly requested. The asset should be a zip with state `uploaded`.
@@ -206,7 +233,7 @@ The release should not be draft unless explicitly requested. The asset should be
 At the time this file was created:
 
 - `MOD_VERSION=3.11.09`
-- `PACK_VERSION=3.11.09-zhCN.2`
-- GitHub Release: `v3.11.09-zhCN.2`
-- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.2.zip`
-- Package structure: `EasternSunLAN.mpq/data/local/lng/strings`
+- `PACK_VERSION=3.11.09-zhCN.3`
+- GitHub Release: `v3.11.09-zhCN.3`
+- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip`
+- Package structure: `EasternSunLAN.mpq/data/local/lng/strings` and `EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua`

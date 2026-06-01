@@ -29,6 +29,10 @@ try {
     }
 
     $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
+    $requiredFiles = @(
+        "EasternSunLAN.mpq/data/local/lng/strings/item-names.json",
+        "EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua"
+    )
 
     $hashMismatches = @()
     foreach ($file in $manifest.files) {
@@ -40,6 +44,14 @@ try {
         $hash = (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant()
         if ($hash -ne $file.sha256) {
             $hashMismatches += "hash:$($file.path)"
+        }
+    }
+
+    $missingRequiredFiles = @()
+    foreach ($requiredFile in $requiredFiles) {
+        $requiredPath = Join-Path $verifyRoot ($requiredFile -replace "/", [System.IO.Path]::DirectorySeparatorChar)
+        if (-not (Test-Path -LiteralPath $requiredPath)) {
+            $missingRequiredFiles += $requiredFile
         }
     }
 
@@ -70,12 +82,14 @@ try {
         extractedFiles = (Get-ChildItem -LiteralPath $verifyRoot -Recurse -File).Count
         topLevel = $topLevel
         stringsRootPresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\local\lng\strings")
+        filterOverridePresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\override_rules.lua")
+        missingRequiredFiles = $missingRequiredFiles.Count
         hashMismatches = $hashMismatches.Count
         jsonFiles = $jsonFiles.Count
         jsonErrors = $jsonErrors.Count
     } | ConvertTo-Json
 
-    if ($hashMismatches.Count -gt 0 -or $jsonErrors.Count -gt 0) {
+    if ($hashMismatches.Count -gt 0 -or $jsonErrors.Count -gt 0 -or $missingRequiredFiles.Count -gt 0) {
         exit 1
     }
 } finally {

@@ -97,6 +97,13 @@ $targetStrings = Join-Path $stageRoot "EasternSunLAN.mpq\data\local\lng\strings"
 New-Item -ItemType Directory -Path $targetStrings | Out-Null
 Copy-Item -Path (Join-Path $sourceStrings "*") -Destination $targetStrings -Recurse -Force
 
+$mpqData = Join-Path $Root "mpq-data"
+if (Test-Path -LiteralPath $mpqData) {
+    $targetData = Join-Path $stageRoot "EasternSunLAN.mpq\data"
+    New-Item -ItemType Directory -Path $targetData -Force | Out-Null
+    Copy-Item -Path (Join-Path $mpqData "*") -Destination $targetData -Recurse -Force
+}
+
 $readme = @'
 # EasternSunLAN 简体中文汉化包
 

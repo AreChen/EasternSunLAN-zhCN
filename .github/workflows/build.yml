@@ -14,6 +14,7 @@ jobs:
         run: |
           node ./tools/test-item-tier-labels.mjs
           node ./tools/apply-item-tier-labels.mjs --check
+          node ./tools/test-override-rules-localization.mjs
       - name: Build pack
         shell: pwsh
         run: ./tools/build-pack.ps1
@@ -22,6 +23,7 @@ jobs:
         run: |
           $packVersion = (Get-Content ./VERSION | Where-Object { $_ -like 'PACK_VERSION=*' }).Split('=', 2)[1]
           ./tools/verify-pack.ps1 -ZipPath "./dist/EasternSunLAN_zhCN_pack_v$packVersion.zip"
+          ./tools/test-pack-contents.ps1 -ZipPath "./dist/EasternSunLAN_zhCN_pack_v$packVersion.zip"
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
