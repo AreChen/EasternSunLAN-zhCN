@@ -7888,7 +7888,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：艾尔ÿc2(#1)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Elÿc2(#1)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -7898,7 +7898,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：艾尔ÿc2(#1)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Elÿc2(#1)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -7908,7 +7908,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：艾德ÿc2(#2)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Eldÿc2(#2)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -7918,7 +7918,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：艾德ÿc2(#2)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Eldÿc2(#2)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -7928,7 +7928,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：特尔ÿc2(#3)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Tirÿc2(#3)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -7938,7 +7938,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：特尔ÿc2(#3)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Tirÿc2(#3)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -7948,7 +7948,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：那夫ÿc2(#4)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Nefÿc2(#4)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -7958,7 +7958,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：那夫ÿc2(#4)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Nefÿc2(#4)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -7968,7 +7968,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：爱斯ÿc2(#5)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Ethÿc2(#5)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -7978,7 +7978,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：爱斯ÿc2(#5)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Ethÿc2(#5)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -7988,7 +7988,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：伊司ÿc2(#6)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Ithÿc2(#6)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -7998,7 +7998,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：伊司ÿc2(#6)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Ithÿc2(#6)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8008,7 +8008,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：塔尔ÿc2(#7)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Talÿc2(#7)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8018,7 +8018,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：塔尔ÿc2(#7)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Talÿc2(#7)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8028,7 +8028,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：拉尔ÿc2(#8)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Ralÿc2(#8)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8038,7 +8038,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：拉尔ÿc2(#8)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Ralÿc2(#8)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8048,7 +8048,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：欧特ÿc2(#9)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Ortÿc2(#9)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8058,7 +8058,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：欧特ÿc2(#9)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Ortÿc2(#9)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8068,7 +8068,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：书尔ÿc2(#10)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Thulÿc2(#10)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8078,7 +8078,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：书尔ÿc2(#10)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Thulÿc2(#10)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8088,7 +8088,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：安姆ÿc2(#11)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Amnÿc2(#11)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8098,7 +8098,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：安姆ÿc2(#11)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Amnÿc2(#11)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8108,7 +8108,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：索尔ÿc2(#12)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Solÿc2(#12)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8118,7 +8118,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：索尔ÿc2(#12)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Solÿc2(#12)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8128,7 +8128,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：夏ÿc2(#13)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Shaelÿc2(#13)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8138,7 +8138,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：夏ÿc2(#13)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Shaelÿc2(#13)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8148,7 +8148,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：多尔ÿc2(#14)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Dolÿc2(#14)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8158,7 +8158,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：多尔ÿc2(#14)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Dolÿc2(#14)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8168,7 +8168,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：海尔ÿc2(#15)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Helÿc2(#15)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8178,7 +8178,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：海尔ÿc2(#15)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Helÿc2(#15)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8188,7 +8188,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：埃欧ÿc2(#16)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Ioÿc2(#16)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8198,7 +8198,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：埃欧ÿc2(#16)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Ioÿc2(#16)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8208,7 +8208,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：卢姆ÿc2(#17)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Lumÿc2(#17)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8218,7 +8218,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：卢姆ÿc2(#17)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Lumÿc2(#17)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8228,7 +8228,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：科ÿc2(#18)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Koÿc2(#18)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8238,7 +8238,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：科ÿc2(#18)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Koÿc2(#18)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8248,7 +8248,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：法尔ÿc2(#19)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Falÿc2(#19)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8258,7 +8258,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：法尔ÿc2(#19)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Falÿc2(#19)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8268,7 +8268,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：蓝姆ÿc2(#20)",
+                enUS = "ÿcT与同号新符合成原符\nÿc=┏古符：Lemÿc2(#20)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8278,7 +8278,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：蓝姆ÿc2(#20)",
+                zhCN = "ÿcT与同号新符合成原符\nÿc=┏古符：Lemÿc2(#20)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8288,7 +8288,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#22)ÿc7新符合成原符\nÿc=┏古符：普尔ÿc2(#21)",
+                enUS = "ÿc7与ÿcN(#22)ÿc7新符合成原符\nÿc=┏古符：Pulÿc2(#21)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8298,7 +8298,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#22)ÿc7新符合成原符\nÿc=┏古符：普尔ÿc2(#21)",
+                zhCN = "ÿc7与ÿcN(#22)ÿc7新符合成原符\nÿc=┏古符：Pulÿc2(#21)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8308,7 +8308,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#24)ÿc7新符合成原符\nÿc=┏古符：乌姆ÿc2(#22)",
+                enUS = "ÿc7与ÿcN(#24)ÿc7新符合成原符\nÿc=┏古符：Umÿc2(#22)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8318,7 +8318,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#24)ÿc7新符合成原符\nÿc=┏古符：乌姆ÿc2(#22)",
+                zhCN = "ÿc7与ÿcN(#24)ÿc7新符合成原符\nÿc=┏古符：Umÿc2(#22)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8328,7 +8328,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#26)ÿc7新符合成原符\nÿc=┏古符：马尔ÿc2(#23)",
+                enUS = "ÿc7与ÿcN(#26)ÿc7新符合成原符\nÿc=┏古符：Malÿc2(#23)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8338,7 +8338,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#26)ÿc7新符合成原符\nÿc=┏古符：马尔ÿc2(#23)",
+                zhCN = "ÿc7与ÿcN(#26)ÿc7新符合成原符\nÿc=┏古符：Malÿc2(#23)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8348,7 +8348,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#28)ÿc7新符合成原符\nÿc=┏古符：伊司特ÿc2(#24)",
+                enUS = "ÿc7与ÿcN(#28)ÿc7新符合成原符\nÿc=┏古符：Istÿc2(#24)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8358,7 +8358,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#28)ÿc7新符合成原符\nÿc=┏古符：伊司特ÿc2(#24)",
+                zhCN = "ÿc7与ÿcN(#28)ÿc7新符合成原符\nÿc=┏古符：Istÿc2(#24)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8368,7 +8368,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#30)ÿc7新符合成原符\nÿc=┏古符：古尔ÿc2(#25)",
+                enUS = "ÿc7与ÿcN(#30)ÿc7新符合成原符\nÿc=┏古符：Gulÿc2(#25)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8378,7 +8378,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#30)ÿc7新符合成原符\nÿc=┏古符：古尔ÿc2(#25)",
+                zhCN = "ÿc7与ÿcN(#30)ÿc7新符合成原符\nÿc=┏古符：Gulÿc2(#25)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8388,7 +8388,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#32)ÿc7新符合成原符\nÿc=┏古符：伐克斯ÿc2(#26)",
+                enUS = "ÿc7与ÿcN(#32)ÿc7新符合成原符\nÿc=┏古符：Vexÿc2(#26)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8398,7 +8398,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#32)ÿc7新符合成原符\nÿc=┏古符：伐克斯ÿc2(#26)",
+                zhCN = "ÿc7与ÿcN(#32)ÿc7新符合成原符\nÿc=┏古符：Vexÿc2(#26)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8408,7 +8408,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#34)ÿc7新符合成原符\nÿc=┏古符：欧姆ÿc2(#27)",
+                enUS = "ÿc7与ÿcN(#34)ÿc7新符合成原符\nÿc=┏古符：Ohmÿc2(#27)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8418,7 +8418,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#34)ÿc7新符合成原符\nÿc=┏古符：欧姆ÿc2(#27)",
+                zhCN = "ÿc7与ÿcN(#34)ÿc7新符合成原符\nÿc=┏古符：Ohmÿc2(#27)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8428,7 +8428,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#36)ÿc7新符合成原符\nÿc=┏古符：罗ÿc2(#28)",
+                enUS = "ÿc7与ÿcN(#36)ÿc7新符合成原符\nÿc=┏古符：Loÿc2(#28)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8438,7 +8438,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#36)ÿc7新符合成原符\nÿc=┏古符：罗ÿc2(#28)",
+                zhCN = "ÿc7与ÿcN(#36)ÿc7新符合成原符\nÿc=┏古符：Loÿc2(#28)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8448,7 +8448,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#38)ÿc7新符合成原符\nÿc=┏古符：瑟ÿc2(#29)",
+                enUS = "ÿc7与ÿcN(#38)ÿc7新符合成原符\nÿc=┏古符：Surÿc2(#29)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8458,7 +8458,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#38)ÿc7新符合成原符\nÿc=┏古符：瑟ÿc2(#29)",
+                zhCN = "ÿc7与ÿcN(#38)ÿc7新符合成原符\nÿc=┏古符：Surÿc2(#29)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8468,7 +8468,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#40)ÿc7新符合成原符\nÿc=┏古符：贝ÿc2(#30)",
+                enUS = "ÿc7与ÿcN(#40)ÿc7新符合成原符\nÿc=┏古符：Berÿc2(#30)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8478,7 +8478,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#40)ÿc7新符合成原符\nÿc=┏古符：贝ÿc2(#30)",
+                zhCN = "ÿc7与ÿcN(#40)ÿc7新符合成原符\nÿc=┏古符：Berÿc2(#30)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8488,7 +8488,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#42)ÿc7新符合成原符\nÿc=┏古符：乔ÿc2(#31)",
+                enUS = "ÿc7与ÿcN(#42)ÿc7新符合成原符\nÿc=┏古符：Jahÿc2(#31)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8498,7 +8498,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#42)ÿc7新符合成原符\nÿc=┏古符：乔ÿc2(#31)",
+                zhCN = "ÿc7与ÿcN(#42)ÿc7新符合成原符\nÿc=┏古符：Jahÿc2(#31)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8508,7 +8508,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#44)ÿc7新符合成原符\nÿc=┏古符：查姆ÿc2(#32)",
+                enUS = "ÿc7与ÿcN(#44)ÿc7新符合成原符\nÿc=┏古符：Chamÿc2(#32)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8518,7 +8518,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#44)ÿc7新符合成原符\nÿc=┏古符：查姆ÿc2(#32)",
+                zhCN = "ÿc7与ÿcN(#44)ÿc7新符合成原符\nÿc=┏古符：Chamÿc2(#32)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -8528,7 +8528,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "um eine Lod-Rune zu erhalten  \nTransmutieren Sie mit der entsprechenden ESR-Rune\n",
-                enUS = "ÿc7与ÿcN(#46)ÿc7新符合成原符\nÿc=┏古符：萨德ÿc2(#33)",
+                enUS = "ÿc7与ÿcN(#46)ÿc7新符合成原符\nÿc=┏古符：Zodÿc2(#33)",
                 esES = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 esMX = "para obtener una runa Lod  \nTransmuta con la runa ESR correspondiente\n",
                 frFR = "pour obtenir une rune Lod  \nTransmutez avec la rune ESR correspondante\n",
@@ -8538,7 +8538,7 @@ return {
                 plPL = "aby zdobyć runę Lod  \nTransmutuj z odpowiednią runą ESR\n",
                 ptBR = "para obter uma runa Lod  \nTransmute com a runa ESR correspondente\n",
                 ruRU = "чтобы получить руну Lod  \nТрансмутация с соответствующей рунной ESR\n",
-                zhCN = "ÿc7与ÿcN(#46)ÿc7新符合成原符\nÿc=┏古符：萨德ÿc2(#33)",
+                zhCN = "ÿc7与ÿcN(#46)ÿc7新符合成原符\nÿc=┏古符：Zodÿc2(#33)",
                 zhTW = "獲得一個 Lod 符文  \n與相應的 ESR 符文進行轉化\n",
             }
         },
@@ -9868,7 +9868,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Ich (1 Weißer Runenpunkt)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0新符-艾尔ÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0新符-Iÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: I (1 Punto de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Yo (1 Punto de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: J'ai (1 Point de Rune Blanc)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -9878,7 +9878,7 @@ return {
                 plPL = "output: I (1 Biała Runa Punkt)\nKostka do wyboru wyjścia\nKostka z kluczem do wydobycia\nKostka z runą do przechowywania\n",
                 ptBR = "output: Eu (1 Ponto de Runa Branca)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: Я (1 Белая Руна Точка)  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0新符-艾尔ÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0新符-Iÿc2#1ÿc0【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： I (1 白色符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -9888,7 +9888,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: U (2 Weiße Runenpunkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0新符-艾德ÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0新符-Uÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: U (2 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: U (2 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output : U (2 Points de Rune Blanc)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -9898,7 +9898,7 @@ return {
                 plPL = "output: U (2 Białe Punkty Runiczne)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: U (2 Pontos de Runa Branca)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: U (2 Белых Рунных Очка)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0新符-艾德ÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0新符-Uÿc2#2ÿc0【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： U (2 白色符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -9908,7 +9908,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Shi (4 Weiße Runenpunkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0新符-特尔ÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0新符-Shiÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: Shi (4 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Shi (4 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Shi (4 Points de Rune Blanche)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -9918,7 +9918,7 @@ return {
                 plPL = "output: Shi (4 Białe Punkty Runiczne)  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Shi (4 Pontos de Runa Branca)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Ши (4 Белых Рунных Очка)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0新符-特尔ÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0新符-Shiÿc2#3ÿc0【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Shi (4 白色符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -9928,7 +9928,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Ka (8 Weiße Runenpunkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0新符-那夫ÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0新符-Kaÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: Ka (8 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Ka (8 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Ka (8 Points de Rune Blanche)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -9938,7 +9938,7 @@ return {
                 plPL = "output: Ka (8 Białych Punktów Runicznych)  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Ka (8 Pontos de Runa Branca)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: Ка (8 Белых Рунных Очков)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0新符-那夫ÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0新符-Kaÿc2#4ÿc0【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Ka (8 白色符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -9948,7 +9948,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: N (16 Weiße Runenpunkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0新符-爱斯ÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0新符-Nÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: N (16 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: N (16 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output : N (16 Points de Rune Blanc)  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -9958,7 +9958,7 @@ return {
                 plPL = "output: N (16 Białych Punktów Runicznych)  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: N (16 Pontos de Runa Branca)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: N (16 Белых Рунных Очков)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0新符-爱斯ÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0新符-Nÿc2#5ÿc0【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： N (16 白色符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -9968,7 +9968,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: Ku (32 Weiße Runenpunkte)  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0新符-伊司ÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0新符-Kuÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: Ku (32 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Ku (32 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Ku (32 Points de Rune Blanc)\nCube pour sélectionner la sortie\nCube avec une clé pour extraire\nCube avec une rune pour stocker\n",
@@ -9978,7 +9978,7 @@ return {
                 plPL = "output: Ku (32 Białych Punktów Runicznych)  \nKostka do wyboru wyniku  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Ku (32 Pontos de Runa Branca)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "Выход: Ku (32 Белых Рунных Очков)  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0新符-伊司ÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0新符-Kuÿc2#6ÿc0【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Ku (32 白色符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -9988,7 +9988,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: Yo (64 Weiße Runenpunkte)  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc0新符-塔尔ÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc0新符-Yoÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: Yo (64 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: Yo (64 Puntos de Runa Blanca)  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: Yo (64 Points de Rune Blanc)\nCube pour sélectionner la sortie\nCube avec une clé pour extraire\nCube avec une rune pour stocker\n",
@@ -9998,7 +9998,7 @@ return {
                 plPL = "output: Yo (64 Białych Punktów Runicznych)  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: Yo (64 Pontos de Runa Branca)  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "Вывод: Йо (64 Белых Рунных Очков)  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc0新符-塔尔ÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc0新符-Yoÿc2#7ÿc0【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： Yo (64 白色符文點)\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10008,7 +10008,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {red}Ki (1 Rote Runenpunkt)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc1新符-拉尔ÿc2#8ÿc1【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc1新符-Kiÿc2#8ÿc1【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {red}Ki (1 Punto de Runa Roja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {red}Ki (1 Punto de Runa Roja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {red}Ki (1 Point de Rune Rouge)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10018,7 +10018,7 @@ return {
                 plPL = "output: {red}Ki (1 Punkt Runi Czerwonej)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {red}Ki (1 Ponto de Runa Vermelha)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {red}Ки (1 Красная Рунная Точка)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc1新符-拉尔ÿc2#8ÿc1【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc1新符-Kiÿc2#8ÿc1【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc1Ki (1 紅色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10028,7 +10028,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {red}Ri (2 Rote Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc1新符-欧特ÿc2#9ÿc1【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc1新符-Riÿc2#9ÿc1【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {red}Ri (2 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {red}Ri (2 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {red}Ri (2 Points de Rune Rouge)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10038,7 +10038,7 @@ return {
                 plPL = "output: {red}Ri (2 Punkty Runi Czerwonej)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {red}Ri (2 Pontos de Runa Vermelha)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {red}Ri (2 Красные Рунные Очки)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с рунной для хранения\n",
-                zhCN = "ÿc1新符-欧特ÿc2#9ÿc1【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc1新符-Riÿc2#9ÿc1【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc1Ri (2 紅色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10048,7 +10048,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {red}Mi (4 Rote Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc1新符-书尔ÿc2#10ÿc1【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc1新符-Miÿc2#10ÿc1【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {red}Mi (4 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {red}Mi (4 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {red}Mi (4 Points de Rune Rouge)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10058,7 +10058,7 @@ return {
                 plPL = "output: {red}Mi (4 Punkty Rún Czerwonych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {red}Mi (4 Pontos de Runa Vermelha)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {red}Mi (4 Красных Рунных Очков)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc1新符-书尔ÿc2#10ÿc1【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc1新符-Miÿc2#10ÿc1【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc1Mi (4 紅色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10068,7 +10068,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {red}Ya (8 Rote Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc1新符-安姆ÿc2#11ÿc1【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc1新符-Yaÿc2#11ÿc1【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {red}Ya (8 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {red}Ya (8 Puntos de Runa Rojos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {red}Ya (8 Points de Rune Rouge)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10078,7 +10078,7 @@ return {
                 plPL = "output: {red}Ya (8 Punktów Runi Czerwonych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {red}Ya (8 Pontos de Runa Vermelha)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {red}Я (8 Красных Рунных Очков)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc1新符-安姆ÿc2#11ÿc1【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc1新符-Yaÿc2#11ÿc1【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc1Ya (8 紅色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10088,7 +10088,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {red}A (16 Rote Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc1新符-索尔ÿc2#12ÿc1【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc1新符-Aÿc2#12ÿc1【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {red}A (16 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {red}A (16 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {red}A (16 Points de Rune Rouges)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10098,7 +10098,7 @@ return {
                 plPL = "output: {red}A (16 Punktów Runi Czerwonych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {red}A (16 Pontos de Runa Vermelha)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {red}A (16 Красных Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc1新符-索尔ÿc2#12ÿc1【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc1新符-Aÿc2#12ÿc1【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc1A (16 紅色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10108,7 +10108,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {red}Tsu (32 Rote Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc1新符-夏ÿc2#13ÿc1【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc1新符-Tsuÿc2#13ÿc1【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {red}Tsu (32 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {red}Tsu (32 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {red}Tsu (32 Points de Rune Rouge)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10118,7 +10118,7 @@ return {
                 plPL = "output: {red}Tsu (32 Punkty Runi Czerwonej)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {red}Tsu (32 Pontos de Runa Vermelha)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {red}Цу (32 Красные Рунные Очки)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc1新符-夏ÿc2#13ÿc1【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc1新符-Tsuÿc2#13ÿc1【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc1Tsu (32 紅色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10128,7 +10128,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {red}Chi (64 Rote Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc1新符-多尔ÿc2#14ÿc1【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc1新符-Chiÿc2#14ÿc1【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {red}Chi (64 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {red}Chi (64 Puntos de Runa Rojas)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {red}Chi (64 Points de Rune Rouge)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10138,7 +10138,7 @@ return {
                 plPL = "output: {red}Chi (64 Punkty Runi Czerwonej)ÿc0  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do ekstrakcji  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: {red}Chi (64 Pontos de Runa Vermelha)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {red}Чи (64 Красных Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc1新符-多尔ÿc2#14ÿc1【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc1新符-Chiÿc2#14ÿc1【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc1Chi (64 紅色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10148,7 +10148,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {yellow}Sa (1 Gelber Runenpunkt)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc9新符-海尔ÿc2#15ÿc9【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc9新符-Saÿc2#15ÿc9【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {yellow}Sa (1 Punto de Runa Amarillo)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {yellow}Sa (1 Punto de Runa Amarillo)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {yellow}Sa (1 Point de Rune Jaune)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10158,7 +10158,7 @@ return {
                 plPL = "output: {yellow}Sa (1 Żółty Punkt Runiczny)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {yellow}Sa (1 Ponto de Runa Amarela)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {yellow}Са (1 Желтая Руна)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc9新符-海尔ÿc2#15ÿc9【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc9新符-Saÿc2#15ÿc9【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc9Sa (1 黃色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10168,7 +10168,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {yellow}Yu (2 Gelbe Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc9新符-埃欧ÿc2#16ÿc9【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc9新符-Yuÿc2#16ÿc9【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {yellow}Yu (2 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {yellow}Yu (2 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {yellow}Yu (2 Points de Rune Jaunes)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10178,7 +10178,7 @@ return {
                 plPL = "output: {yellow}Yu (2 Żółte Punkty Runiczne)ÿc0  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {yellow}Yu (2 Pontos de Runa Amarela)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {yellow}Yu (2 Желтых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc9新符-埃欧ÿc2#16ÿc9【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc9新符-Yuÿc2#16ÿc9【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc9Yu (2 黃色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10188,7 +10188,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {yellow}Ke (4 Gelbe Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc9新符-卢姆ÿc2#17ÿc9【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc9新符-Keÿc2#17ÿc9【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {yellow}Ke (4 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {yellow}Ke (4 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {yellow}Ke (4 Points de Rune Jaunes)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10198,7 +10198,7 @@ return {
                 plPL = "output: {yellow}Ke (4 Żółte Punkty Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {yellow}Ke (4 Pontos de Runa Amarela)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {yellow}Ке (4 Желтых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc9新符-卢姆ÿc2#17ÿc9【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc9新符-Keÿc2#17ÿc9【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc9Ke (4 黃色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10208,7 +10208,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {yellow}E (8 Gelbe Runenpunkte)ÿc0  \nWürfel zur Auswahl der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc9新符-科ÿc2#18ÿc9【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc9新符-Eÿc2#18ÿc9【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {yellow}E (8 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {yellow}E (8 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {yellow}E (8 Points de Rune Jaunes)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10218,7 +10218,7 @@ return {
                 plPL = "output: {yellow}E (8 Żółtych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {yellow}E (8 Pontos de Runa Amarela)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {yellow}E (8 Желтых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc9新符-科ÿc2#18ÿc9【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc9新符-Eÿc2#18ÿc9【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc9E (8 黃色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10228,7 +10228,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "Ausgabe: {yellow}Ko (16 Gelbe Runenpunkte)ÿc0  \nWürfel zum Auswählen der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc9新符-法尔ÿc2#19ÿc9【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc9新符-Koÿc2#19ÿc9【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {yellow}Ko (16 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {yellow}Ko (16 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {yellow}Ko (16 Points de Rune Jaunes)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10238,7 +10238,7 @@ return {
                 plPL = "output: {yellow}Ko (16 Żółtych Punktów Runicznych)ÿc0  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {yellow}Ko (16 Pontos de Runa Amarela)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {yellow}Ko (16 Желтых Рунных Очков)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc9新符-法尔ÿc2#19ÿc9【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc9新符-Koÿc2#19ÿc9【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc9Ko (16 黃色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10248,7 +10248,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {yellow}Ra (32 Gelbe Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc9新符-蓝姆ÿc2#20ÿc9【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc9新符-Raÿc2#20ÿc9【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {yellow}Ra (32 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {yellow}Ra (32 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {yellow}Ra (32 Points de Rune Jaunes)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10258,7 +10258,7 @@ return {
                 plPL = "output: {yellow}Ra (32 Żółtych Punktów Runicznych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {yellow}Ra (32 Pontos de Runa Amarela)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {yellow}Ра (32 Желтых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc9新符-蓝姆ÿc2#20ÿc9【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc9新符-Raÿc2#20ÿc9【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc9Ra (32 黃色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10268,7 +10268,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {yellow}O (64 Gelbe Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc9新符-普尔ÿc2#21ÿc9【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc9新符-Oÿc2#21ÿc9【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {yellow}O (64 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {yellow}O (64 Puntos de Runa Amarillos)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {yellow}O (64 Points de Rune Jaunes)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10278,7 +10278,7 @@ return {
                 plPL = "output: {yellow}O (64 Żółtych Punktów Run)ÿc0  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {yellow}O (64 Pontos de Runa Amarela)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {yellow}O (64 Желтых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc9新符-普尔ÿc2#21ÿc9【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc9新符-Oÿc2#21ÿc9【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc9O (64 黃色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10288,7 +10288,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {orange}Ho (1 orange Rune-Punkt)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@新符-乌姆ÿc2#22ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@新符-Hoÿc2#22ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Ho (1 Punto de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Ho (1 Punto de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Ho (1 Point de Rune Orange)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10298,7 +10298,7 @@ return {
                 plPL = "output: {orange}Ho (1 Pomarańczowy Punkt Runiczny)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Ho (1 Ponto de Runa Laranja)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {orange}Хо (1 Оранжевая Руна)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@新符-乌姆ÿc2#22ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@新符-Hoÿc2#22ÿc@【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc8Ho (1 橙色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10308,7 +10308,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{orange}Me (2 Orange Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@新符-马尔ÿc2#23ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@新符-Meÿc2#23ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Me (2 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Me (2 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Moi (2 Points de Rune Orange)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10318,7 +10318,7 @@ return {
                 plPL = "output: {orange}Ja (2 Pomarańczowe Punkty Runiczne)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Eu (2 Pontos de Runa Laranja)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {orange}Я (2 Оранжевых Рунных Очка)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@新符-马尔ÿc2#23ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@新符-Meÿc2#23ÿc@【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc8Me (2 橙色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10328,7 +10328,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {orange}Ru (4 Orange Rune Punkte)ÿc0  \nWürfel zum Auswählen der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@新符-伊司特ÿc2#24ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@新符-Ruÿc2#24ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Ru (4 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Ru (4 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Ru (4 Points de Rune Orange)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10338,7 +10338,7 @@ return {
                 plPL = "output: {orange}Ru (4 Pomarańczowych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Ru (4 Pontos de Runa Laranja)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {orange}Ру (4 Оранжевых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@新符-伊司特ÿc2#24ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@新符-Ruÿc2#24ÿc@【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc8Ru (4 橙色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10348,7 +10348,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {orange}Ta (8 Orange Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@新符-古尔ÿc2#25ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@新符-Taÿc2#25ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Ta (8 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Ta (8 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Ta (8 Points de Rune Orange)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10358,7 +10358,7 @@ return {
                 plPL = "output: {orange}Ta (8 Pomarańczowych Punktów Run)ÿc0  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Ta (8 Pontos de Runa Laranja)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {orange}Ta (8 Оранжевых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@新符-古尔ÿc2#25ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@新符-Taÿc2#25ÿc@【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc8Ta (8 橙色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10368,7 +10368,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {orange}Zu (16 Orange Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@新符-伐克斯ÿc2#26ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@新符-Toÿc2#26ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}A (16 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Para (16 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}À (16 Points de Rune Orange)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10378,7 +10378,7 @@ return {
                 plPL = "output: {orange}Do (16 Pomarańczowych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Para (16 Pontos de Runa Laranja)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {orange}К (16 Оранжевых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@新符-伐克斯ÿc2#26ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@新符-Toÿc2#26ÿc@【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc8To (16 橙色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10388,7 +10388,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {orange}Wa (32 Orange Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@新符-欧姆ÿc2#27ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@新符-Waÿc2#27ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Wa (32 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Wa (32 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Wa (32 Points de Rune Orange)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10398,7 +10398,7 @@ return {
                 plPL = "output: {orange}Wa (32 Pomarańczowych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Wa (32 Pontos de Runa Laranja)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {orange}Wa (32 Оранжевых Рунных Очков)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@新符-欧姆ÿc2#27ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@新符-Waÿc2#27ÿc@【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc8Wa (32 橙色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10408,7 +10408,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {orange}Ha (64 Orange Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc@新符-罗ÿc2#28ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc@新符-Haÿc2#28ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {orange}Ha (64 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {orange}Ha (64 Puntos de Runa Naranja)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {orange}Ha (64 Points de Rune Orange)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10418,7 +10418,7 @@ return {
                 plPL = "output: {orange}Ha (64 Pomarańczowych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {orange}Ha (64 Pontos de Runa Laranja)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {orange}Ха (64 Оранжевых Рунных Очков)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc@新符-罗ÿc2#28ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc@新符-Haÿc2#28ÿc@【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc8Ha (64 橙色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10428,7 +10428,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {green}Na (1 Grüner Runenpunkt)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc2新符-瑟ÿc2#29ÿc2【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc2新符-Naÿc2#29ÿc2【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {green}Na (1 Punto de Runa Verde)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {green}Na (1 Punto de Runa Verde)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {green}Na (1 Point de Rune Verte)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10438,7 +10438,7 @@ return {
                 plPL = "output: {green}Na (1 Zielona Runa)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {green}Na (1 Ponto de Runa Verde)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {green}На (1 Зелёная Рунная Точка)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc2新符-瑟ÿc2#29ÿc2【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc2新符-Naÿc2#29ÿc2【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc2Na (1 綠色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10448,7 +10448,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {green}Ni (2 grüne Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc2新符-贝ÿc2#30ÿc2【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc2新符-Niÿc2#30ÿc2【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {green}Ni (2 Puntos de Runa Verde)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {green}Ni (2 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {green}Ni (2 Points de Rune Verts)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10458,7 +10458,7 @@ return {
                 plPL = "output: {green}Ni (2 Zielonych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {green}Ni (2 Pontos de Runa Verde)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {green}Ni (2 Зелёные Рунные Очки)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc2新符-贝ÿc2#30ÿc2【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc2新符-Niÿc2#30ÿc2【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc2Ni (2 綠色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10468,7 +10468,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {green}Se (4 grüne Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc2新符-乔ÿc2#31ÿc2【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc2新符-Seÿc2#31ÿc2【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {green}Se (4 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {green}Se (4 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {green}Se (4 Points de Rune Verts)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10478,7 +10478,7 @@ return {
                 plPL = "output: {green}Se (4 Zielonych Punktów Run)ÿc0  \nKostka do wyboru wyniku  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {green}Se (4 Pontos de Runa Verde)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "вывод: {green}Се (4 Зелёные Рунные Очки)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc2新符-乔ÿc2#31ÿc2【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc2新符-Seÿc2#31ÿc2【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc2Se (4 綠色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10488,7 +10488,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {green}Fu (8 Grüne Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc2新符-查姆ÿc2#32ÿc2【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc2新符-Fuÿc2#32ÿc2【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {green}Fu (8 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {green}Fu (8 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {green}Fu (8 Points de Rune Verts)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10498,7 +10498,7 @@ return {
                 plPL = "output: {green}Fu (8 Zielonych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do ekstrakcji  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {green}Fu (8 Pontos de Runa Verdes)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {green}Fu (8 Зелёных Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc2新符-查姆ÿc2#32ÿc2【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc2新符-Fuÿc2#32ÿc2【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc2Fu (8 綠色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10508,7 +10508,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {green}Ma (16 grüne Runenpunkte)ÿc0  \nWürfel zum Auswählen der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc2新符-萨德ÿc2#33ÿc2【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc2新符-Maÿc2#33ÿc2【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {green}Ma (16 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {green}Ma (16 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {green}Ma (16 Points de Rune Verts)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10518,7 +10518,7 @@ return {
                 plPL = "output: {green}Ma (16 Zielonych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {green}Ma (16 Pontos de Runa Verde)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {green}Ма (16 Зелёных Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc2新符-萨德ÿc2#33ÿc2【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc2新符-Maÿc2#33ÿc2【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc2Ma (16 綠色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10528,7 +10528,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {green}Hallo (32 grüne Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc2新符-希伦ÿc2#34ÿc2【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc2新符-Hiÿc2#34ÿc2【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {green}Hola (32 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {green}Hola (32 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {green}Salut (32 Points de Rune Verts)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10538,7 +10538,7 @@ return {
                 plPL = "output: {green}Cześć (32 Zielone Punkty Runiczne)ÿc0  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do wydobycia  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: {green}Oi (32 Pontos de Runa Verdes)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {green}Привет (32 Зелёных Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc2新符-希伦ÿc2#34ÿc2【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc2新符-Hiÿc2#34ÿc2【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc2Hi (32 綠色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10548,7 +10548,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {green}Mo (64 Grüne Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc2新符-莫伦ÿc2#35ÿc2【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc2新符-Moÿc2#35ÿc2【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {green}Mo (64 Puntos de Runa Verdes)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {green}Mo (64 Puntos de Runa Verde)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {green}Mo (64 Points de Rune Verts)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10558,7 +10558,7 @@ return {
                 plPL = "output: {green}Mo (64 Zielonych Punktów Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {green}Mo (64 Pontos de Runa Verdes)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {green}Mo (64 Зелёных Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc2新符-莫伦ÿc2#35ÿc2【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc2新符-Moÿc2#35ÿc2【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc2Mo (64 綠色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10568,7 +10568,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {gold}Nein (1 Goldrunenpunkt)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc4新符-诺瓦ÿc2#36ÿc4【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc4新符-Noÿc2#36ÿc4【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {gold}No (1 Punto de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "{gold}No (1 Punto de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {gold}Non (1 Point de Rune en Or)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10578,7 +10578,7 @@ return {
                 plPL = "output: {gold}Nie (1 Punkt Runi Złota)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {gold}Não (1 Ponto de Runa de Ouro)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {gold}Нет (1 Золотая Руна)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc4新符-诺瓦ÿc2#36ÿc4【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc4新符-Noÿc2#36ÿc4【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc4No (1 金色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10588,7 +10588,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {gold}Te (2 Gold Rune Points)ÿc0  \nWürfel, um die Ausgabe auszuwählen  \nWürfel mit einem Schlüssel, um zu extrahieren  \nWürfel mit einer Rune, um zu speichern\n",
-                enUS = "ÿc4新符-泰拉ÿc2#37ÿc4【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc4新符-Teÿc2#37ÿc4【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {gold}Te (2 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {gold}Te (2 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {gold}Te (2 Points de Rune en Or)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10598,7 +10598,7 @@ return {
                 plPL = "output: {gold}Te (2 Punkty Złotej Runy)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {gold}Te (2 Pontos de Runa de Ouro)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {gold}Te (2 Золотых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc4新符-泰拉ÿc2#37ÿc4【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc4新符-Teÿc2#37ÿc4【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc4Te (2 金色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10608,7 +10608,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {gold}Ro (4 Goldrunenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc4新符-罗萨ÿc2#38ÿc4【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc4新符-Roÿc2#38ÿc4【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {gold}Ro (4 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {gold}Ro (4 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {gold}Ro (4 Points de Rune en Or)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10618,7 +10618,7 @@ return {
                 plPL = "output: {gold}Ro (4 Punkty Runi Złota)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {gold}Ro (4 Pontos de Runa de Ouro)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {gold}Ro (4 Золотых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc4新符-罗萨ÿc2#38ÿc4【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc4新符-Roÿc2#38ÿc4【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc4Ro (4 金色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10628,7 +10628,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {gold}So (8 Gold Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc4新符-索薇ÿc2#39ÿc4【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc4新符-Soÿc2#39ÿc4【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {gold}So (8 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {gold}So (8 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {gold}So (8 Points de Rune en Or)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10638,7 +10638,7 @@ return {
                 plPL = "output: {gold}So (8 Złotych Punktów Runicznych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {gold}So (8 Pontos de Runa de Ouro)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {gold}Со (8 Золотых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc4新符-索薇ÿc2#39ÿc4【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc4新符-Soÿc2#39ÿc4【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc4So (8 金色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10648,7 +10648,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {gold}Mu (16 Gold Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc4新符-穆恩ÿc2#40ÿc4【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc4新符-Muÿc2#40ÿc4【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {gold}Mu (16 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {gold}Mu (16 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {gold}Mu (16 Points de Rune en Or)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10658,7 +10658,7 @@ return {
                 plPL = "output: {gold}Mu (16 Złotych Punktów Runicznych)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {gold}Mu (16 Pontos de Runa de Ouro)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {gold}Mu (16 Золотых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc4新符-穆恩ÿc2#40ÿc4【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc4新符-Muÿc2#40ÿc4【16点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc4Mu (16 金色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10668,7 +10668,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {gold}Ne (32 Gold Rune Punkte)ÿc0  \nWürfel zum Auswählen der Ausgabe  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc4新符-奈芙ÿc2#41ÿc4【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc4新符-Neÿc2#41ÿc4【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {gold}Ne (32 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {gold}Ne (32 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "{gold}Ne (32 Points de Rune en Or)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10678,7 +10678,7 @@ return {
                 plPL = "output: {gold}Ne (32 Punkty Złotej Runy)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {gold}Ne (32 Pontos de Runa de Ouro)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "{gold}Не (32 Золотых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc4新符-奈芙ÿc2#41ÿc4【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc4新符-Neÿc2#41ÿc4【32点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc4Ne (32 金色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10688,7 +10688,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {gold}Re (64 Gold Rune Punkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc4新符-瑞亚ÿc2#42ÿc4【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc4新符-Reÿc2#42ÿc4【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {gold}Re (64 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {gold}Re (64 Puntos de Runa de Oro)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {gold}Re (64 Points de Rune en Or)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10698,7 +10698,7 @@ return {
                 plPL = "output: {gold}Re (64 Punkty Złotej Runy)ÿc0  \nSześcian do wyboru wyjścia  \nSześcian z kluczem do ekstrakcji  \nSześcian z runą do przechowywania\n",
                 ptBR = "output: {gold}Re (64 Pontos de Ouro de Runa)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {gold}Ре (64 Золотых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc4新符-瑞亚ÿc2#42ÿc4【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc4新符-Reÿc2#42ÿc4【64点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc4Re (64 金色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10708,7 +10708,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {purple}Su (1 lila Rune Punkt)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;新符-苏娜ÿc2#43ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;新符-Suÿc2#43ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Su (1 Punto de Runa Púrpura)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Su (1 Punto de Runa Púrpura)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Su (1 Point de Rune Violet)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10718,7 +10718,7 @@ return {
                 plPL = "output: {purple}Su (1 Fioletowy Punkt Runiczny)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Su (1 Ponto de Runa Roxa)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {purple}Су (1 Фиолетовая Руна)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;新符-苏娜ÿc2#43ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;新符-Suÿc2#43ÿc;【1点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Su (1 紫色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10728,7 +10728,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {purple}He (2 Lila Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;新符-赫拉ÿc2#44ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;新符-Heÿc2#44ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}He (2 Puntos de Runa Púrpura)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}He (2 Puntos de Runa Púrpura)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}He (2 Points de Rune Violet)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10738,7 +10738,7 @@ return {
                 plPL = "output: {purple}He (2 Fioletowe Punkty Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}He (2 Pontos de Runa Roxa)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {purple}Он (2 Фиолетовых Рунных Очков)ÿc0  \nКуб для выбора вывода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;新符-赫拉ÿc2#44ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;新符-Heÿc2#44ÿc;【2点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;He (2 紫色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10748,7 +10748,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {purple}Nu (4 Lila Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;新符-纽斯ÿc2#45ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;新符-Nuÿc2#45ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Nu (4 Puntos de Runa Púrpura)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Nu (4 Puntos de Runa Púrpura)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Nu (4 Points de Rune Violet)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10758,7 +10758,7 @@ return {
                 plPL = "output: {purple}Nu (4 Fioletowe Punkty Run)ÿc0  \nKostka do wyboru wyjścia  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Nu (4 Pontos de Runa Roxa)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "выход: {purple}Nu (4 Фиолетовых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;新符-纽斯ÿc2#45ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;新符-Nuÿc2#45ÿc;【4点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Nu (4 紫色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },
@@ -10768,7 +10768,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "output: {purple}Wo (8 Lila Runenpunkte)ÿc0  \nWürfel zum Auswählen des Outputs  \nWürfel mit einem Schlüssel zum Extrahieren  \nWürfel mit einer Rune zum Speichern\n",
-                enUS = "ÿc;新符-沃尔ÿc2#46ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                enUS = "ÿc;新符-Woÿc2#46ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 esES = "output: {purple}Wo (8 Puntos de Runa Púrpura)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 esMX = "output: {purple}Wo (8 Puntos de Runa Morados)ÿc0  \nCubo para seleccionar salida  \nCubo con una llave para extraer  \nCubo con una runa para almacenar\n",
                 frFR = "output: {purple}Wo (8 Points de Rune Violet)ÿc0  \nCube pour sélectionner la sortie  \nCube avec une clé pour extraire  \nCube avec une rune pour stocker\n",
@@ -10778,7 +10778,7 @@ return {
                 plPL = "output: {purple}Wo (8 Fioletowych Punktów Run)ÿc0  \nKostka do wyboru wyniku  \nKostka z kluczem do wydobycia  \nKostka z runą do przechowywania\n",
                 ptBR = "output: {purple}Wo (8 Pontos de Runa Roxa)ÿc0  \nCubo para selecionar saída  \nCubo com uma chave para extrair  \nCubo com uma runa para armazenar\n",
                 ruRU = "output: {purple}Wo (8 Фиолетовых Рунных Очков)ÿc0  \nКуб для выбора выхода  \nКуб с ключом для извлечения  \nКуб с руной для хранения\n",
-                zhCN = "ÿc;新符-沃尔ÿc2#46ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
+                zhCN = "ÿc;新符-Woÿc2#46ÿc;【8点】ÿc0\nÿcC当前输出:ÿc0\n放入 ÿc8钥匙ÿc0 以提取 ÿcC新符ÿc0\n将储物袋切换至你想取出的符文编号\n你可以将 ÿcC新符【01-46】【空白】ÿc0放入此储物袋中保存\n",
                 zhTW = "輸出： ÿc;Wo (8 紫色符文點)ÿc0\n單獨合成可切換輸出\n與鑰匙合成以取出\n與符文合成以存入",
             }
         },

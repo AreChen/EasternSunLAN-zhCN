@@ -92,6 +92,7 @@ Filter override rules:
 - The D2RLAN filter override currently uses `language = "enUS"`.
 - For `mpq-data/D2RLAN/Filters/override_rules.lua`, keep `enUS` and `zhCN` synchronized to the same Simplified Chinese text.
 - The old reference file `override_rules_cn.lua` has useful Chinese in `enUS`; its `zhCN` values are often English and should not be copied blindly.
+- Keep rune names in English inside filter override text: `I/U/Shi/.../Wo` for Eastern Sun runes and `El/Eld/Tir/.../Zod` for LoD runes.
 - Keep rule order and `code` sequence aligned with the current mod file.
 
 ## Localization Workflow
@@ -147,8 +148,8 @@ Build and verify the package:
 
 ```powershell
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip
-pwsh ./tools/test-pack-contents.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.4.zip
+pwsh ./tools/test-pack-contents.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.4.zip
 ```
 
 The verification output must show:
@@ -200,12 +201,12 @@ Normal release sequence:
 ```powershell
 git status -sb
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.4.zip
 git add .gitattributes .github .gitignore AGENTS.md CHANGELOG.md README.md VERSION localization strings tools
 git add mpq-data
-git commit -m "Update zhCN pack for v3.11.09-zhCN.3"
+git commit -m "Update zhCN pack for v3.11.09-zhCN.4"
 git push
-gh release create v3.11.09-zhCN.3 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.3" --notes-file ./release-notes/v3.11.09-zhCN.3.md
+gh release create v3.11.09-zhCN.4 ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.4.zip --repo AreChen/EasternSunLAN-zhCN --target main --title "EasternSunLAN zhCN Pack v3.11.09-zhCN.4" --notes-file ./release-notes/v3.11.09-zhCN.4.md
 ```
 
 If there is no release notes file, pass concise notes with `--notes`.
@@ -213,8 +214,8 @@ If there is no release notes file, pass concise notes with `--notes`.
 After release, verify:
 
 ```powershell
-git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.3
-gh release view v3.11.09-zhCN.3 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
+git ls-remote origin refs/heads/main refs/tags/v3.11.09-zhCN.4
+gh release view v3.11.09-zhCN.4 --repo AreChen/EasternSunLAN-zhCN --json tagName,url,name,isDraft,isPrerelease,assets
 ```
 
 The release should not be draft unless explicitly requested. The asset should be a zip with state `uploaded`.
@@ -233,7 +234,7 @@ The release should not be draft unless explicitly requested. The asset should be
 At the time this file was created:
 
 - `MOD_VERSION=3.11.09`
-- `PACK_VERSION=3.11.09-zhCN.3`
-- GitHub Release: `v3.11.09-zhCN.3`
-- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.3.zip`
+- `PACK_VERSION=3.11.09-zhCN.4`
+- GitHub Release: `v3.11.09-zhCN.4`
+- Release asset: `EasternSunLAN_zhCN_pack_v3.11.09-zhCN.4.zip`
 - Package structure: `EasternSunLAN.mpq/data/local/lng/strings` and `EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua`
