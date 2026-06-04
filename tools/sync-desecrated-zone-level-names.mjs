@@ -70,6 +70,19 @@ function walkJsonFiles(root) {
   return files;
 }
 
+function addTranslation(translations, key, value) {
+  if (typeof key !== "string" || key.trim() === "") {
+    return;
+  }
+  if (!translations.has(key)) {
+    translations.set(key, value);
+  }
+  const normalizedKey = normalizeDisplayName(key);
+  if (normalizedKey && !translations.has(normalizedKey)) {
+    translations.set(normalizedKey, value);
+  }
+}
+
 function buildTranslationMap(stringsRoot) {
   const translations = new Map();
   for (const filePath of walkJsonFiles(stringsRoot)) {
@@ -79,15 +92,9 @@ function buildTranslationMap(stringsRoot) {
       if (!zhCN) {
         continue;
       }
-      if (typeof record.Key === "string" && !translations.has(record.Key)) {
-        translations.set(record.Key, record.zhCN);
-      }
-      if (typeof record.enUS === "string" && !translations.has(record.enUS)) {
-        translations.set(record.enUS, record.zhCN);
-      }
-      if (!translations.has(record.zhCN)) {
-        translations.set(record.zhCN, record.zhCN);
-      }
+      addTranslation(translations, record.Key, record.zhCN);
+      addTranslation(translations, record.enUS, record.zhCN);
+      addTranslation(translations, record.zhCN, record.zhCN);
     }
   }
 
@@ -100,8 +107,8 @@ function buildTranslationMap(stringsRoot) {
   ]);
 
   for (const [key, value] of curated) {
-    translations.set(key, value);
-    translations.set(value, value);
+    addTranslation(translations, key, value);
+    addTranslation(translations, value, value);
   }
 
   return translations;
@@ -171,12 +178,21 @@ function stripActPrefix(name) {
   return name.replace(/^\[(?:ACT|A)([1-5])\]\s*/i, "");
 }
 
+function normalizeDisplayName(name) {
+  return name
+    .replace(/（/g, " (")
+    .replace(/）/g, ")")
+    .replace(/\s+\(/g, " (")
+    .trim();
+}
+
 function formatLevelName(id, rawName, translations, actByLevelId) {
   const name = stripActPrefix(rawName);
-  const localized = translations.get(name);
-  if (!localized) {
+  const translated = translations.get(name);
+  if (!translated) {
     return { missing: name, name: rawName };
   }
+  const localized = normalizeDisplayName(translated);
 
   const act = id === 0 ? 0 : actByLevelId.get(id);
   if (!act) {

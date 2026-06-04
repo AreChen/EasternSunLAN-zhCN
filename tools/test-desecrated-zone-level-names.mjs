@@ -26,6 +26,9 @@ assert.equal(getLevelName(170), "[ACT5] 无尽深渊 第5层");
 assert.equal(getLevelName(171), "[ACT5] 无尽深渊 第6层");
 assert.equal(getLevelName(182), "[ACT5] 毁灭神殿");
 assert.equal(getLevelName(200), "[ACT5] 冰冠堡垒");
+assert.equal(getLevelName(12), "[ACT1] 血鸦的工坊 第1层 (终局区域)");
+assert.equal(getLevelName(16), "[ACT1] 血鸦的工坊 第2层 (终局区域)");
+assert.ok(!/[（）]/.test(text), "terror zone level names should use ASCII parentheses");
 
 const forbiddenNameValues = [
   "Crypt of Damnation",

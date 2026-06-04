@@ -5,7 +5,7 @@
 ## 当前版本
 
 - 适配模组版本：`3.11.09`
-- 汉化包版本：`3.11.09-zhCN.7`
+- 汉化包版本：`3.11.09-zhCN.8`
 - 发布日期：`2026-06-04`
 
 ## 下载与安装
@@ -49,7 +49,7 @@ D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\hd\global\excel\desecratedzones.js
 
 ```powershell
 pwsh ./tools/build-pack.ps1
-pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.7.zip
+pwsh ./tools/verify-pack.ps1 -ZipPath ./dist/EasternSunLAN_zhCN_pack_v3.11.09-zhCN.8.zip
 ```
 
 ## 版本规则

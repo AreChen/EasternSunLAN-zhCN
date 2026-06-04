@@ -1,5 +1,17 @@
 # Changelog
 
+## v3.11.09-zhCN.8 - 2026-06-04
+
+- 将恐怖区域右上角提示中的 `（终局区域）` 统一为 ASCII 括号格式 ` (终局区域)`，例如 `[ACT1] 血鸦的工坊 第1层 (终局区域)`。
+- 更新恐怖区域名称同步脚本，使全角括号和 ASCII 括号输入都能稳定生成同一份本地化 `level_names`，避免重复同步后出现缺失翻译。
+- 新增回归测试，禁止 `desecratedzones.json` 中的恐怖区域名称重新出现全角括号。
+
+验证：
+
+- 恐怖区域 `level_names` 同步检查：通过
+- 恐怖区域名称回归测试：通过
+- 包内容检查继续验证 `desecratedzones.json` 存在，且不包含已修复的英文恐怖区域 `name` 值。
+
 ## v3.11.09-zhCN.7 - 2026-06-04
 
 - 将 `data/hd/global/excel/desecratedzones.json` 纳入汉化包，仅本地化 `level_names.name`，并按 `levels.txt` 的 Act 字段添加 `[ACT1]` 到 `[ACT5]` 前缀，修复右上角恐怖区域提示显示 `Crypt of Damnation`、`Infested Lair`、`Endless Abyss` 等英文区域名且不易定位的问题。
