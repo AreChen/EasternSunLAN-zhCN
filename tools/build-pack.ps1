@@ -141,9 +141,13 @@ $readme = @'
 
 `D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\local\lng\strings-legacy`
 
+`D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\D2RLAN\Filters\override_rules.lua`
+
+`D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\hd\global\excel\desecratedzones.json`
+
 ## 内容
 
-本包包含当前 D2R 字符串汉化资源、legacy 字符串补丁和 D2RLAN 过滤器汉化覆盖，不包含玩法数据、存档或高清贴图。符文名按当前项目规则保留英文。
+本包包含当前 D2R 字符串汉化资源、legacy 字符串补丁、D2RLAN 过滤器汉化覆盖和带 ACT 前缀的恐怖区域提示名称汉化，不包含完整模组、存档或高清贴图。符文名按当前项目规则保留英文。
 
 ## 回退
 
@@ -152,6 +156,8 @@ $readme = @'
 `D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\local\lng\strings`
 
 `D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\local\lng\strings-legacy`
+
+`D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\hd\global\excel\desecratedzones.json`
 '@
 
 $readme = $readme.Replace("{{MOD_VERSION}}", $modVersion).Replace("{{PACK_VERSION}}", $PackVersion)

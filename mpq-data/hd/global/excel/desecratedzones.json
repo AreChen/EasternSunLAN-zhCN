@@ -1,0 +1,1901 @@
+{
+    "desecrated_zones": [
+        {
+            "start_time_utc": "2023-01-27 00:00:00",
+            "end_time_utc": "2050-12-15 00:00:00", /* Required for D2RLAN currently. */
+            "terror_duration_min": 60,
+            "terror_break_min": 0,
+            "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
+            "non_ladder_enabled": true,
+            "enabled_normal": true,
+            "enabled_nightmare": true,
+            "enabled_hell": true,
+            "default_normal": {
+                "bound_incl_min": 3, /* Minimum level of a terrorized monster. MAX(bound_incl_min, original_monster_level) */
+                "bound_incl_max": 45, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
+                "boost_level": 4, /* player_level + boost_level = terrorized_monster_level */
+                "difficulty_scale": 1, /* Fake the amount of players in the game. AKA /players X */
+                "boost_experience_percent": 50 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
+            },
+            "default_nightmare": {
+                "bound_incl_min": 40,
+                "bound_incl_max": 71,
+                "boost_level": 4,
+                "difficulty_scale": 1,
+                "boost_experience_percent": 50
+            },
+            "default_hell": {
+                "bound_incl_min": 70,
+                "bound_incl_max": 96,
+                "boost_level": 4,
+                "difficulty_scale": 1,
+                "boost_experience_percent": 50
+            },
+            "warnings": [
+                {
+                    "announce_time_min": 10,
+                    "tier": 1
+                },
+                {
+                    "announce_time_min": 5,
+                    "tier": 2
+                },
+                {
+                    "announce_time_min": 1,
+                    "tier": 3
+                },
+                {
+                    /* DO NOT REMOVE! ALWAYS NEED A TIER 0 AT MINUTE 0. DO NOT REMOVE! */
+                    "announce_time_min": 0,
+                    "tier": 0
+                }
+            ],
+            "zones": [
+                {
+                    /* Blood Raven's Workshop Level 1, 2 and Tamoe Highland */
+                    "id": 1,
+                    "levels": [
+                        {
+                            /* Tamoe Highland */
+                            "level_id": 7,
+                            "waypoint_level_id": 27
+                        },
+                        {
+                            /* Blood Raven's Workshop Level 1 */
+                            "level_id": 12
+                            /*
+                                The ability to override the defaults on a per-level basis exists.
+                                You can also only include the fields you want to modify.
+                                Leave the following commented out lines in as an example:
+                                "normal": {
+                                    "bound_incl_min": 1,
+                                    "bound_incl_max": 40,
+                                    "boost_level": 2,
+                                    "difficulty_scale": 1,
+                                    "boost_experience_percent": 25
+                                },
+                                "nightmare": {
+                                    "boost_level": 2,
+                                    "difficulty_scale": 1,
+                                    "boost_experience_percent": 25
+                                },
+                                "hell": {
+                                    "bound_incl_min": 66,
+                                    "bound_incl_max": 95,
+                                }
+                                */
+                        },
+                        {
+                            /* Blood Ravens Workshop Level 2 */
+                            "level_id": 16
+                        }
+                    ]
+                },
+                {
+                    /* Forgotten Tower and Black Marsh */
+                    "id": 2,
+                    "levels": [
+                        {
+                            /* Forgotten Tower */
+                            "level_id": 20,
+                            /* Black Marsh */
+                            "waypoint_level_id": 6
+                        },
+                        {
+                            /* Tower Cellar Level 1 */
+                            "level_id": 21
+                        },
+                        {
+                            /* Tower Cellar Level 2 */
+                            "level_id": 22
+                        },
+                        {
+                            /* Tower Cellar Level 3 */
+                            "level_id": 23
+                        },
+                        {
+                            /* Tower Cellar Level 4 */
+                            "level_id": 24
+                        },
+                        {
+                            /* Tower Cellar Level 5 */
+                            "level_id": 25
+                        },
+                        {
+                            /* Black Marsh */
+                            "level_id": 6
+                        }
+                    ]
+                },
+                {
+                    /* Moo Moo Farm and Catacombs */
+                    "id": 3,
+                    "levels": [
+                        {
+                            /* Moo Moo Farm */
+                            "level_id": 39,
+                            /* Rogue Encampment */
+                            "waypoint_level_id": 1
+                        },
+                        {
+                            /* Catacombs Level 1 */
+                            "level_id": 34
+                        },
+                        {
+                            /* Catacombs Level 2 */
+                            "level_id": 35
+                        },
+                        {
+                            /* Catacombs Level 3 */
+                            "level_id": 36
+                        },
+                        {
+                            /* Catacombs Level 4 */
+                            "level_id": 37
+                        }
+                    ]
+                },
+                {
+                    /* Lost Farm, Andariel's Dressing Room and Arcane Sanctuary */
+                    "id": 4,
+                    "levels": [
+                        {
+                            /* Lost Farm */
+                            "level_id": 44,
+                            /* Lost Farm */
+                            "waypoint_level_id": 44
+                        },
+                        {
+                            /* Andariel's Dressing Room */
+                            "level_id": 65
+                        },
+                        {
+                            /* Arcane Sanctuary */
+                            "level_id": 74
+                        }
+                    ]
+                },
+                {
+                    /* Dark Magician's Chamber, Rocky Waste and Sewers */
+                    "id": 5,
+                    "levels": [
+                        {
+                            /* Rocky Waste */
+                            "level_id": 41,
+                            /* Lut Gholein */
+                            "waypoint_level_id": 40
+                        },
+                        {
+                            /* Dark Magician's Chamber 1 */
+                            "level_id": 55
+                        },
+                        {
+                            /* Dark Magician's Chamber 2 */
+                            "level_id": 59
+                        },
+                        {
+                            /* Sewers Level 1 */
+                            "level_id": 48
+                        },
+                        {
+                            /* Sewers Level 2 */
+                            "level_id": 49
+                        }
+                    ]
+                },
+                {
+                    /* Tal Rasha's Tombs, Canyon of the Magi */
+                    "id": 6,
+                    "levels": [
+                        {
+                            /* Canyon of the Magi */
+                            "level_id": 46,
+                            /* Canyon of the Magi */
+                            "waypoint_level_id": 46
+                        },
+                        {
+                            /* Tal Rasha's Tomb */
+                            "level_id": 66
+                        },
+                        {
+                            /* Tal Rasha's Tomb */
+                            "level_id": 67
+                        },
+                        {
+                            /* Tal Rasha's Tomb */
+                            "level_id": 68
+                        },
+                        {
+                            /* Tal Rasha's Tomb */
+                            "level_id": 69
+                        },
+                        {
+                            /* Tal Rasha's Tomb */
+                            "level_id": 70
+                        },
+                        {
+                            /* Tal Rasha's Tomb */
+                            "level_id": 71
+                        },
+                        {
+                            /* Tal Rasha's Tomb */
+                            "level_id": 72
+                        },
+                        {
+                            /* Tal Rasha's Chamber */
+                            "level_id": 73
+                        }
+                    ]
+                },
+                {
+                    /* Marsh of Pain, Spider Forest and Spider Cavern */
+                    "id": 7,
+                    "levels": [
+                        {
+                            /* Marsh of Pain */
+                            "level_id": 77,
+                            /* Marsh of Pain */
+                            "waypoint_level_id": 77
+                        },
+                        {
+                            /* Spider Forest */
+                            "level_id": 76
+                        },
+                        {
+                            /* Spider Cavern */
+                            "level_id": 85
+                        }
+                    ]
+                },
+                {
+                    /* Flayer Jungle, Flayer Tunnel and Lower Kurast */
+                    "id": 8,
+                    "levels": [
+                        {
+                            /* Flayer Jungle */
+                            "level_id": 78,
+                            /* Flayer Jungle */
+                            "waypoint_level_id": 78
+                        },
+                        {
+                            /* Flayer Tunnel */
+                            "level_id": 88
+                        },
+                        {
+                            /* Lower Kurast */
+                            "level_id": 79
+                        }
+                    ]
+                },
+                {
+                    /* Harpie's Nest Level 1, 2, Travincal, Kurast Causeway and Upper Kurast */
+                    "id": 9,
+                    "levels": [
+                        {
+                            /* Harpie's Nest Level 1 */
+                            "level_id": 87,
+                            /* Travincal */
+                            "waypoint_level_id": 83
+                        },
+                        {
+                            /* Harpie's Nest Level 2 */
+                            "level_id": 84
+                        },
+                        {
+                            /* Travincal */
+                            "level_id": 83
+                        },
+                        {
+                            /* Upper Kurast */
+                            "level_id": 81
+                        },
+                        {
+                            /* Kurast Causeway */
+                            "level_id": 82
+                        }
+                    ]
+                },
+                {
+                    /* Bookstore Sarina Level 1, 2, Kurast Bazaar and Sewers */
+                    "id": 10,
+                    "levels": [
+                        {
+                            /* Kurast Bazaar */
+                            "level_id": 80,
+                            /* Kurast Bazaar */
+                            "waypoint_level_id": 80
+                        },
+                        {
+                            /* Bookstore Sarina Level 1 */
+                            "level_id": 86
+                        },
+                        {
+                            /* Bookstore Sarina Level 2 */
+                            "level_id": 94
+                        },
+                        {
+                            /* Sewers Level 1 */
+                            "level_id": 92
+                        },
+                        {
+                            /* Sewers Level 2 */
+                            "level_id": 93
+                        }
+                    ]
+                },
+                {
+                    /* Entire Act 4 */
+                    "id": 11,
+                    "levels": [
+                        {
+                            /* River of Flame */
+                            "level_id": 107,
+                            /* River of Flame */
+                            "waypoint_level_id": 107
+                        },
+                        {
+                            /* The Chaos Sanctuary */
+                            "level_id": 108
+                        },
+                        {
+                            /* Outer Steppes */
+                            "level_id": 104
+                        },
+                        {
+                            /* Plains of Despair */
+                            "level_id": 105
+                        },
+                        {
+                            /* City of the Damned */
+                            "level_id": 106
+                        }
+                    ]
+                },
+                {
+                    /* Frigid Highlands and Moonshine Distillery*/
+                    "id": 12,
+                    "levels": [
+                        {
+                            /* Moonshine Distillery */
+                            "level_id": 125,
+                            /* Frigid Highlands */
+                            "waypoint_level_id": 111
+                        },
+                        {
+                            /* Frigid Highlands */
+                            "level_id": 111
+                        }
+                    ]
+                },
+                {
+                    /* Arreat Plateau and Fake Note Factory */
+                    "id": 13,
+                    "levels": [
+                        {
+                            /* Fake Note Factory */
+                            "level_id": 126,
+                            /* Arreat Plateau */
+                            "waypoint_level_id": 112
+                        },
+                        {
+                            /* Arreat Plateau */
+                            "level_id": 112
+                        }
+                    ]
+                },
+                {
+                    /* Frozen Tundra and Poppy Farm */
+                    "id": 14,
+                    "levels": [
+                        {
+                            /* Poppy Farm */
+                            "level_id": 127,
+                            /* Frozen Tundra */
+                            "waypoint_level_id": 117
+                        },
+                        {
+                            /* Frozen Tundra */
+                            "level_id": 117
+                        }
+                    ]
+                },
+                {
+                    /* Naraku Level 1, Level 2, Level 3 and All Caves */
+                    "id": 15,
+                    "levels": [
+                        {
+                            /* Naraku Level 1 */
+                            "level_id": 115,
+                            /* Naraku Level 1 */
+                            "waypoint_level_id": 115
+                        },
+                        {
+                            /* GFraizer Dome */
+                            "level_id": 119
+                        },
+                        {
+                            /* Naraku Level 2 */
+                            "level_id": 137
+                        },
+                        {
+                            /* FlayerBill Roper Memorial Ball Park */
+                            "level_id": 116
+                        },
+                        {
+                            /* Naraku Level 3 */
+                            "level_id": 130
+                        },
+                        {
+                            /* Nosliwyaj's Reign */
+                            "level_id": 138
+                        }
+                    ]
+                },
+                {
+                    /* The Dead End, Nowhere */
+                    "id": 16,
+                    "levels": [
+                        {
+                            /* The Dead End */
+                            "level_id": 122,
+                            /* Naraku Level 1 */
+                            "waypoint_level_id": 115
+                        },
+                        {
+                            /* Nowhere */
+                            "level_id": 113
+                        }
+                    ]
+                },
+                {
+                    /* Nihlathak's Domain Level 1, 2 */
+                    "id": 17,
+                    "levels": [
+                        {
+                            /* Nihlathak's Domain Level 1 */
+                            "level_id": 123,
+                            "waypoint_level_id": 115
+                        },
+                        {
+                            /* Nihlathak's Domain Level 2 */
+                            "level_id": 124
+                        }
+                    ]
+                },
+                {
+                    /* The Worldstone Keep Level 1, 2, Throne of Destruction, The Worldstone Chamber */
+                    "id": 18,
+                    "levels": [
+                        {
+                            /* The Worldstone Keep Level 1 */
+                            "level_id": 128
+                        },
+                        {
+                            /* The Worldstone Keep Level 2 */
+                            "level_id": 129,
+                            "waypoint_level_id": 129
+                        },
+                        {
+                            /* Throne of Destruction */
+                            "level_id": 131
+                        },
+                        {
+                            /* The Worldstone Chamber */
+                            "level_id": 132
+                        }
+                    ]
+                },
+                {
+                    /* Chasm of Horror, Ancient Tomb, Twisted Maze, Infernal Nexus */
+                    "id": 19,
+                    "levels": [
+                        {
+                            /* Chasm of Horror */
+                            "level_id": 139,
+                            "waypoint_level_id": 109,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Chasm of Horror */
+                            "level_id": 140,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Chasm of Horror */
+                            "level_id": 141,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Ancient Tomb */
+                            "level_id": 150,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Ancient Tomb */
+                            "level_id": 151,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Twisted Maze */
+                            "level_id": 163,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Twisted Maze */
+                            "level_id": 164,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Infernal Nexus */
+                            "level_id": 185,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 192,
+                            "waypoint_level_id": 109,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 193,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 194,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 195,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 196,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 197,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 198,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Eye of the Storm */
+                            "level_id": 199,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        }
+                    ]
+                },
+                {
+                    /* Crypt of Damnation, Infested Lair, Endless Abyss, Shrine of Destruction */
+                    "id": 20,
+                    "levels": [
+                        {
+                            /* Crypt of Damnation */
+                            "level_id": 142,
+                            "waypoint_level_id": 109,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Crypt of Damnation */
+                            "level_id": 143,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Infested Lair */
+                            "level_id": 152,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Infested Lair */
+                            "level_id": 153,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Infested Lair */
+                            "level_id": 154,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 165,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 166,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 167,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 168,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 169,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 170,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 171,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 172,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 173,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 174,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Endless Abyss */
+                            "level_id": 175,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Shrine of Destruction */
+                            "level_id": 182,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Shrine of Destruction */
+                            "level_id": 183,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Shrine of Destruction */
+                            "level_id": 184,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Icecrown Citadel */
+                            "level_id": 200,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Icecrown Citadel */
+                            "level_id": 201,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Icecrown Citadel */
+                            "level_id": 202,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Icecrown Citadel */
+                            "level_id": 203,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        }
+                    ]
+                },
+                {
+                    /* Necropolis, Chaos Rift, Decaying Depths, Reliquary of Souls, The Reliquary of False Light */
+                    "id": 21,
+                    "levels": [
+                        {
+                            /* Necropolis */
+                            "level_id": 144,
+                            "waypoint_level_id": 109,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Necropolis */
+                            "level_id": 145,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Necropolis */
+                            "level_id": 146,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Chaos Rift */
+                            "level_id": 155,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Chaos Rift */
+                            "level_id": 156,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Chaos Rift */
+                            "level_id": 157,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Chaos Rift */
+                            "level_id": 158,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Chaos Rift */
+                            "level_id": 159,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Decaying Depths */
+                            "level_id": 176,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Decaying Depths */
+                            "level_id": 177,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Reliquary of Souls */
+                            "level_id": 186,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Reliquary of Souls 1 */
+                            "level_id": 187,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Reliquary of Souls 2 */
+                            "level_id": 188,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Reliquary of Souls 3 */
+                            "level_id": 189,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Reliquary of Souls 4 */
+                            "level_id": 190,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Reliquary of False Light */
+                            "level_id": 207,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Reliquary of False Light Level 1 */
+                            "level_id": 208,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Reliquary of False Light Level 2 */
+                            "level_id": 209,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Reliquary of False Light Level 3 */
+                            "level_id": 210,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Altar of Doomed Salvation */
+                            "level_id": 211,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        }
+                    ]
+                },
+                {
+                    /* Cellar of Pain, Labyrinth of Suffering, Frozen Wastes, Cursed Ossuary, The Sanctum of the Dead */
+                    "id": 22,
+                    "levels": [
+                        {
+                            /* Cellar of Pain */
+                            "level_id": 147,
+                            "waypoint_level_id": 109,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Cellar of Pain */
+                            "level_id": 148,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Cellar of Pain */
+                            "level_id": 149,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Labyrinth of Suffering */
+                            "level_id": 160,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Labyrinth of Suffering */
+                            "level_id": 161,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Labyrinth of Suffering */
+                            "level_id": 162,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Frozen Wastes */
+                            "level_id": 178,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Frozen Wastes */
+                            "level_id": 179,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Frozen Wastes */
+                            "level_id": 180,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Frozen Wastes */
+                            "level_id": 181,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* Cursed Ossuary */
+                            "level_id": 191,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Sanctum of the Dead */
+                            "level_id": 204,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Sanctum of the Dead */
+                            "level_id": 205,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        },
+                        {
+                            /* The Crepuscular Basilica */
+                            "level_id": 206,
+                            "hell": {
+                                "bound_incl_max": 110
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "level_names": [
+        {
+            "id": 0,
+            "name": "空"
+        },
+        {
+            "id": 1,
+            "name": "[ACT1] 游侠营地"
+        },
+        {
+            "id": 2,
+            "name": "[ACT1] 鲜红荒地"
+        },
+        {
+            "id": 3,
+            "name": "[ACT1] 寒冷平原"
+        },
+        {
+            "id": 4,
+            "name": "[ACT1] 石头田"
+        },
+        {
+            "id": 5,
+            "name": "[ACT1] 黑暗森林"
+        },
+        {
+            "id": 6,
+            "name": "[ACT1] 黑沼泽"
+        },
+        {
+            "id": 7,
+            "name": "[ACT1] 塔莫高地"
+        },
+        {
+            "id": 8,
+            "name": "[ACT1] 邪恶之巢"
+        },
+        {
+            "id": 9,
+            "name": "[ACT1] 洞穴层级 1"
+        },
+        {
+            "id": 10,
+            "name": "[ACT1] 地下通道 第1层"
+        },
+        {
+            "id": 11,
+            "name": "[ACT1] 洞穴等级 1"
+        },
+        {
+            "id": 12,
+            "name": "[ACT1] 血鸦的工坊 第1层（终局区域）"
+        },
+        {
+            "id": 13,
+            "name": "[ACT1] 洞穴等级 2"
+        },
+        {
+            "id": 14,
+            "name": "[ACT1] 地下通道第2层"
+        },
+        {
+            "id": 15,
+            "name": "[ACT1] 洞穴第2层"
+        },
+        {
+            "id": 16,
+            "name": "[ACT1] 血鸦的工坊 第2层（终局区域）"
+        },
+        {
+            "id": 17,
+            "name": "[ACT1] 埋葬场地"
+        },
+        {
+            "id": 18,
+            "name": "[ACT1] 墓穴"
+        },
+        {
+            "id": 19,
+            "name": "[ACT1] 陵墓"
+        },
+        {
+            "id": 20,
+            "name": "[ACT1] 被遗忘的塔"
+        },
+        {
+            "id": 21,
+            "name": "[ACT1] 塔楼地窖第1层"
+        },
+        {
+            "id": 22,
+            "name": "[ACT1] 塔楼地窖第2层"
+        },
+        {
+            "id": 23,
+            "name": "[ACT1] 塔楼地窖第3层"
+        },
+        {
+            "id": 24,
+            "name": "[ACT1] 塔楼地窖第4层"
+        },
+        {
+            "id": 25,
+            "name": "[ACT1] 塔楼地窖第5层"
+        },
+        {
+            "id": 26,
+            "name": "[ACT1] 修道院大门"
+        },
+        {
+            "id": 27,
+            "name": "[ACT1] 外部回廊"
+        },
+        {
+            "id": 28,
+            "name": "[ACT1] 兵营"
+        },
+        {
+            "id": 29,
+            "name": "[ACT1] 监狱第1层"
+        },
+        {
+            "id": 30,
+            "name": "[ACT1] 监狱第2层"
+        },
+        {
+            "id": 31,
+            "name": "[ACT1] 监狱第3层"
+        },
+        {
+            "id": 32,
+            "name": "[ACT1] 内院"
+        },
+        {
+            "id": 33,
+            "name": "[ACT1] 大教堂"
+        },
+        {
+            "id": 34,
+            "name": "[ACT1] 地下墓穴 第1层"
+        },
+        {
+            "id": 35,
+            "name": "[ACT1] 地下墓穴 第二层"
+        },
+        {
+            "id": 36,
+            "name": "[ACT1] 地下墓穴 第3层"
+        },
+        {
+            "id": 37,
+            "name": "[ACT1] 地下墓穴 第4层"
+        },
+        {
+            "id": 38,
+            "name": "[ACT1] 崔斯特姆"
+        },
+        {
+            "id": 39,
+            "name": "[ACT1] 秘密牛关卡"
+        },
+        {
+            "id": 40,
+            "name": "[ACT2] 鲁高因"
+        },
+        {
+            "id": 41,
+            "name": "[ACT2] 岩石废土"
+        },
+        {
+            "id": 42,
+            "name": "[ACT2] 干燥山丘"
+        },
+        {
+            "id": 43,
+            "name": "[ACT2] 遥远的绿洲"
+        },
+        {
+            "id": 44,
+            "name": "[ACT2] 失落农场（终局区域）"
+        },
+        {
+            "id": 45,
+            "name": "[ACT2] 蛇谷"
+        },
+        {
+            "id": 46,
+            "name": "[ACT2] 魔法峡谷"
+        },
+        {
+            "id": 47,
+            "name": "[ACT2] 神庙通道第1层"
+        },
+        {
+            "id": 48,
+            "name": "[ACT2] 下水道第1层"
+        },
+        {
+            "id": 49,
+            "name": "[ACT2] 下水道 2 层"
+        },
+        {
+            "id": 50,
+            "name": "[ACT2] 后宫 1 级"
+        },
+        {
+            "id": 51,
+            "name": "[ACT2] 地下迷宫"
+        },
+        {
+            "id": 52,
+            "name": "[ACT2] 宫殿地窖 1 层"
+        },
+        {
+            "id": 53,
+            "name": "[ACT2] 宫殿地窖第2层"
+        },
+        {
+            "id": 54,
+            "name": "[ACT2] 宫殿地窖第3层"
+        },
+        {
+            "id": 55,
+            "name": "[ACT2] 黑暗法师的密室 第1层（终局区域）"
+        },
+        {
+            "id": 56,
+            "name": "[ACT2] 亡者之厅 第1层"
+        },
+        {
+            "id": 57,
+            "name": "[ACT2] 神庙通道第2层"
+        },
+        {
+            "id": 58,
+            "name": "[ACT2] 爪蛇神庙 第1层"
+        },
+        {
+            "id": 59,
+            "name": "[ACT2] 黑暗法师的密室 第二层（终局区域）"
+        },
+        {
+            "id": 60,
+            "name": "[ACT2] 亡者之厅 第二层"
+        },
+        {
+            "id": 61,
+            "name": "[ACT2] 爪蛇神庙第2层"
+        },
+        {
+            "id": 62,
+            "name": "[ACT2] 蛆虫隧道"
+        },
+        {
+            "id": 63,
+            "name": "[ACT2] 蛆虫通道"
+        },
+        {
+            "id": 64,
+            "name": "[ACT2] 蛆虫巢穴"
+        },
+        {
+            "id": 65,
+            "name": "[ACT2] 安达利尔的更衣室（终局区域）"
+        },
+        {
+            "id": 66,
+            "name": "[ACT2] 塔拉夏的古墓"
+        },
+        {
+            "id": 67,
+            "name": "[ACT2] 塔拉夏的古墓"
+        },
+        {
+            "id": 68,
+            "name": "[ACT2] 塔拉夏的古墓"
+        },
+        {
+            "id": 69,
+            "name": "[ACT2] 塔拉夏的古墓"
+        },
+        {
+            "id": 70,
+            "name": "[ACT2] 塔拉夏的古墓"
+        },
+        {
+            "id": 71,
+            "name": "[ACT2] 塔拉夏的古墓"
+        },
+        {
+            "id": 72,
+            "name": "[ACT2] 塔拉夏的古墓"
+        },
+        {
+            "id": 73,
+            "name": "[ACT2] 塔拉夏的密室"
+        },
+        {
+            "id": 74,
+            "name": "[ACT2] 奥术圣所"
+        },
+        {
+            "id": 75,
+            "name": "[ACT3] 库拉斯特码头"
+        },
+        {
+            "id": 76,
+            "name": "[ACT3] 蜘蛛森林"
+        },
+        {
+            "id": 77,
+            "name": "[ACT3] 痛苦沼泽（终局区域）"
+        },
+        {
+            "id": 78,
+            "name": "[ACT3] 剥皮者丛林"
+        },
+        {
+            "id": 79,
+            "name": "[ACT3] 下库拉斯特"
+        },
+        {
+            "id": 80,
+            "name": "[ACT3] 库拉斯特集市"
+        },
+        {
+            "id": 81,
+            "name": "[ACT3] 上库拉斯特"
+        },
+        {
+            "id": 82,
+            "name": "[ACT3] 库拉斯特堤道"
+        },
+        {
+            "id": 83,
+            "name": "[ACT3] 崔凡克"
+        },
+        {
+            "id": 84,
+            "name": "[ACT3] 哈比巢穴第2层（终局区域）"
+        },
+        {
+            "id": 85,
+            "name": "[ACT3] 蜘蛛洞穴"
+        },
+        {
+            "id": 86,
+            "name": "[ACT3] 书店萨琳娜 1级（终局区域）"
+        },
+        {
+            "id": 87,
+            "name": "[ACT3] 哈比巢穴第1层（终局区域）"
+        },
+        {
+            "id": 88,
+            "name": "[ACT3] 剥皮者隧道"
+        },
+        {
+            "id": 89,
+            "name": "[ACT3] 剥皮者地牢第1层"
+        },
+        {
+            "id": 90,
+            "name": "[ACT3] 沼泽坑"
+        },
+        {
+            "id": 91,
+            "name": "[ACT3] 剥皮者地牢第2层"
+        },
+        {
+            "id": 92,
+            "name": "[ACT3] 下水道第1层"
+        },
+        {
+            "id": 93,
+            "name": "[ACT3] 下水道 2 层"
+        },
+        {
+            "id": 94,
+            "name": "[ACT3] 书店萨琳娜 2级（终局区域）"
+        },
+        {
+            "id": 95,
+            "name": "[ACT3] 废弃的神殿"
+        },
+        {
+            "id": 96,
+            "name": "[ACT3] 被遗忘的圣物箱"
+        },
+        {
+            "id": 97,
+            "name": "[ACT3] 被遗忘的神庙"
+        },
+        {
+            "id": 98,
+            "name": "[ACT3] 毁灭的圣殿"
+        },
+        {
+            "id": 99,
+            "name": "[ACT3] 废弃的圣物箱"
+        },
+        {
+            "id": 100,
+            "name": "[ACT3] 仇恨之牢 1层"
+        },
+        {
+            "id": 101,
+            "name": "[ACT3] 仇恨之牢 2层"
+        },
+        {
+            "id": 102,
+            "name": "[ACT3] 仇恨之牢 第3层"
+        },
+        {
+            "id": 103,
+            "name": "[ACT4] 混沌堡垒"
+        },
+        {
+            "id": 104,
+            "name": "[ACT4] 外部草原"
+        },
+        {
+            "id": 105,
+            "name": "[ACT4] 绝望平原"
+        },
+        {
+            "id": 106,
+            "name": "[ACT4] 被诅咒之城"
+        },
+        {
+            "id": 107,
+            "name": "[ACT4] 火焰之河"
+        },
+        {
+            "id": 108,
+            "name": "[ACT4] 混沌圣所"
+        },
+        {
+            "id": 109,
+            "name": "[ACT5] 哈洛加斯"
+        },
+        {
+            "id": 110,
+            "name": "[ACT5] 苦战丘陵"
+        },
+        {
+            "id": 111,
+            "name": "[ACT5] 冰冻高地"
+        },
+        {
+            "id": 112,
+            "name": "[ACT5] 亚瑞特高原"
+        },
+        {
+            "id": 113,
+            "name": "[ACT5] 无处"
+        },
+        {
+            "id": 114,
+            "name": "[ACT5] 冰冻之河"
+        },
+        {
+            "id": 115,
+            "name": "[ACT5] 奈落第1层（终局区域）"
+        },
+        {
+            "id": 116,
+            "name": "[ACT5] 比尔·罗珀纪念棒球场"
+        },
+        {
+            "id": 117,
+            "name": "[ACT5] 冰冻苔原"
+        },
+        {
+            "id": 118,
+            "name": "[ACT5] 古老者之路"
+        },
+        {
+            "id": 119,
+            "name": "[ACT5] GFraizer的圆顶"
+        },
+        {
+            "id": 120,
+            "name": "[ACT5] 亚瑞特山巅"
+        },
+        {
+            "id": 121,
+            "name": "[ACT5] 维度之门"
+        },
+        {
+            "id": 122,
+            "name": "[ACT5] 死胡同"
+        },
+        {
+            "id": 123,
+            "name": "[ACT5] 尼拉塔克的领域 第1层"
+        },
+        {
+            "id": 124,
+            "name": "[ACT5] 尼拉塔克的领域 第2层"
+        },
+        {
+            "id": 125,
+            "name": "[ACT5] 月光酒厂（终局区域）"
+        },
+        {
+            "id": 126,
+            "name": "[ACT5] 假钞工厂（终局区域）"
+        },
+        {
+            "id": 127,
+            "name": "[ACT5] 罂粟农场（终局区域）"
+        },
+        {
+            "id": 128,
+            "name": "[ACT5] 世界之石要塞第一层"
+        },
+        {
+            "id": 129,
+            "name": "[ACT5] 世界之石要塞第二层"
+        },
+        {
+            "id": 130,
+            "name": "[ACT5] 奈落第3层"
+        },
+        {
+            "id": 131,
+            "name": "[ACT5] 毁灭王座"
+        },
+        {
+            "id": 132,
+            "name": "[ACT5] 世界之石密室"
+        },
+        {
+            "id": 133,
+            "name": "[ACT5] 女监的巢穴"
+        },
+        {
+            "id": 134,
+            "name": "[ACT5] 被遗忘的沙漠"
+        },
+        {
+            "id": 135,
+            "name": "[ACT5] 痛苦熔炉"
+        },
+        {
+            "id": 136,
+            "name": "[ACT5] 崔斯特姆"
+        },
+        {
+            "id": 137,
+            "name": "[ACT5] 奈落第2层"
+        },
+        {
+            "id": 138,
+            "name": "[ACT5] 诺斯利瓦伊的统治"
+        },
+        {
+            "id": 139,
+            "name": "[ACT5] 恐怖深渊"
+        },
+        {
+            "id": 140,
+            "name": "[ACT5] 恐怖深渊 第1层"
+        },
+        {
+            "id": 141,
+            "name": "[ACT5] 恐怖深渊 第2层"
+        },
+        {
+            "id": 142,
+            "name": "[ACT5] 诅咒之墓"
+        },
+        {
+            "id": 143,
+            "name": "[ACT5] 诅咒之墓"
+        },
+        {
+            "id": 144,
+            "name": "[ACT5] 亡灵之城"
+        },
+        {
+            "id": 145,
+            "name": "[ACT5] 亡者之城 第1层"
+        },
+        {
+            "id": 146,
+            "name": "[ACT5] 亡者之城第2层"
+        },
+        {
+            "id": 147,
+            "name": "[ACT5] 痛苦地窖"
+        },
+        {
+            "id": 148,
+            "name": "[ACT5] 痛苦地窖 第1层"
+        },
+        {
+            "id": 149,
+            "name": "[ACT5] 痛苦地窖第2层"
+        },
+        {
+            "id": 150,
+            "name": "[ACT5] 古墓"
+        },
+        {
+            "id": 151,
+            "name": "[ACT5] 古墓"
+        },
+        {
+            "id": 152,
+            "name": "[ACT5] 感染的巢穴"
+        },
+        {
+            "id": 153,
+            "name": "[ACT5] 感染的巢穴 第1层"
+        },
+        {
+            "id": 154,
+            "name": "[ACT5] 感染的巢穴 第2层"
+        },
+        {
+            "id": 155,
+            "name": "[ACT5] 混沌裂隙"
+        },
+        {
+            "id": 156,
+            "name": "[ACT5] 混沌裂隙 第1层"
+        },
+        {
+            "id": 157,
+            "name": "[ACT5] 混沌裂缝第2层"
+        },
+        {
+            "id": 158,
+            "name": "[ACT5] 混沌裂隙 第3层"
+        },
+        {
+            "id": 159,
+            "name": "[ACT5] 混沌裂隙 第4层"
+        },
+        {
+            "id": 160,
+            "name": "[ACT5] 痛苦迷宫"
+        },
+        {
+            "id": 161,
+            "name": "[ACT5] 痛苦迷宫 第1层"
+        },
+        {
+            "id": 162,
+            "name": "[ACT5] 痛苦迷宫 第二层"
+        },
+        {
+            "id": 163,
+            "name": "[ACT5] 扭曲迷宫"
+        },
+        {
+            "id": 164,
+            "name": "[ACT5] 扭曲迷宫"
+        },
+        {
+            "id": 165,
+            "name": "[ACT5] 无尽深渊"
+        },
+        {
+            "id": 166,
+            "name": "[ACT5] 无尽深渊 第1层"
+        },
+        {
+            "id": 167,
+            "name": "[ACT5] 无尽深渊 第2层"
+        },
+        {
+            "id": 168,
+            "name": "[ACT5] 无尽深渊 第3层"
+        },
+        {
+            "id": 169,
+            "name": "[ACT5] 无尽深渊 第4层"
+        },
+        {
+            "id": 170,
+            "name": "[ACT5] 无尽深渊 第5层"
+        },
+        {
+            "id": 171,
+            "name": "[ACT5] 无尽深渊 第6层"
+        },
+        {
+            "id": 172,
+            "name": "[ACT5] 无尽深渊 第7层"
+        },
+        {
+            "id": 173,
+            "name": "[ACT5] 无尽深渊 第8层"
+        },
+        {
+            "id": 174,
+            "name": "[ACT5] 无尽深渊 第9层"
+        },
+        {
+            "id": 175,
+            "name": "[ACT5] 无尽深渊 第10层"
+        },
+        {
+            "id": 176,
+            "name": "[ACT5] 腐烂深渊"
+        },
+        {
+            "id": 177,
+            "name": "[ACT5] 腐烂深渊"
+        },
+        {
+            "id": 178,
+            "name": "[ACT5] 冰冻荒原"
+        },
+        {
+            "id": 179,
+            "name": "[ACT5] 冰冻荒原"
+        },
+        {
+            "id": 180,
+            "name": "[ACT5] 冰冻荒原 北方下降"
+        },
+        {
+            "id": 181,
+            "name": "[ACT5] 冰冻荒原 南部下降"
+        },
+        {
+            "id": 182,
+            "name": "[ACT5] 毁灭神殿"
+        },
+        {
+            "id": 183,
+            "name": "[ACT5] 毁灭神殿 第1层"
+        },
+        {
+            "id": 184,
+            "name": "[ACT5] 毁灭神殿 第二层"
+        },
+        {
+            "id": 185,
+            "name": "[ACT5] 地狱枢纽"
+        },
+        {
+            "id": 186,
+            "name": "[ACT5] 灵魂圣匣"
+        },
+        {
+            "id": 187,
+            "name": "[ACT5] 灵魂圣物 1级"
+        },
+        {
+            "id": 188,
+            "name": "[ACT5] 灵魂圣匣 2级"
+        },
+        {
+            "id": 189,
+            "name": "[ACT5] 灵魂圣物 3级"
+        },
+        {
+            "id": 190,
+            "name": "[ACT5] 灵魂圣遗物 4级"
+        },
+        {
+            "id": 191,
+            "name": "[ACT5] 被诅咒的骨灰堂"
+        },
+        {
+            "id": 192,
+            "name": "[ACT5] 风暴之眼"
+        },
+        {
+            "id": 193,
+            "name": "[ACT5] 风暴之眼"
+        },
+        {
+            "id": 194,
+            "name": "[ACT5] 铁牢 1层"
+        },
+        {
+            "id": 195,
+            "name": "[ACT5] 灵魂之螺旋 第1层"
+        },
+        {
+            "id": 196,
+            "name": "[ACT5] 堕落之裂 第1层"
+        },
+        {
+            "id": 197,
+            "name": "[ACT5] 铁之堡垒第2层"
+        },
+        {
+            "id": 198,
+            "name": "[ACT5] 灵魂之螺旋 第二层"
+        },
+        {
+            "id": 199,
+            "name": "[ACT5] 堕落之裂 第2层"
+        },
+        {
+            "id": 200,
+            "name": "[ACT5] 冰冠堡垒"
+        },
+        {
+            "id": 201,
+            "name": "[ACT5] 冰冠堡垒"
+        },
+        {
+            "id": 202,
+            "name": "[ACT5] 冰封王座"
+        },
+        {
+            "id": 203,
+            "name": "[ACT5] 永恒的边缘"
+        },
+        {
+            "id": 204,
+            "name": "[ACT5] 五阶地图 - 亡者圣所"
+        },
+        {
+            "id": 205,
+            "name": "[ACT5] 亡者圣所"
+        },
+        {
+            "id": 206,
+            "name": "[ACT5] 黄昏大教堂"
+        },
+        {
+            "id": 207,
+            "name": "[ACT5] 虚假之光的圣物柜"
+        },
+        {
+            "id": 208,
+            "name": "[ACT5] 虚假之光的遗物 1 级"
+        },
+        {
+            "id": 209,
+            "name": "[ACT5] 虚假之光的遗物 2 级"
+        },
+        {
+            "id": 210,
+            "name": "[ACT5] 虚假之光的遗物 3 级"
+        },
+        {
+            "id": 211,
+            "name": "[ACT5] 被诅咒的救赎祭坛"
+        }
+    ]
+}

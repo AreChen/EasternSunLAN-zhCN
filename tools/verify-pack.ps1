@@ -33,7 +33,8 @@ try {
         "EasternSunLAN.mpq/data/local/lng/strings/item-names.json",
         "EasternSunLAN.mpq/data/local/lng/strings-legacy/item-names.json",
         "EasternSunLAN.mpq/data/local/lng/strings-legacy/item-nameaffixes.json",
-        "EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua"
+        "EasternSunLAN.mpq/data/D2RLAN/Filters/override_rules.lua",
+        "EasternSunLAN.mpq/data/hd/global/excel/desecratedzones.json"
     )
     $forbiddenFiles = @(
         "EasternSunLAN.mpq/data/D2RLAN/Filters/SunRise Filter.lua",
@@ -70,8 +71,14 @@ try {
     }
 
     $jsonErrors = @()
+    $jsonSkipped = @()
     $jsonFiles = Get-ChildItem -LiteralPath $verifyRoot -Recurse -File -Filter "*.json"
     foreach ($jsonFile in $jsonFiles) {
+        $relativeJsonPath = [System.IO.Path]::GetRelativePath($verifyRoot, $jsonFile.FullName) -replace "\\", "/"
+        if ($relativeJsonPath -eq "EasternSunLAN.mpq/data/hd/global/excel/desecratedzones.json") {
+            $jsonSkipped += $relativeJsonPath
+            continue
+        }
         try {
             $null = Get-Content -LiteralPath $jsonFile.FullName -Raw | ConvertFrom-Json
         } catch {
@@ -98,6 +105,7 @@ try {
         stringsRootPresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\local\lng\strings")
         legacyStringsRootPresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\local\lng\strings-legacy")
         filterOverridePresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\override_rules.lua")
+        desecratedZonesPresent = Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\hd\global\excel\desecratedzones.json")
         sunRiseFilterPresent = (
             (Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\SunRise Filter.lua")) -or
             (Test-Path -LiteralPath (Join-Path $verifyRoot "EasternSunLAN.mpq\data\D2RLAN\Filters\SunRise-Filter.lua"))
@@ -106,6 +114,7 @@ try {
         forbiddenPackagedFiles = $forbiddenPackagedFiles.Count
         hashMismatches = $hashMismatches.Count
         jsonFiles = $jsonFiles.Count
+        jsonSkipped = $jsonSkipped.Count
         jsonErrors = $jsonErrors.Count
     } | ConvertTo-Json
 

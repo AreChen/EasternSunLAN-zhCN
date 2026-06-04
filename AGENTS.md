@@ -29,7 +29,8 @@ This repo contains only localization assets and release tooling. Do not add the 
   - Metadata files copied into releases. Do not translate unless there is a clear localization reason.
 - `mpq-data/`
   - Extra files copied into `EasternSunLAN.mpq/data/` during packaging.
-  - Current use: `D2RLAN/Filters/override_rules.lua`.
+  - Current use: `D2RLAN/Filters/override_rules.lua` and `hd/global/excel/desecratedzones.json`.
+  - `desecratedzones.json` is intentionally packaged only to localize right-side terror-zone `level_names.name` values; do not change terror-zone rotation, level ids, waypoint ids, level bounds, or reward settings unless explicitly requested.
   - Do not package `SunRise Filter.lua` or `SunRise-Filter.lua`; the localization pack must not replace the user's full loot filter.
   - Do not place full upstream data tables here unless they are intentionally part of the localization pack.
 - `localization/`
@@ -47,6 +48,10 @@ This repo contains only localization assets and release tooling. Do not add the 
 - `tools/sync-tier-labels-to-override-rules.mjs`
   - Generates the managed item tier suffix block in `mpq-data/D2RLAN/Filters/override_rules.lua`.
   - Use this for `[N]`, `[Ex]`, and `[El]`; do not write tier labels into string JSON.
+- `tools/sync-desecrated-zone-level-names.mjs`
+  - Generates localized terror-zone level names in `mpq-data/hd/global/excel/desecratedzones.json`.
+  - Reads `levels.txt` and prefixes names with `[ACT1]` through `[ACT5]`.
+  - Use this when right-side terror-zone prompts show English map names such as `Crypt of Damnation`, `Infested Lair`, or `Endless Abyss`.
 - `tools/sync-override-rules-from-reference.mjs`
   - Uses the current mod filter file and the old reference Chinese filter file to generate `mpq-data/D2RLAN/Filters/override_rules.lua`.
 - `tools/sync-legacy-strings.mjs`
@@ -130,6 +135,16 @@ node ./tools/sync-tier-labels-to-override-rules.mjs --write
 node ./tools/sync-tier-labels-to-override-rules.mjs --check
 node ./tools/test-override-tier-labels.mjs
 ```
+
+To refresh terror-zone right-side prompt names after syncing a new upstream mod version:
+
+```powershell
+node ./tools/sync-desecrated-zone-level-names.mjs --source H:\D2RLAN\D2R\Mods\EasternSunLAN\EasternSunLAN.mpq\data\hd\global\excel\desecratedzones.json --write
+node ./tools/sync-desecrated-zone-level-names.mjs --check
+node ./tools/test-desecrated-zone-level-names.mjs
+```
+
+Only `level_names.name` display values should change in `desecratedzones.json`. Keep the terror-zone schedule and level configuration aligned with the current mod file. The `Act` column in `levels.txt` is zero-based; display it as `[ACT1]` through `[ACT5]`.
 
 To refresh filter override translations:
 

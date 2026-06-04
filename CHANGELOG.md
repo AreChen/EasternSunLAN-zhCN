@@ -1,5 +1,17 @@
 # Changelog
 
+## v3.11.09-zhCN.7 - 2026-06-04
+
+- 将 `data/hd/global/excel/desecratedzones.json` 纳入汉化包，仅本地化 `level_names.name`，并按 `levels.txt` 的 Act 字段添加 `[ACT1]` 到 `[ACT5]` 前缀，修复右上角恐怖区域提示显示 `Crypt of Damnation`、`Infested Lair`、`Endless Abyss` 等英文区域名且不易定位的问题。
+- 新增恐怖区域名称同步脚本和回归测试，确保 `Crypt of Damnation`、`Infested Lair Level 1/2`、`Endless Abyss Level 1-6` 等提示名称不再以英文出现在 `level_names` 中，并保留 ACT 前缀。
+- 保持恐怖区域轮换、等级边界、经验加成和传送点配置不变；本次只改显示名。
+
+验证：
+
+- 恐怖区域 `level_names` 同步检查：通过
+- 恐怖区域名称回归测试：通过
+- 包内容检查会验证 `desecratedzones.json` 存在，并禁止上述英文 `name` 值回退。
+
 ## v3.11.09-zhCN.6 - 2026-06-01
 
 - 将 `strings-legacy/` 纳入汉化包，补足 legacy 物品名和稀有名片段的 `zhCN`，修复部分地面装备只显示等级/孔数、不显示名称的问题。

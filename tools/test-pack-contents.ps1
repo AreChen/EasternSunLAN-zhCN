@@ -42,6 +42,11 @@ try {
         throw "Missing packaged legacy item names: EasternSunLAN.mpq/data/local/lng/strings-legacy/item-names.json"
     }
 
+    $desecratedZonesPath = Join-Path $verifyRoot "EasternSunLAN.mpq\data\hd\global\excel\desecratedzones.json"
+    if (-not (Test-Path -LiteralPath $desecratedZonesPath)) {
+        throw "Missing packaged terror zone level names: EasternSunLAN.mpq/data/hd/global/excel/desecratedzones.json"
+    }
+
     $filterText = Get-Content -LiteralPath $filterPath -Raw
     if ($filterText -notmatch '法力值') {
         throw "Packaged filter override does not look localized"
@@ -52,6 +57,32 @@ try {
         throw "Packaged legacy item names contain blank zhCN values"
     }
 
+    $desecratedZonesText = Get-Content -LiteralPath $desecratedZonesPath -Raw
+    $forbiddenTerrorZoneNames = @(
+        "Crypt of Damnation",
+        "Infested Lair",
+        "Infested Lair Level 1",
+        "Infested Lair Level 2",
+        "Endless Abyss",
+        "Endless Abyss Level 1",
+        "Endless Abyss Level 2",
+        "Endless Abyss Level 3",
+        "Endless Abyss Level 4",
+        "Endless Abyss Level 5",
+        "Endless Abyss Level 6"
+    )
+    foreach ($name in $forbiddenTerrorZoneNames) {
+        if ($desecratedZonesText -match ('"name"\s*:\s*"(?:\[ACT[1-5]\] )?' + [regex]::Escape($name) + '"')) {
+            throw "Packaged terror zone level name is not localized: $name"
+        }
+    }
+
+    foreach ($name in @("[ACT5] 诅咒之墓", "[ACT5] 感染的巢穴 第2层", "[ACT5] 无尽深渊 第6层")) {
+        if (-not $desecratedZonesText.Contains('"name": "' + $name + '"')) {
+            throw "Packaged terror zone level name is missing: $name"
+        }
+    }
+
     [ordered]@{
         zip = $ZipPath
         filterOverridePresent = $true
@@ -59,6 +90,8 @@ try {
         sunRiseFilterPresent = $false
         legacyItemNamesPresent = $true
         legacyItemNamesBytes = (Get-Item -LiteralPath $legacyItemNamesPath).Length
+        desecratedZonesPresent = $true
+        desecratedZonesBytes = (Get-Item -LiteralPath $desecratedZonesPath).Length
     } | ConvertTo-Json
 } finally {
     if (Test-Path -LiteralPath $verifyRoot) {
