@@ -37,6 +37,16 @@ try {
         }
     }
 
+    $forbiddenBinaryEntries = Get-ChildItem -LiteralPath $verifyRoot -Recurse -File | Where-Object {
+        $_.Extension -in @(".dll", ".exe") -or
+        ($_.FullName -match '(?i)(\\|/)Launcher(\\|/)') -or
+        ($_.Name -match '(?i)D2RHUD|d2rhudb|D2RLAN')
+    }
+    if ($forbiddenBinaryEntries.Count -gt 0) {
+        $paths = ($forbiddenBinaryEntries | Select-Object -ExpandProperty FullName) -join "`n"
+        throw "Launcher/HUD binaries should not be packaged:`n$paths"
+    }
+
     $legacyItemNamesPath = Join-Path $verifyRoot "EasternSunLAN.mpq\data\local\lng\strings-legacy\item-names.json"
     if (-not (Test-Path -LiteralPath $legacyItemNamesPath)) {
         throw "Missing packaged legacy item names: EasternSunLAN.mpq/data/local/lng/strings-legacy/item-names.json"
@@ -88,6 +98,7 @@ try {
         filterOverridePresent = $true
         filterOverrideBytes = (Get-Item -LiteralPath $filterPath).Length
         sunRiseFilterPresent = $false
+        launcherHudBinaryPresent = $false
         legacyItemNamesPresent = $true
         legacyItemNamesBytes = (Get-Item -LiteralPath $legacyItemNamesPath).Length
         desecratedZonesPresent = $true

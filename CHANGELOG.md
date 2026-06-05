@@ -1,5 +1,17 @@
 # Changelog
 
+## v3.11.09-zhCN.9 - 2026-06-05
+
+- 明确取消 Launcher/HUD DLL 层面的倒计时翻译处理；`Next Rotation In` 属于 DLL 硬编码文本，本汉化包不包含也不修改任何 DLL，以避免启动器或游戏崩溃。
+- 更新仓库 README、AGENTS 和包内 README，说明恐怖区域地区名汉化仍由 `desecratedzones.json` 提供，倒计时文字保持原版英文。
+- 加强包内容测试，禁止将 DLL、EXE 或 Launcher 路径文件打入 GitHub 发版 zip。
+
+验证：
+
+- 所有 Node 回归测试：通过
+- 包内容检查确认无 DLL/EXE/Launcher 文件：通过
+- `verify-pack.ps1`：通过
+
 ## v3.11.09-zhCN.8 - 2026-06-04
 
 - 将恐怖区域右上角提示中的 `（终局区域）` 统一为 ASCII 括号格式 ` (终局区域)`，例如 `[ACT1] 血鸦的工坊 第1层 (终局区域)`。

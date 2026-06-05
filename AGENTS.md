@@ -274,6 +274,7 @@ The release should not be draft unless explicitly requested. The asset should be
 
 - Do not commit `dist/` or generated zip files.
 - Do not commit the full `EasternSunLAN.mpq` folder from the mod.
+- Do not edit, binary patch, package, or release Launcher/HUD files such as `D2RHUD.dll`, `d2rhudb.dll`, `D2RHUD_RELEASE.dll`, `D2RHUD_DEBUG.dll`, or `D2RLAN.exe`; `Next Rotation In` is hardcoded there and must remain outside this zhCN pack unless upstream adds a supported localization hook.
 - Do not bulk replace current translations from the reference folder without reviewing version drift.
 - Do not remove or rename keys to make translation easier.
 - Do not ignore placeholder or color-code mismatches.
